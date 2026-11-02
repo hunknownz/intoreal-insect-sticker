@@ -83,6 +83,91 @@
       }
     },
     {
+      "id": "Aeshna_cyanea",
+      "scientificName": "Aeshna cyanea",
+      "authority": "(Müller, 1764)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Odonata",
+        "family": "Aeshnidae",
+        "genus": "Aeshna"
+      },
+      "names": {
+        "en": "Southern hawker",
+        "zh-Hans": "蓝绿伟蜓",
+        "cs": "šídlo modré",
+        "da": "blå mosaikguldsmed",
+        "nl": "Blauwe glazenmaker",
+        "fi": "kirjoukonkorento",
+        "fr": "Æschne bleue",
+        "de": "Blaugrüne Mosaikjungfer",
+        "lt": "Mėlynžiedis laumžirgis",
+        "pl": "Żagnica sina",
+        "ru": "Коромысло синее",
+        "sv": "Blågrön mosaiktrollslända",
+        "ar": "جحل جنوبي",
+        "be": "Каромысла сіняе",
+        "bg": "петнист пъстролет",
+        "et": "metsa-tondihobu",
+        "hu": "sebes acsa",
+        "fa": "دوزندگان جنوبی",
+        "sl": "zelenomodra deva"
+      },
+      "ids": {
+        "gbif": 1425240,
+        "wikidata": "Q505187"
+      },
+      "range": {
+        "distribution": "欧洲、北非及西亚"
+      },
+      "traits": {},
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
+      "sticker": {
+        "file": "stickers/Odonata/Aeshnidae/Aeshna_cyanea.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 81,
+        "primaryReviewScore": 81,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "f6e504eb3be3b679adedac3ef9f42c24c1f4bb59c6a86167e1263e7b0e180a8a",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:1023_Libelle_8778.JPG",
+          "author": "Hedwig Storch",
+          "license": "CC-BY-SA-3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:1023_Libelle_8778.JPG",
+            "author": "Hedwig Storch",
+            "license": "CC-BY-SA-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:2011-08-28-aeshna-cyanea.jpg",
+            "author": "Thomas Bresson",
+            "license": "CC-BY-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Aeshna_cyana_20240827_female.jpg",
+            "author": "MagiMari",
+            "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
       "id": "Anax_imperator",
       "scientificName": "Anax imperator",
       "authority": "Leach, 1815",
@@ -1288,6 +1373,106 @@
       }
     },
     {
+      "id": "Papilio_machaon",
+      "scientificName": "Papilio machaon",
+      "authority": "Linnaeus, 1758",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Papilionidae",
+        "genus": "Papilio"
+      },
+      "names": {
+        "en": "Old World swallowtail",
+        "zh-Hans": "金凤蝶",
+        "ca": "Papallona rei",
+        "hr": "Lastin rep",
+        "cs": "otakárek fenyklový",
+        "da": "svalehale",
+        "nl": "koninginnenpage",
+        "eo": "Papilio machaon",
+        "fi": "ritariperhonen",
+        "fr": "Machaon",
+        "de": "Schwalbenschwanz",
+        "it": "Papilio machaon",
+        "ja": "キアゲハ",
+        "lt": "Machaonas",
+        "pl": "paź królowej",
+        "ru": "Махаон",
+        "sr": "обични ластин репак",
+        "sk": "vidlochvost feniklový",
+        "es": "Papilio machaon",
+        "sv": "makaonfjäril",
+        "tr": "Kırlangıçkuyruk",
+        "uk": "Махаон",
+        "ar": "مذناب مقون",
+        "be": "Махаон",
+        "bg": "голям полумесец",
+        "et": "pääsusaba",
+        "he": "זנב-סנונית נאה",
+        "hu": "fecskefarkú lepke",
+        "ko": "산호랑나비",
+        "mk": "ластовичарка",
+        "ml": "പാപ്പിലിയോ മച്ചോൺ",
+        "fa": "پروانه دم‌پرستویی کهن",
+        "ro": "Papilio machaon",
+        "sl": "lastovičar"
+      },
+      "ids": {
+        "wikidata": "Q179530",
+        "gbif": 8225376
+      },
+      "range": {
+        "distribution": "欧亚及北非"
+      },
+      "traits": {
+        "wingspanMm": 73.0,
+        "sources": {
+          "wingspanMm": "Wikidata P2050"
+        }
+      },
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Lepidoptera/Papilionidae/Papilio_machaon.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 81,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "86e4a98705d38a30d9811cc89d950040c2b075c56d21aec91c846ff030332cd1",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Open_wing_basking_position_of_Papilio_machaon_Linnaeus,_1758_-_Common_Yellow_Swallowtail_WLB_IMG_0318.jpg",
+          "author": "Thamblyok",
+          "license": "CC-BY-SA-4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Open_wing_basking_position_of_Papilio_machaon_Linnaeus,_1758_-_Common_Yellow_Swallowtail_WLB_IMG_0318.jpg",
+            "author": "Thamblyok",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal alternate",
+            "page": "https://commons.wikimedia.org/wiki/File:Open_wing_basking_position_of_Papilio_machaon_Linnaeus,_1758_-_Common_Yellow_Swallowtail_WLB_IMG_0319.jpg",
+            "author": "Thamblyok",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Machaon_pos%C3%A9.jpg",
+            "author": "Anna Weber",
+            "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
       "id": "Papilio_xuthus",
       "scientificName": "Papilio xuthus",
       "authority": "Linnaeus, 1767",
@@ -1364,6 +1549,99 @@
             "page": "https://commons.wikimedia.org/wiki/File:90%E6%9F%91%E6%A9%98%E9%B3%B3%E8%9D%B62(%E6%9D%8E%E6%A6%AE%E8%8A%B3%E6%94%9D)_(12943000884).jpg",
             "author": "Hsu Hong Lin",
             "license": "CC-BY-2.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Pieris_rapae",
+      "scientificName": "Pieris rapae",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Pieridae",
+        "genus": "Pieris"
+      },
+      "names": {
+        "en": "Small white",
+        "zh-Hans": "菜粉蝶",
+        "ca": "Pieris rapae",
+        "cs": "bělásek řepový",
+        "da": "Lille kålsommerfugl",
+        "nl": "klein koolwitje",
+        "eo": "Pieris rapae",
+        "fi": "naurisperhonen",
+        "fr": "Piéride de la rave",
+        "de": "Kleiner Kohlweißling",
+        "it": "Pieris rapae",
+        "ja": "モンシロチョウ",
+        "lt": "Ropinis baltukas",
+        "pl": "bielinek rzepnik",
+        "ru": "репница",
+        "sr": "мали купусар",
+        "sk": "mlynárik repový",
+        "es": "Pieris rapae",
+        "sv": "Rovfjäril",
+        "uk": "Ріпаковий білан",
+        "ar": "أبو دقيق الملفوف الصغير",
+        "be": "Бялянка рэпавая",
+        "bg": "рапична пеперуда",
+        "et": "väike-kapsaliblikas",
+        "he": "לבנין הצנון",
+        "hu": "répalepke",
+        "id": "Pieris rapae",
+        "ko": "배추흰나비",
+        "mk": "Мал зелкар",
+        "fa": "سفید کوچک",
+        "ro": "Pieris rapae",
+        "sl": "repin belin"
+      },
+      "ids": {
+        "wikidata": "Q27653",
+        "gbif": 1920496
+      },
+      "range": {
+        "distribution": "欧亚、北非及北美和澳洲引入地"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Lepidoptera/Pieridae/Pieris_rapae.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "4336d0eef3ca7a4fcda02b9e42a42205939dcf8c287ca1e4afe3012154c2db08",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:-2018-09-19_Cabbage_White_Butterfly_(Pieris_rapae),_Trimingham_(1).JPG",
+          "author": "Kolforn",
+          "license": "CC-BY-SA-4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:-2018-09-19_Cabbage_White_Butterfly_(Pieris_rapae),_Trimingham_(1).JPG",
+            "author": "Kolforn",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal alternate",
+            "page": "https://commons.wikimedia.org/wiki/File:-2018-09-19_Cabbage_White_Butterfly_(Pieris_rapae),_Trimingham_(2).JPG",
+            "author": "Kolforn",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal alternate",
+            "page": "https://commons.wikimedia.org/wiki/File:-2018-09-19_Cabbage_White_Butterfly_(Pieris_rapae),_Trimingham_(3).JPG",
+            "author": "Kolforn",
+            "license": "CC-BY-SA-4.0"
           }
         ]
       }

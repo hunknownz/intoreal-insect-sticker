@@ -10,6 +10,9 @@ from PIL import Image
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 COMMON_NAMES_EN = {
     "Papilio xuthus": "Asian swallowtail",
+    "Papilio machaon": "Old World swallowtail",
+    "Pieris rapae": "Small white",
+    "Aeshna cyanea": "Southern hawker",
     "Actias selene": "Indian moon moth",
     "Danaus plexippus": "Monarch",
     "Vanessa cardui": "Painted lady",
@@ -54,10 +57,10 @@ def review_path(task_dir, stage, attempt):
 
 
 def candidate_distribution(scientific_name):
-    candidates = read_json(PROJECT_ROOT / "data/candidates-20.json")["candidates"]
-    for row in candidates:
-        if row["scientificName"] == scientific_name:
-            return row["distribution"]
+    for filename in ("candidates-20.json", "candidates-next.json"):
+        for row in read_json(PROJECT_ROOT / "data" / filename)["candidates"]:
+            if row["scientificName"] == scientific_name:
+                return row["distribution"]
     return ""
 
 
@@ -144,10 +147,12 @@ def export_approved(task_dir):
     dataset["species"].sort(key=lambda row: row["scientificName"])
     write_json(data_path, dataset)
     write_csv_exports(dataset["species"])
-    write_json(PROJECT_ROOT / "data/languages.json", [
-        {"code": "en", "source": "project metadata"},
-        {"code": "zh-Hans", "source": "project metadata"},
-    ])
+    languages_path = PROJECT_ROOT / "data/languages.json"
+    if not languages_path.exists():
+        write_json(languages_path, [
+            {"code": "en", "source": "project metadata"},
+            {"code": "zh-Hans", "source": "project metadata"},
+        ])
     return record
 
 
@@ -189,14 +194,6 @@ def write_csv_exports(rows):
                 "reference_author": row["sticker"]["reference"].get("author", ""),
                 "reference_license": row["sticker"]["reference"].get("license", ""),
             })
-    temporary.replace(path)
-    path = PROJECT_ROOT / "data/names.csv"
-    temporary = path.with_suffix(".csv.tmp")
-    with temporary.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["id", "scientificName", "en", "zh-Hans"])
-        writer.writeheader()
-        for row in rows:
-            writer.writerow({"id": row["id"], "scientificName": row["scientificName"], "en": row["names"]["en"], "zh-Hans": row["names"]["zh-Hans"]})
     temporary.replace(path)
 
 

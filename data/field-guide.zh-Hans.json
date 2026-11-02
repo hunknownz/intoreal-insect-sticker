@@ -1,8 +1,16 @@
 {
   "license": "CC BY-SA 4.0",
   "note": "中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核记录改写；basedOn 列出分类与主要形态依据。未核实的性别、精细结构、生态和保护状态不作推断。",
-  "count": 17,
+  "count": 20,
   "species": {
+    "Aeshna_cyanea": {
+      "impression": "深色长腹上具有成对蓝绿色斑点的伟蜓，胸部有黄绿色斑，四片膜质翅展开。",
+      "marks": ["腹部成对浅绿至蓝绿色斑，末端有蓝色横斑", "胸背有成对黄绿色斑", "四片半透明翅具网状翅脉", "三对共六条关节足"],
+      "sexAge": "本任务表现为完整成虫；性别、精确翅脉和微细附肢结构不能由现有参考充分确认。",
+      "similar": [{"sci": "Anax imperator", "zh": "帝王伟蜓", "diff": "蓝绿伟蜓深色腹部有成对蓝绿色斑；本图鉴帝王伟蜓的雄虫表现为绿色胸部配蓝色长腹。不能只凭蓝色体色或四翅展开区分。"}],
+      "range": "欧洲、北非及西亚",
+      "basedOn": ["https://www.gbif.org/species/1425240", "https://commons.wikimedia.org/wiki/File:1023_Libelle_8778.JPG"]
+    },
     "Actias_selene": {
       "impression": "淡黄绿色的大型天蚕蛾，四翅有眼斑，后翅拖出细长尾突。",
       "marks": ["四片黄绿色翅面各有一枚眼斑", "前后翅有自然深色横线", "两条后翅尾突细长收尖"],
@@ -115,6 +123,14 @@
       "range": "全球广布",
       "basedOn": ["https://www.gbif.org/species/2078852", "https://commons.wikimedia.org/wiki/File:30-07-2017_Southern_green_shield_bug,_(Nezara_viridula),_Albufeira_(2).JPG"]
     },
+    "Papilio_machaon": {
+      "impression": "黄奶油色与黑色相间的凤蝶，后翅有蓝色斑列、臀角橙斑和成对尾突。",
+      "marks": ["前翅与后翅的黄黑分区可对应背面参考", "后翅蓝色斑列和近臀角橙色斑", "每侧后翅各一条尾突", "两根触角端部膨大呈棒状"],
+      "sexAge": "本任务表现为完整成虫；参考与候选均不足以确定性别。",
+      "similar": [{"sci": "Papilio xuthus", "zh": "柑橘凤蝶", "diff": "金凤蝶以黄奶油色配黑色为主，后翅有蓝色斑列；柑橘凤蝶主要呈黑底奶白花纹。"}],
+      "range": "欧洲、亚洲、北非及北美部分地区",
+      "basedOn": ["https://www.gbif.org/species/8225376", "https://commons.wikimedia.org/wiki/File:Open_wing_basking_position_of_Papilio_machaon_Linnaeus,_1758_-_Common_Yellow_Swallowtail_WLB_IMG_0318.jpg"]
+    },
     "Papilio_xuthus": {
       "impression": "黑底奶白花纹的凤蝶，后翅具尾突。",
       "marks": ["黑色翅面有奶白带纹和缘斑", "四片完整翅，后翅各一条自然尾突", "身体细长，触角棒状"],
@@ -122,6 +138,14 @@
       "similar": [{"sci": "Danaus plexippus", "zh": "君主斑蝶", "diff": "柑橘凤蝶以黑白图案和尾突为主；君主斑蝶以橙色翅面和粗黑翅脉为主。"}],
       "range": "东亚",
       "basedOn": ["https://www.gbif.org/species/1937819", "https://commons.wikimedia.org/wiki/File:MZLU-00129145_dorsal_(51008259851).jpg"]
+    },
+    "Pieris_rapae": {
+      "impression": "翅面以白色为主，前翅有深色顶角斑和少量暗色斑点。",
+      "marks": ["两片前翅与两片后翅完整", "前翅端部暗色，可见小型暗色斑", "身体比例自然，触角末端呈棒状"],
+      "sexAge": "本任务表现为完整成虫；不能仅凭现有参考和候选的斑点数量确定性别。",
+      "similar": [{"sci": "Papilio machaon", "zh": "金凤蝶", "diff": "菜粉蝶以白色翅面和深色端斑为主，后翅无尾突；金凤蝶为黄黑配色，后翅有蓝色斑列和成对尾突。"}],
+      "range": "欧洲、北非和亚洲，并引入北美、澳大利亚等地",
+      "basedOn": ["https://www.gbif.org/species/1920496", "https://commons.wikimedia.org/wiki/File:-2018-09-19_Cabbage_White_Butterfly_(Pieris_rapae),_Trimingham_(1).JPG"]
     },
     "Tenodera_sinensis": {
       "impression": "前胸细长的螳螂，绿至褐绿色覆翅，捕捉足发达。",

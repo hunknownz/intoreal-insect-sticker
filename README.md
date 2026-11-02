@@ -6,7 +6,7 @@
 
 **English** · [简体中文](README.zh-Hans.md)
 
-The initial public release contains **17 reviewed species across 7 orders and 11 families**. Additional species are added only after passing the same reference, generation, technical and independent review pipeline. The dataset currently uses **46 language codes**, with coverage varying by the labels actually available in Wikidata.
+The initial public release contains **20 reviewed species across 7 orders and 12 families**. Additional species are added only after passing the same reference, generation, technical and independent review pipeline. The dataset currently uses **46 language codes**, with coverage varying by the labels actually available in Wikidata.
 
 **License in short:** stickers and previews may be used, copied, modified and shared, including commercially, **except to provide a competing IntoREAL insect-identification or illustrated field-guide product**. Credit IntoReal-insect-sticker with a link to this repository. Project-compiled data is MIT; third-party material keeps its own terms. See [LICENSE.md](LICENSE.md) and [NOTICE.md](NOTICE.md).
 
@@ -24,9 +24,13 @@ Every image below is generated from the approved public stickers. Only species t
 
 ![Ladybirds](previews/families/coccinellidae.webp)
 
-### Swallowtails · *Papilionidae* — 1 species
+### Swallowtails · *Papilionidae* — 2 species
 
 ![Swallowtails](previews/families/papilionidae.webp)
+
+### Whites and yellows · *Pieridae* — 1 species
+
+![Whites and yellows](previews/families/pieridae.webp)
 
 ### Brush-footed butterflies · *Nymphalidae* — 2 species
 
@@ -36,7 +40,7 @@ Every image below is generated from the approved public stickers. Only species t
 
 ![Moon moths](previews/families/saturniidae.webp)
 
-### Hawkers · *Aeshnidae* — 1 species
+### Hawkers · *Aeshnidae* — 2 species
 
 ![Hawkers](previews/families/aeshnidae.webp)
 
@@ -77,7 +81,7 @@ Every image below is generated from the approved public stickers. Only species t
 | `data/species.csv` | The same core data flattened for spreadsheets |
 | `data/names.csv` | Names in 46 language codes, including regional variants |
 | `data/languages.json` | Language codes and their sources |
-| `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for 17 species, CC BY-SA 4.0 |
+| `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for 20 species, CC BY-SA 4.0 |
 | `data/candidates-20.json` | The first formal candidate set, including 3 blocked items not admitted to the public dataset |
 | `data/candidates-next.json` | The next 3 candidates entering the same production pipeline |
 | `previews/` | Header, hero, order and family specimen drawers |
@@ -91,7 +95,7 @@ A record looks like this (some fields are omitted for readability):
 {
   "id": "Graphosoma_italicum",
   "scientificName": "Graphosoma italicum",
-  "authority": "(O.F.Müller, 1766)",
+  "authority": "(O.F.Müller, 2066)",
   "taxonomy": {
     "system": "GBIF Backbone Taxonomy",
     "order": "Hemiptera",
@@ -128,12 +132,12 @@ A record looks like this (some fields are omitted for readability):
 
 ## Coverage
 
-- **Published stickers:** 17 species across 7 orders and 11 families.
+- **Published stickers:** 20 species across 7 orders and 12 families.
 - **Names:** 46 language codes, sourced from Wikidata labels where available; missing labels remain empty rather than being machine-translated.
-- **Identifiers:** all 17 species have exact-match GBIF and Wikidata IDs, plus taxonomic authority from GBIF.
-- **Conservation:** 5 species currently have an IUCN LC record from Wikidata; other conservation fields remain empty when no claim exists.
-- **Traits:** 2 species currently have a wingspan record from Wikidata; unsupported traits are not inferred.
-- **Chinese field guide:** 17 species with appearance, identification and similar-species notes.
+- **Identifiers:** all 20 species have exact-match GBIF and Wikidata IDs, plus taxonomic authority from GBIF.
+- **Conservation:** 6 species currently have an IUCN LC record from Wikidata; other conservation fields remain empty when no claim exists.
+- **Traits:** 3 species currently have a wingspan record from Wikidata; unsupported traits are not inferred.
+- **Chinese field guide:** 20 species with appearance, identification and similar-species notes.
 - **Blocked candidates:** Pantala flavescens, Lucilia sericata and Vespa mandarinia remain outside the public sticker dataset because they did not meet the quality bar.
 
 The initial candidate set is not a claim of worldwide or regional completeness. New species are appended through the same production and review process.

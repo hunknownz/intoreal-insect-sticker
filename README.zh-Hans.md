@@ -6,7 +6,7 @@
 
 [English](README.md) · **简体中文**
 
-首次公开发布包含 **7 个目、11 个科的 17 个已审核物种**。后续物种只有在通过同一套参考、生成、技术检查和独立审核流程后才会加入。当前数据使用 **46 个语言代码**，具体名称覆盖以 Wikidata 实际存在的标签为准。
+首次公开发布包含 **7 个目、12 个科的 20 个已审核物种**。后续物种只有在通过同一套参考、生成、技术检查和独立审核流程后才会加入。当前数据使用 **46 个语言代码**，具体名称覆盖以 Wikidata 实际存在的标签为准。
 
 **许可简述：** 贴纸和预览图可以用于任何用途，包括商用、复制、修改和再分发，**唯一的例外是提供与 IntoReal 竞争的昆虫识别或图鉴产品**。使用时注明 IntoReal-insect-sticker 并附仓库链接即可。项目整理的数据采用 MIT，第三方材料保留各自条款。详见 [LICENSE.md](LICENSE.md) 和 [NOTICE.md](NOTICE.md)。
 
@@ -24,9 +24,13 @@
 
 ![瓢虫科](previews/families/coccinellidae.webp)
 
-### 凤蝶科 · *Papilionidae* — 1 种
+### 凤蝶科 · *Papilionidae* — 2 种
 
 ![凤蝶科](previews/families/papilionidae.webp)
+
+### 粉蝶科 · *Pieridae* — 1 种
+
+![粉蝶科](previews/families/pieridae.webp)
 
 ### 蛱蝶科 · *Nymphalidae* — 2 种
 
@@ -36,7 +40,7 @@
 
 ![天蚕蛾科](previews/families/saturniidae.webp)
 
-### 蜓科 · *Aeshnidae* — 1 种
+### 蜓科 · *Aeshnidae* — 2 种
 
 ![蜓科](previews/families/aeshnidae.webp)
 
@@ -77,7 +81,7 @@
 | `data/species.csv` | 核心数据的表格展开版本 |
 | `data/names.csv` | 46 个语言代码的名称，包括地区变体 |
 | `data/languages.json` | 语言代码及来源 |
-| `data/field-guide.zh-Hans.json` | 17 个物种的中文形态、辨识和相似种说明，CC BY-SA 4.0 |
+| `data/field-guide.zh-Hans.json` | 20 个物种的中文形态、辨识和相似种说明，CC BY-SA 4.0 |
 | `data/candidates-20.json` | 首批正式候选，其中 3 个 blocked 项不进入公开贴纸库 |
 | `data/candidates-next.json` | 进入同一生产流程的后续 3 个候选 |
 | `previews/` | 首页、目级和科级标本图版 |
@@ -91,7 +95,7 @@
 {
   "id": "Graphosoma_italicum",
   "scientificName": "Graphosoma italicum",
-  "authority": "(O.F.Müller, 1766)",
+  "authority": "(O.F.Müller, 2066)",
   "taxonomy": {
     "system": "GBIF Backbone Taxonomy",
     "order": "Hemiptera",
@@ -128,12 +132,12 @@
 
 ## 覆盖情况
 
-- **公开贴纸：** 7 个目、11 个科的 17 个物种。
+- **公开贴纸：** 7 个目、12 个科的 20 个物种。
 - **名称：** 46 个语言代码，使用 Wikidata 实际标签；缺失标签保持为空，不做机器翻译补全。
-- **标识：** 17 个物种均具有精确匹配的 GBIF 和 Wikidata ID，以及 GBIF 命名权威。
-- **保护状态：** 目前 5 个物种具有来自 Wikidata 的 IUCN LC 记录；没有声明的保护字段保持为空。
-- **形态数据：** 目前 2 个物种具有 Wikidata 翅展记录；其他没有证据的形态字段不作推断。
-- **中文图鉴：** 17 个物种的形态、辨识和相似种说明。
+- **标识：** 20 个物种均具有精确匹配的 GBIF 和 Wikidata ID，以及 GBIF 命名权威。
+- **保护状态：** 目前 6 个物种具有来自 Wikidata 的 IUCN LC 记录；没有声明的保护字段保持为空。
+- **形态数据：** 目前 3 个物种具有 Wikidata 翅展记录；其他没有证据的形态字段不作推断。
+- **中文图鉴：** 20 个物种的形态、辨识和相似种说明。
 - **Blocked 候选：** 黄蜻、丝光绿蝇和金环胡蜂因未达到质量标准，未进入公开贴纸数据集。
 
 首批候选不代表全球或地区完整性。后续物种也必须经过相同的生产和审核流程。
