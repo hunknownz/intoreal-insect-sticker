@@ -155,7 +155,7 @@ def write_csv_exports(rows):
     fieldnames = [
         "id", "scientificName", "authority", "taxonomy_system", "order", "family", "genus", "name_en",
         "name_zh-Hans", "distribution", "wikidata", "gbif", "sticker_file", "review_score",
-        "meets_quality_bar", "reference_page", "reference_author", "reference_license",
+        "meets_quality_bar", "iucn", "cites", "body_length_mm", "wingspan_mm", "mass_g", "habitat", "reference_page", "reference_author", "reference_license",
     ]
     path = PROJECT_ROOT / "data/species.csv"
     temporary = path.with_suffix(".csv.tmp")
@@ -179,6 +179,12 @@ def write_csv_exports(rows):
                 "sticker_file": row["sticker"]["file"],
                 "review_score": row["sticker"]["reviewScore"],
                 "meets_quality_bar": str(row["sticker"]["meetsQualityBar"]).lower(),
+                "iucn": row["conservation"].get("iucn", ""),
+                "cites": row["conservation"].get("cites", ""),
+                "body_length_mm": json.dumps(row["traits"]["bodyLengthMm"], ensure_ascii=False) if isinstance(row["traits"].get("bodyLengthMm"), dict) else row["traits"].get("bodyLengthMm", ""),
+                "wingspan_mm": json.dumps(row["traits"]["wingspanMm"], ensure_ascii=False) if isinstance(row["traits"].get("wingspanMm"), dict) else row["traits"].get("wingspanMm", ""),
+                "mass_g": json.dumps(row["traits"]["massG"], ensure_ascii=False) if isinstance(row["traits"].get("massG"), dict) else row["traits"].get("massG", ""),
+                "habitat": row["traits"].get("habitat", ""),
                 "reference_page": row["sticker"]["reference"].get("page", ""),
                 "reference_author": row["sticker"]["reference"].get("author", ""),
                 "reference_license": row["sticker"]["reference"].get("license", ""),

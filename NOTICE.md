@@ -18,6 +18,12 @@ Multilingual common names in `data/names.csv` are drawn from Wikidata labels (CC
 
 `data/names.csv` 中的多语言俗名来自 Wikidata 标签（CC0），并通过 P225 学名声明核对精确分类实体。不凭空生成机器翻译名，缺失标签保持为空。
 
+## Conservation and traits / 保护与形态生态
+
+IUCN and CITES categories in `conservation` come from Wikidata claims P141 and P7603 (CC0). Habitat labels, wingspan, body length and mass in `traits` come from Wikidata claims P2974, P2050, P2043 and P2067 (CC0). Missing claims are left empty and are not inferred from similar species. IUCN status may lag behind the current Red List assessment; check <https://www.iucnredlist.org/> for the latest category.
+
+`conservation` 中的 IUCN 与 CITES 等级来自 Wikidata 的 P141 和 P7603 声明（CC0）。`traits` 中的栖息地、翅展、体长和体重来自 P2974、P2050、P2043 和 P2067 声明（CC0）。缺失声明保持为空，不根据近缘种推断。IUCN 等级可能滞后于最新红色名录评估，请通过上述链接复核。
+
 ## Chinese field-guide notes / 中文图鉴
 
 `data/field-guide.zh-Hans.json` contains original Chinese notes written from project-approved reference photographs, GBIF taxonomic records and independent review evidence, and is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). `basedOn` records the taxonomic page and principal morphology reference for each species. No Wikipedia article text is redistributed.

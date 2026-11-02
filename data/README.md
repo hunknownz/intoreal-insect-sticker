@@ -32,4 +32,4 @@ stickers/<Order>/<Family>/<Genus_species>.webp
 - `sticker.reference`、`sticker.references`：参考页面、作者和许可；原始照片不包含在公开仓库中。
 - `sticker.license`：项目贴纸许可，当前为 `PolyForm-Shield-1.0.0`；参考照片保留各自许可，不与新插画许可混同。
 
-`taxonomy.system` 和命名权威来自 GBIF Backbone Taxonomy 的精确接受种匹配；`ids.wikidata` 与 `ids.gbif` 分别来自 Wikidata API 和 GBIF species API。无法匹配的字段保持为空，不根据模型印象编造。`names.csv` 目前包含 en、zh-Hans、zh-Hant、ja、fr、de、es、pt、ru、it 十个字段，其他语言标签来自 Wikidata（CC0），覆盖随实际标签而异。生态特征和保护状态仍待可靠来源接入。
+`taxonomy.system` 和命名权威来自 GBIF Backbone Taxonomy 的精确接受种匹配；`ids.wikidata` 与 `ids.gbif` 分别来自 Wikidata API 和 GBIF species API。无法匹配的字段保持为空，不根据模型印象编造。`names.csv` 目前包含 en、zh-Hans、zh-Hant、ja、fr、de、es、pt、ru、it 十个字段，其他语言标签来自 Wikidata（CC0），覆盖随实际标签而异。`conservation` 来自 Wikidata P141/P7603，`traits` 来自 P2974/P2050/P2043/P2067；缺失声明保持为空，IUCN 等级可能滞后于最新红色名录。

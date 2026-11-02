@@ -96,7 +96,12 @@
         "distribution": "欧洲、北非及西亚"
       },
       "traits": {},
-      "conservation": {},
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
       "sticker": {
         "file": "stickers/Odonata/Aeshnidae/Anax_imperator.webp",
         "kind": "ai-illustration",
@@ -511,8 +516,18 @@
       "range": {
         "distribution": "美洲及引入地"
       },
-      "traits": {},
-      "conservation": {},
+      "traits": {
+        "wingspanMm": 90.0,
+        "sources": {
+          "wingspanMm": "Wikidata P2050"
+        }
+      },
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
       "sticker": {
         "file": "stickers/Lepidoptera/Nymphalidae/Danaus_plexippus.webp",
         "kind": "ai-illustration",
@@ -790,7 +805,12 @@
         "distribution": "欧洲、北非及西亚"
       },
       "traits": {},
-      "conservation": {},
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
       "sticker": {
         "file": "stickers/Odonata/Coenagrionidae/Ischnura_elegans.webp",
         "kind": "ai-illustration",
@@ -860,7 +880,12 @@
         "distribution": "欧洲、非洲、亚洲及北美引入地"
       },
       "traits": {},
-      "conservation": {},
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
       "sticker": {
         "file": "stickers/Mantodea/Mantidae/Mantis_religiosa.webp",
         "kind": "ai-illustration",
@@ -1138,8 +1163,18 @@
       "range": {
         "distribution": "全球广布"
       },
-      "traits": {},
-      "conservation": {},
+      "traits": {
+        "wingspanMm": 63.0,
+        "sources": {
+          "wingspanMm": "Wikidata P2050"
+        }
+      },
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
       "sticker": {
         "file": "stickers/Lepidoptera/Nymphalidae/Vanessa_cardui.webp",
         "kind": "ai-illustration",
