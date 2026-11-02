@@ -10,7 +10,7 @@ from sticker_export import write_csv_exports
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = PROJECT_ROOT / "data/species.json"
-USER_AGENT = "intoREAL-insect-sticker/1.0 (multilingual metadata)"
+USER_AGENT = "IntoReal-insect-sticker/1.0 (multilingual metadata)"
 LANGUAGES = [
     "en", "ca", "zh-Hans", "zh-Hant", "hr", "cs", "da", "nl", "eo", "fi",
     "fr", "de", "it", "ja", "lt", "no", "pl", "pt-x-lusophone", "pt-PT", "ru",

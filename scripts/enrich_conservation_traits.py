@@ -9,7 +9,7 @@ from sticker_export import write_csv_exports
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = PROJECT_ROOT / "data/species.json"
-USER_AGENT = "intoREAL-insect-sticker/1.0 (conservation and trait verification)"
+USER_AGENT = "IntoReal-insect-sticker/1.0 (conservation and trait verification)"
 UNIT_SCALE = {"Q174789": 1, "Q174728": 10, "Q11573": 1000, "Q218593": 25.4, "Q3710": 304.8}
 IUCN_CODES = {
     "least concern": "LC",

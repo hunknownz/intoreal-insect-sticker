@@ -1,6 +1,6 @@
-# intoREAL 昆虫贴纸图鉴
+# IntoReal 昆虫贴纸图鉴
 
-<img src="previews/header.webp" alt="intoREAL 昆虫标本抽屉" width="100%">
+<img src="previews/header.webp" alt="IntoReal 昆虫标本抽屉" width="100%">
 
 **面向全球昆虫、经过独立审核的白边贴纸库。[English →](README.md)**
 

@@ -9,7 +9,7 @@ from sticker_export import write_csv_exports
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = PROJECT_ROOT / "data/species.json"
-USER_AGENT = "intoREAL-insect-sticker/1.0 (metadata verification)"
+USER_AGENT = "IntoReal-insect-sticker/1.0 (metadata verification)"
 
 
 def get_json(url):

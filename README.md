@@ -1,6 +1,6 @@
-# intoREAL insect stickers
+# IntoReal insect stickers
 
-<img src="previews/header.webp" alt="intoREAL insect specimen drawer" width="100%">
+<img src="previews/header.webp" alt="IntoReal insect specimen drawer" width="100%">
 
 **A growing library of rigorously reviewed insect stickers for species worldwide. [中文说明 →](README.zh-Hans.md)**
 
