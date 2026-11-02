@@ -17,6 +17,7 @@ Each published species has a transparent, white-outline WebP sticker, structured
 | `data/species.csv` | The same core data flattened for spreadsheets |
 | `data/names.csv` | Scientific names and currently available common names |
 | `data/languages.json` | Current language fields and their sources |
+| `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for the 17 published species |
 | `data/candidates-20.json` | The first formal candidate set, not a claim of published coverage |
 | `previews/` | Header, hero, order and family specimen drawers |
 

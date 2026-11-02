@@ -1,0 +1,143 @@
+{
+  "license": "CC BY-SA 4.0",
+  "note": "中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核记录改写；basedOn 列出分类与主要形态依据。未核实的性别、精细结构、生态和保护状态不作推断。",
+  "count": 17,
+  "species": {
+    "Actias_selene": {
+      "impression": "淡黄绿色的大型天蚕蛾，四翅有眼斑，后翅拖出细长尾突。",
+      "marks": ["四片黄绿色翅面各有一枚眼斑", "前后翅有自然深色横线", "两条后翅尾突细长收尖"],
+      "sexAge": "本任务以完整个体为依据；性别不能由贴纸或参考确定。",
+      "similar": [{"sci": "Actias luna", "zh": "美洲月神蛾", "diff": "绿尾大蚕蛾主要见于南亚和东南亚，不能仅凭长尾和眼斑混淆分布不同的近缘种。"}],
+      "range": "南亚及东南亚",
+      "basedOn": ["https://www.gbif.org/species/1865660", "https://commons.wikimedia.org/wiki/File:Actias_luna.jpg"]
+    },
+    "Anax_imperator": {
+      "impression": "大型伟蜓，雄虫绿色胸部配蓝色长腹，四片透明翅展开。",
+      "marks": ["蓝色腹部具黑色背中线", "胸部绿色，复眼发达", "四片透明膜质翅的暗色翅脉清晰", "前中后三对足均应可辨"],
+      "sexAge": "本任务以雄虫为依据；雌虫体色和腹节差异需另查，不据贴纸推断。",
+      "similar": [{"sci": "Pantala flavescens", "zh": "黄蜻", "diff": "帝王伟蜓体型更大，雄虫蓝腹与绿色胸部明显；黄蜻体色偏黄褐且常迁徙。"}],
+      "range": "欧洲、北非及西亚",
+      "basedOn": ["https://www.gbif.org/species/5051775", "https://commons.wikimedia.org/wiki/File:Anax_imperator_qtl2.jpg"]
+    },
+    "Apis_mellifera": {
+      "impression": "胸部有棕黄色密毛、腹部呈琥珀至深色带纹的蜜蜂。",
+      "marks": ["胸部密毛但体型较熊蜂纤细", "两对透明膜质翅", "工蜂后足可见花粉篮", "触角呈肘状"],
+      "sexAge": "本任务表现工蜂，不以插画判断蜂王、雄蜂或其他级型。",
+      "similar": [{"sci": "Bombus terrestris", "zh": "欧洲熊蜂", "diff": "西方蜜蜂体型较纤细、毛较稀；熊蜂整体更粗壮浓密，并常有明显浅色腹端。"}],
+      "range": "全球养殖",
+      "basedOn": ["https://www.gbif.org/species/1341976", "https://commons.wikimedia.org/wiki/File:Apis_mellifera_F_(13632828544).jpg"]
+    },
+    "Bombus_terrestris": {
+      "impression": "粗壮多毛的熊蜂，黑黄色胸带和浅色腹端醒目。",
+      "marks": ["胸腹覆盖浓密绒毛", "胸部有黄色带纹", "腹部末端浅白或乳黄色", "两对透明翅"],
+      "sexAge": "本任务不判定性别或级型。",
+      "similar": [{"sci": "Apis mellifera", "zh": "西方蜜蜂", "diff": "欧洲熊蜂更粗壮、绒毛更密，并有浅色腹端；西方蜜蜂相对纤细。"}],
+      "range": "欧洲及多地引入地",
+      "basedOn": ["https://www.gbif.org/species/1340503", "https://commons.wikimedia.org/wiki/File:Abellon_-_Abejorro_-_Bumblebee_-_Bombus_Terrestris_-_01.jpg"]
+    },
+    "Carabus_auratus": {
+      "impression": "金属绿色的步甲，鞘翅有铜金色边缘和纵脊，上颚发达。",
+      "marks": ["鞘翅金属绿并有自然纵脊", "边缘呈铜金色", "头胸分明，捕食性上颚明显", "六条长足"],
+      "sexAge": "本任务不判定性别，精细刻纹和附肢分节不作认证。",
+      "similar": [{"sci": "Coccinella septempunctata", "zh": "七星瓢虫", "diff": "金步甲身体修长、上颚和长足明显；瓢虫体型圆拱且足短，具固定斑纹。"}],
+      "range": "欧洲",
+      "basedOn": ["https://www.gbif.org/species/1036779", "https://commons.wikimedia.org/wiki/File:Carabe_dor%C3%A9_dos.jpg"]
+    },
+    "Coccinella_septempunctata": {
+      "impression": "红色圆拱形瓢虫，两片鞘翅合计七枚黑斑。",
+      "marks": ["每侧鞘翅三枚独立黑斑", "小盾板后方一枚跨中线共同基斑", "黑色头胸带乳白至淡黄色斑"],
+      "sexAge": "本任务不判定性别，触角和跗节细分不作认证。",
+      "similar": [{"sci": "Coccinella undecimpunctata", "zh": "十一星瓢虫", "diff": "七星瓢虫共七斑；十一星瓢虫每侧多一枚，合计十一斑。"}],
+      "range": "欧亚及北美引入地",
+      "basedOn": ["https://www.gbif.org/species/4990191", "https://commons.wikimedia.org/wiki/File:7-spot_ladybird_(FG)_(13506236664).jpg"]
+    },
+    "Coccinella_undecimpunctata": {
+      "impression": "红橙色圆拱形瓢虫，两片鞘翅合计十一枚黑斑。",
+      "marks": ["每侧鞘翅五枚独立黑斑", "小盾板后方一枚跨中线共同基斑", "黑色头胸带浅色斑"],
+      "sexAge": "本任务不判定性别，触角和跗节细分不作认证。",
+      "similar": [{"sci": "Coccinella septempunctata", "zh": "七星瓢虫", "diff": "十一星瓢虫共十一斑；七星瓢虫共七斑。"}],
+      "range": "欧洲、北非及西亚，并引入北美",
+      "basedOn": ["https://www.gbif.org/species/4990195", "https://commons.wikimedia.org/wiki/File:Coccinella_undecimpunctata_(10.3897-BDJ.12.e137417)_Figure_7.jpg"]
+    },
+    "Danaus_plexippus": {
+      "impression": "橙色翅面配粗黑翅脉，黑色边缘中嵌白点的蝴蝶。",
+      "marks": ["橙色四翅具粗黑翅脉", "黑色翅缘含白色斑点", "黑色身体带白点"],
+      "sexAge": "本任务不判定性别，翅脉细部和性别特征不作认证。",
+      "similar": [{"sci": "Vanessa cardui", "zh": "小红蛱蝶", "diff": "君主斑蝶的粗黑翅脉更醒目；小红蛱蝶图案更碎，前翅白斑和后翅眼斑更复杂。"}],
+      "range": "美洲及引入地",
+      "basedOn": ["https://www.gbif.org/species/5133088", "https://commons.wikimedia.org/wiki/File:Alight_(15451540860).jpg"]
+    },
+    "Eristalis_tenax": {
+      "impression": "外形似蜂的食蚜蝇，复眼大、触角短，只有一对明显主翅。",
+      "marks": ["双翅目单对透明翅", "复眼大，触角短", "胸腹呈蜂拟态的琥珀至深色带纹", "没有膜翅目的细腰"],
+      "sexAge": "本任务不判定性别，精确翅脉和附肢细分不作认证。",
+      "similar": [{"sci": "Apis mellifera", "zh": "西方蜜蜂", "diff": "管蚜蝇只有一对翅且触角短；蜜蜂有两对翅和肘状触角。"}],
+      "range": "欧洲及北美引入地",
+      "basedOn": ["https://www.gbif.org/species/1541217", "https://commons.wikimedia.org/wiki/File:Eristalis_tenax_(10.3897-BDJ.10.e78518)_Figure_25a.jpg"]
+    },
+    "Graphosoma_italicum": {
+      "impression": "盾形蝽，红黑色纵条纹连贯穿过头部、前胸和小盾片。",
+      "marks": ["身体宽而扁平，小盾片发达", "红黑色纵条纹沿背板延伸", "两根长触角和六足"],
+      "sexAge": "本任务不判定性别，触角和跗节细分不作认证。",
+      "similar": [{"sci": "Nezara viridula", "zh": "稻绿蝽", "diff": "意大利条蝽以红黑纵纹为主；稻绿蝽通常为绿色，并有浅色斑点和边缘。"}],
+      "range": "欧洲",
+      "basedOn": ["https://www.gbif.org/species/7437802", "https://commons.wikimedia.org/wiki/File:2013-06-07_21-00-56-Graphosoma-italicum.JPG"]
+    },
+    "Harmonia_axyridis": {
+      "impression": "色斑多变的瓢虫，前胸背板常见深色 M 形中央纹。",
+      "marks": ["本任务采用有斑橙红色色型", "前胸背板有 M 形深色中央纹和浅色侧斑", "两片闭合鞘翅、六足和短触角"],
+      "sexAge": "本任务不判定性别，也不把所选色型当作所有个体的固定外观。",
+      "similar": [{"sci": "Coccinella septempunctata", "zh": "七星瓢虫", "diff": "异色瓢虫斑纹变化大且有 M 形胸纹；七星瓢虫通常为稳定的七斑图案。"}],
+      "range": "亚洲原产并广泛引入",
+      "basedOn": ["https://www.gbif.org/species/4989904", "https://commons.wikimedia.org/wiki/File:Harmonia_axyridis_(10.3897-zoologia.38.e64154)_Figures_12%E2%80%9317.jpg"]
+    },
+    "Ischnura_elegans": {
+      "impression": "细长的蓝尾豆娘，翅膀沿腹部合拢，末端带蓝色腹节。",
+      "marks": ["本任务采用 C 型未成熟雌虫的橙黑胸部", "四片透明翅沿腹部合拢", "腹部末端蓝色，身体纤细"],
+      "sexAge": "仅表现 C 型未成熟雌虫，不套用成熟蓝黑色胸部或其他色型。",
+      "similar": [{"sci": "Anax imperator", "zh": "帝王伟蜓", "diff": "蓝尾豆娘体型小且翅合拢；帝王伟蜓体型大，停栖时四翅展开。"}],
+      "range": "欧洲、北非及西亚",
+      "basedOn": ["https://www.gbif.org/species/1423395", "https://commons.wikimedia.org/wiki/File:%27C_type%27_immature_female_Ischnura_elegans_(48600333716).jpg"]
+    },
+    "Mantis_religiosa": {
+      "impression": "绿色螳螂，三角头、长前胸和折叠捕捉足明显。",
+      "marks": ["三角形可转动头部", "前胸细长", "两根带刺捕捉足折叠", "覆翅覆盖腹部"],
+      "sexAge": "本任务不判定性别，捕捉足细刺和隐藏结构不作认证。",
+      "similar": [{"sci": "Tenodera sinensis", "zh": "中华大刀螳", "diff": "近缘螳螂需结合前胸、前足和分布综合核对，不能只凭绿色体色区分。"}],
+      "range": "欧洲、非洲、亚洲及北美引入地",
+      "basedOn": ["https://www.gbif.org/species/6258028", "https://commons.wikimedia.org/wiki/File:18-05-2017_European_mantis,_Paderne.jpg"]
+    },
+    "Nezara_viridula": {
+      "impression": "绿色盾形蝽，小盾片发达，前缘常见浅色斑点。",
+      "marks": ["整体绿色，背板宽而扁平", "小盾片前缘有三枚小浅色斑", "侧缘浅色，六足和长触角"],
+      "sexAge": "本任务不判定性别，触角、跗节和腹面细节不作认证。",
+      "similar": [{"sci": "Graphosoma italicum", "zh": "意大利条蝽", "diff": "稻绿蝽以绿色为主；意大利条蝽有醒目的红黑纵条纹。"}],
+      "range": "全球广布",
+      "basedOn": ["https://www.gbif.org/species/2078852", "https://commons.wikimedia.org/wiki/File:30-07-2017_Southern_green_shield_bug,_(Nezara_viridula),_Albufeira_(2).JPG"]
+    },
+    "Papilio_xuthus": {
+      "impression": "黑底奶白花纹的凤蝶，后翅具尾突。",
+      "marks": ["黑色翅面有奶白带纹和缘斑", "四片完整翅，后翅各一条自然尾突", "身体细长，触角棒状"],
+      "sexAge": "本任务不判定性别，标本损伤不复制为自然特征。",
+      "similar": [{"sci": "Danaus plexippus", "zh": "君主斑蝶", "diff": "柑橘凤蝶以黑白图案和尾突为主；君主斑蝶以橙色翅面和粗黑翅脉为主。"}],
+      "range": "东亚",
+      "basedOn": ["https://www.gbif.org/species/1937819", "https://commons.wikimedia.org/wiki/File:MZLU-00129145_dorsal_(51008259851).jpg"]
+    },
+    "Tenodera_sinensis": {
+      "impression": "前胸细长的螳螂，绿至褐绿色覆翅，捕捉足发达。",
+      "marks": ["长前胸和三角形头部", "两根带刺捕捉足自然折叠", "四条步行足，覆翅完整"],
+      "sexAge": "本任务不判定性别，前足细刺和隐藏结构不作认证。",
+      "similar": [{"sci": "Mantis religiosa", "zh": "欧洲螳螂", "diff": "近缘螳螂需结合前胸、前足和分布综合核对，不能只凭绿色体色区分。"}],
+      "range": "东亚及北美引入地",
+      "basedOn": ["https://www.gbif.org/species/5887934", "https://commons.wikimedia.org/wiki/File:Tenodera_sinensis_01.jpg"]
+    },
+    "Vanessa_cardui": {
+      "impression": "橙黑斑纹复杂的蛱蝶，前翅白斑和后翅亚缘眼斑明显。",
+      "marks": ["橙黑翅面有白色前翅斑点", "后翅亚缘斑点排列复杂", "四片完整翅和自然翅脉"],
+      "sexAge": "本任务不判定性别，精细翅脉和隐藏结构不作认证。",
+      "similar": [{"sci": "Danaus plexippus", "zh": "君主斑蝶", "diff": "小红蛱蝶图案更碎，前翅白斑和后翅眼斑复杂；君主斑蝶的粗黑翅脉更突出。"}],
+      "range": "全球广布",
+      "basedOn": ["https://www.gbif.org/species/4299368", "https://commons.wikimedia.org/wiki/File:20220709_Vanessa_cardui_04.jpg"]
+    }
+  }
+}

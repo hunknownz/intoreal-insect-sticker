@@ -17,6 +17,7 @@
 | `data/species.csv` | 核心数据的表格版本 |
 | `data/names.csv` | 学名及当前可用俗名 |
 | `data/languages.json` | 当前语言字段与来源 |
+| `data/field-guide.zh-Hans.json` | 17 个已发布物种的中文形态、辨识与相似种说明 |
 | `data/candidates-20.json` | 首批正式候选，不代表已发布数量 |
 | `previews/` | 首页、目级和科级标本图版 |
 

@@ -14,6 +14,12 @@ GBIF identifiers, taxonomic authority and `taxonomy.system` were matched through
 
 GBIF 的标识、命名权威和 `taxonomy.system` 通过 GBIF species API 获取，仅采用学名精确匹配的接受种，相关条款见上述链接。Wikidata 标识通过 Wikidata API 获取（CC0）。无法匹配的字段保持为空，不作猜测。
 
+## Chinese field-guide notes / 中文图鉴
+
+`data/field-guide.zh-Hans.json` contains original Chinese notes written from project-approved reference photographs, GBIF taxonomic records and independent review evidence, and is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). `basedOn` records the taxonomic page and principal morphology reference for each species. No Wikipedia article text is redistributed.
+
+`data/field-guide.zh-Hans.json` 中的中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核证据改写，按 CC BY-SA 4.0 共享。`basedOn` 记录每个物种的分类页面和主要形态依据，不再分发维基百科正文。
+
 ## Reference photos / 参考照片
 
 Each sticker is a new AI illustration constrained by one or more reference photographs or scientific figure crops. **Original reference photographs and local crops are not included in the public repository.** Source pages, authors and licenses are recorded per species in `data/species.json` under `sticker.reference` and `sticker.references`. Rights in those works remain with their original authors.
