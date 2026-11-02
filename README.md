@@ -151,6 +151,8 @@ The production pipeline has two independent review stages:
 1. **Technical and primary review:** image decoding, RGBA transparency, canvas edges, hashes, anatomy, field marks and presentation.
 2. **Isolated blind review:** a fresh Codex CLI process receives only the approved references, candidate, checklist and candidate hash. It cannot read the generation record, primary-review score or previous comments.
 
+New and revision tasks also require a critical structural and perspective check. The overall pose must be explicitly supported by all specified references; a familiar silhouette cannot compensate for incompatible head and body views. A reviewed replacement is accepted only when its declared previous source hash still matches the published record.
+
 A critical identification failure blocks publication, and a score below 80 fails. A critical failure also caps the score at 77. Non-critical visual issues are deducted according to the checklist rather than being silently ignored. Failed attempts and targeted redraws are retained. A candidate that reaches the retry limit is marked `blocked` and is not exported.
 
 GitHub Issues provide the task queue and audit trail. The single worker discovers prepared Production issues, runs them serially, exports approved WebP stickers and closes issues automatically. Network failures are retried without duplicating attempts or overwriting historical files.

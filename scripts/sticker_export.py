@@ -3,6 +3,7 @@ import argparse
 import csv
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 from PIL import Image
@@ -91,12 +92,29 @@ def export_approved(task_dir):
     relative_sticker = Path("stickers") / order / family / f"{species_id}.webp"
     target = PROJECT_ROOT / relative_sticker
     data_path = PROJECT_ROOT / "data/species.json"
+    existing = None
     if target.exists():
         dataset = read_json(data_path) if data_path.exists() else {"species": []}
         existing = next((row for row in dataset["species"] if row["id"] == species_id), None)
-        if not existing or existing["sticker"].get("sourceSha256") != source_sha256:
+        if existing and existing["sticker"].get("sourceSha256") == source_sha256:
+            return existing
+        revision = task.get("revisionOf")
+        authorized_revision = (
+            existing is not None
+            and isinstance(revision, dict)
+            and isinstance(revision.get("issue"), str)
+            and re.fullmatch(r"https://github\.com/hunknownz/intoreal-insect-sticker/issues/[1-9]\d*", revision["issue"]) is not None
+            and type(revision.get("attempt")) is int
+            and revision["attempt"] > 0
+            and isinstance(revision.get("sourceSha256"), str)
+            and len(revision["sourceSha256"]) == 64
+            and all(character in "0123456789abcdef" for character in revision["sourceSha256"])
+            and revision["sourceSha256"] == existing["sticker"].get("sourceSha256")
+        )
+        if not authorized_revision:
             raise ValueError(f"公开贴纸已存在且来源不同，拒绝覆盖: {target}")
-        return existing
+    elif task.get("revisionOf"):
+        raise ValueError("修订替换缺少现有公开贴纸，拒绝作为新物种发布")
 
     target.parent.mkdir(parents=True, exist_ok=True)
     with Image.open(candidate) as image:
@@ -141,6 +159,10 @@ def export_approved(task_dir):
             "references": [public_reference(row) for row in references],
         },
     }
+    if existing is not None:
+        record["sticker"]["revisionOf"] = task["revisionOf"]
+        existing["sticker"] = record["sticker"]
+        record = existing
     dataset = read_json(data_path) if data_path.exists() else {"species": []}
     dataset["species"] = [row for row in dataset["species"] if row["id"] != species_id]
     dataset["species"].append(record)

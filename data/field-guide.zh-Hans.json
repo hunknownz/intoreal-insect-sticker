@@ -108,7 +108,7 @@
       "basedOn": ["https://www.gbif.org/species/1423395", "https://commons.wikimedia.org/wiki/File:%27C_type%27_immature_female_Ischnura_elegans_(48600333716).jpg"]
     },
     "Mantis_religiosa": {
-      "impression": "绿色螳螂，三角头、长前胸和折叠捕捉足明显。",
+      "impression": "绿色螳螂，三角头、长前胸和折叠捕捉足明显，采用头颈与躯干透视一致的前侧向视角。",
       "marks": ["三角形可转动头部", "前胸细长", "两根带刺捕捉足折叠", "覆翅覆盖腹部"],
       "sexAge": "本任务不判定性别，捕捉足细刺和隐藏结构不作认证。",
       "similar": [{"sci": "Tenodera sinensis", "zh": "中华大刀螳", "diff": "近缘螳螂需结合前胸、前足和分布综合核对，不能只凭绿色体色区分。"}],

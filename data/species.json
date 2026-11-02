@@ -1245,11 +1245,11 @@
       "sticker": {
         "file": "stickers/Mantodea/Mantidae/Mantis_religiosa.webp",
         "kind": "ai-illustration",
-        "reviewScore": 91,
-        "primaryReviewScore": 82,
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
         "meetsQualityBar": true,
         "license": "PolyForm-Shield-1.0.0",
-        "sourceSha256": "c67dd0b5fe5a1e264044f605ef5e3580f800fe14c4db979a745d6ca2925f0c53",
+        "sourceSha256": "fbe7f942f4c80a079cdbca7b315fe3cb0d145c99119a1d72427c44dd8b91c2db",
         "reference": {
           "type": "photo",
           "view": "anterolateral full body",
@@ -1279,7 +1279,12 @@
             "author": "Marián Hubinský",
             "license": "CC-BY-SA-3.0"
           }
-        ]
+        ],
+        "revisionOf": {
+          "issue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/21",
+          "attempt": 1,
+          "sourceSha256": "c67dd0b5fe5a1e264044f605ef5e3580f800fe14c4db979a745d6ca2925f0c53"
+        }
       }
     },
     {

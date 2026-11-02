@@ -21,6 +21,8 @@ stickers/<Order>/<Family>/<Genus_species>.webp
 
 贴纸为保留 alpha 透明通道的 WebP，长边约 1000px。只有一审和独立盲审均达到质量门槛的物种才会自动导出。`sticker.sourceSha256` 对应审核通过的原始 PNG 候选，便于复核同一交付对象。
 
+新任务和修订任务采用结构与视角一致性审核（v2）：整体通过时 `view-consistency` 必须明确通过，且审核记录必须覆盖全部指定参考。已发布图的修订只有在双审通过、公开原图哈希与 `sticker.revisionOf.sourceSha256` 一致时才允许替换；该字段同时记录原 Issue 和 attempt。替换保留分类、名称、ID、分布、形态及保护状态资料。
+
 ## 主要字段
 
 - `taxonomy.order`、`taxonomy.family`、`taxonomy.genus`：拉丁分类名称。

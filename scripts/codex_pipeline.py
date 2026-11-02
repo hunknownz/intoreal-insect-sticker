@@ -4,6 +4,7 @@ import hashlib
 import json
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from PIL import Image
@@ -87,6 +88,40 @@ def review_path(task_dir, stage, attempt):
     return task_dir / f"attempt-{attempt:02d}-blind-review.json"
 
 
+def event_output(stdout, stderr):
+    def text(value):
+        if value is None:
+            return ""
+        if isinstance(value, bytes):
+            return value.decode("utf-8", errors="replace")
+        return value
+
+    result = text(stdout)
+    error = text(stderr)
+    if error:
+        separator = "" if not result or result.endswith("\n") else "\n"
+        result += separator + json.dumps({"type": "process.stderr", "message": error}, ensure_ascii=False) + "\n"
+    return result
+
+
+def transient_codex_failure(completed):
+    output = f"{completed.stdout}\n{completed.stderr}".casefold()
+    if any(marker in output for marker in ("request timed out", "tls handshake timeout", "status 408")):
+        return False
+    markers = (
+        "workspace routing discovery failed",
+        "error sending request",
+        "selected model is at capacity",
+        "unexpected eof",
+        "status 429",
+        "status 500",
+        "status 502",
+        "status 503",
+        "status 504",
+    )
+    return any(marker in output for marker in markers)
+
+
 def run_codex(task_dir, task, stage, prompt, images, output, sandbox):
     attempt = task["attempt"]
     events = task_dir / f"attempt-{attempt:02d}-{stage}-events.jsonl"
@@ -98,12 +133,38 @@ def run_codex(task_dir, task, stage, prompt, images, output, sandbox):
     for image in images:
         command.extend(["-i", str(image)])
     command.extend(["--", prompt])
-    completed = subprocess.run(command, cwd=task_dir, capture_output=True, text=True, timeout=900, check=False)
-    events.write_text(completed.stdout, encoding="utf-8")
-    if completed.returncode != 0:
-        raise RuntimeError(f"Codex CLI {stage} 失败: {completed.stderr}")
-    if not output.is_file():
-        raise RuntimeError(f"Codex CLI {stage} 未交付: {output}")
+    for technical_attempt in range(3):
+        try:
+            completed = subprocess.run(command, cwd=task_dir, capture_output=True, text=True, timeout=900, check=False)
+        except subprocess.TimeoutExpired as exc:
+            failed_events = task_dir / f"attempt-{attempt:02d}-{stage}-timeout-{technical_attempt + 1:02d}-events.jsonl"
+            if failed_events.exists():
+                raise ValueError(f"超时日志已存在，拒绝覆盖: {failed_events}") from exc
+            failed_events.write_text(event_output(exc.stdout, exc.stderr), encoding="utf-8")
+            raise
+        if completed.returncode == 0:
+            events.write_text(completed.stdout, encoding="utf-8")
+            if not output.is_file():
+                raise RuntimeError(f"Codex CLI {stage} 未交付: {output}")
+            return
+        if technical_attempt == 2 or not transient_codex_failure(completed):
+            events.write_text(event_output(completed.stdout, completed.stderr), encoding="utf-8")
+            raise RuntimeError(f"Codex CLI {stage} 失败: {completed.stderr}")
+        failed_events = task_dir / f"attempt-{attempt:02d}-{stage}-network-failure-{technical_attempt + 1:02d}-events.jsonl"
+        if failed_events.exists():
+            raise ValueError(f"技术失败日志已存在，拒绝覆盖: {failed_events}")
+        failed_events.write_text(event_output(completed.stdout, completed.stderr), encoding="utf-8")
+        if output.exists():
+            raise RuntimeError(f"Codex CLI {stage} 技术失败但已写出结果，必须先复核，禁止自动重试: {output}")
+        if stage == "generate":
+            generated_paths = [
+                task_dir / f"attempt-{attempt:02d}-generated.png",
+                task_dir / f"attempt-{attempt:02d}-sticker.png",
+                task_dir / f"attempt-{attempt:02d}-generation.json",
+            ]
+            if any(path.exists() for path in generated_paths):
+                raise RuntimeError("Codex CLI generate 技术失败但已有生成文件，必须先做证据恢复，禁止自动重试")
+        time.sleep(15 * (technical_attempt + 1))
 
 
 def generate(task_dir, task, reference_paths):
@@ -262,6 +323,27 @@ def validate_review(path, task_dir, task, stage, candidate):
             reviewed_path = task_dir / reviewed_path
         if reviewed_path.resolve() != candidate.resolve():
             errors.append("审核候选路径不一致")
+    if task.get("reviewProtocolVersion") == 2:
+        if required.get("view-consistency", {}).get("critical") is not True:
+            errors.append("v2 缺少关键 view-consistency 检查")
+        for check in checks:
+            if not isinstance(check.get("evidence"), str) or not check["evidence"].strip():
+                errors.append(f"{check.get('id')}: v2 证据不能为空")
+        if verdict == "pass" and any(check.get("id") == "view-consistency" and check.get("status") != "pass" for check in checks):
+            errors.append("v2 视角一致性必须明确 pass 才能发布")
+        reviewed_references = reviewed.get("references") if isinstance(reviewed, dict) else None
+        if not isinstance(reviewed_references, list) or not all(isinstance(item, str) for item in reviewed_references):
+            errors.append("v2 reviewedFiles.references 必须是路径列表")
+            reviewed_references = []
+        actual_references = set()
+        for item in reviewed_references:
+            reference_path = Path(item)
+            if not reference_path.is_absolute():
+                reference_path = task_dir / reference_path
+            actual_references.add(reference_path.resolve())
+        declared_references = {(task_dir / row["localPath"]).resolve() for row in read_json(task_dir / "references.json")["references"]}
+        if actual_references != declared_references or len(reviewed_references) != len(declared_references):
+            errors.append("v2 必须逐项核对全部指定参考")
     if errors:
         raise ValueError("; ".join(errors))
     return review
