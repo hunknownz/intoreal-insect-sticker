@@ -76,6 +76,8 @@ def export_approved(task_dir):
     scientific_name = species["scientificName"]
     attempt = task["attempt"]
     candidate = task_dir / f"attempt-{attempt:02d}-sticker.png"
+    from codex_pipeline import validate_done
+    validate_done(task_dir, task)
     primary = read_json(review_path(task_dir, "primary", attempt))
     blind = read_json(review_path(task_dir, "blind", attempt))
     if primary.get("verdict") != "pass" or blind.get("verdict") != "pass":

@@ -1,0 +1,51 @@
+{
+  "workspace": "production/Example_species",
+  "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/123",
+  "species": {
+    "scientificName": "Example species",
+    "commonNameEn": "Example insect",
+    "commonNameZhHans": "示例昆虫",
+    "order": "Exampleorder",
+    "family": "Examplefamily",
+    "lifeStage": "adult",
+    "sex": "unverifiable",
+    "view": "dorsal"
+  },
+  "generationInstructions": "Generate one complete adult in the main reference pose. Keep head, thorax, abdomen, wings and all six legs anatomically coherent; omit the environment and text.",
+  "unverifiable": ["sex", "exact venation and fine appendage segmentation"],
+  "anatomyChecks": [
+    {
+      "id": "body-anatomy",
+      "critical": true,
+      "requirement": "Exactly six naturally attached legs and the species-specific wing structure; no missing, duplicated, fused or unsupported appendages."
+    }
+  ],
+  "references": [
+    {
+      "id": "main",
+      "type": "photo",
+      "view": "dorsal full body",
+      "poseRole": "primary-pose",
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "page": "https://example.com/main-photo",
+      "author": "Replace with the actual photographer",
+      "license": "CC-BY-4.0",
+      "localPath": "references/main.jpg",
+      "sha256": "replace-with-the-actual-64-character-sha256"
+    },
+    {
+      "id": "detail",
+      "type": "photo",
+      "view": "head and thorax detail",
+      "poseRole": "local-detail-only",
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "page": "https://example.com/detail-photo",
+      "author": "Replace with the actual photographer",
+      "license": "CC-BY-4.0",
+      "localPath": "references/detail.jpg",
+      "sha256": "replace-with-the-actual-64-character-sha256"
+    }
+  ]
+}

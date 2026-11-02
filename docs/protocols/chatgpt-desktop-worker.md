@@ -52,6 +52,10 @@
 - 物种具有活动关节不等于任意组合姿态都合理。没有同姿态参考时，不得以“可能做到”代替证据。
 - 总体 `pass` 要求 `view-consistency` 明确为 `pass`；`unverifiable` 不能作为该项通过发布的依据。细节规则见 `docs/protocols/view-consistency-review.md`。
 
+未声明版本的新任务默认采用 v2；历史 `done`、`blocked` 任务未显式声明版本时保持 v1。显式版本只接受整数 1 或 2，首次执行时写入任务文件。任务清单和审核结果中的检查 ID 不得重复。新任务包使用 `python3 scripts/prepare_production_task.py path/to/config.json` 创建，配置格式见 `docs/protocols/production-task-config.example.json`。生成器只创建任务包，不启动生图。全部参考必须有类型、视角、生活阶段、性别、作者、许可、来源和 SHA-256；缺主姿态、物种结构检查或参考不完整时，在生图前阻塞。独立导出也必须完整校验任务包、生成记录和双审，不得绕过。
+
+普通阶段通知失败不得误阻塞生产。导出后先保存 `close-issue` 状态，关闭失败只重试收尾，不重复生成、审核或导出，且不重复发布已存在的评论。
+
 ## 4. 标准任务包
 
 Kimi 通常会准备：

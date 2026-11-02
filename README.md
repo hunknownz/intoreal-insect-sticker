@@ -85,7 +85,8 @@ Every image below is generated from the approved public stickers. Only species t
 | `data/candidates-20.json` | The first formal candidate set, including 3 blocked items not admitted to the public dataset |
 | `data/candidates-next.json` | The next 3 candidates entering the same production pipeline |
 | `previews/` | Header, hero, order and family specimen drawers |
-| `scripts/` | Codex CLI pipeline, Issue worker, metadata enrichment and preview rendering |
+| `scripts/` | Codex CLI pipeline, Issue worker, v2 task generator, metadata enrichment and preview rendering |
+| `tests/` | Standard-library regression tests for task validation, isolated review, retry, replacement and Issue closure; run `python3 -m unittest discover -s tests -v` |
 
 Field definitions and publication rules are documented in [data/README.md](data/README.md).
 

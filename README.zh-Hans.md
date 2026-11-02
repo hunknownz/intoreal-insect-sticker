@@ -85,7 +85,8 @@
 | `data/candidates-20.json` | 首批正式候选，其中 3 个 blocked 项不进入公开贴纸库 |
 | `data/candidates-next.json` | 进入同一生产流程的后续 3 个候选 |
 | `previews/` | 首页、目级和科级标本图版 |
-| `scripts/` | Codex CLI 流水线、Issue worker、元数据补充和预览渲染脚本 |
+| `scripts/` | Codex CLI 流水线、Issue worker、v2 任务包生成、元数据补充和预览渲染脚本 |
+| `tests/` | 任务校验、独立审核、技术重试、修订替换和 Issue 收尾的回归测试；运行 `python3 -m unittest discover -s tests -v` |
 
 字段定义与发布规则见 [data/README.md](data/README.md)。
 

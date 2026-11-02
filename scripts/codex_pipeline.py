@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from PIL import Image
 from sticker_export import export_approved
+from task_protocol import protocol_version, validate_task_package
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROTOCOL_PATH = PROJECT_ROOT / "docs/protocols/chatgpt-desktop-worker.md"
@@ -63,13 +64,29 @@ def issue_comment(task, body):
         raise RuntimeError(completed.stderr)
 
 
+def notify_issue(task_dir, task, body):
+    try:
+        issue_comment(task, body)
+    except Exception as exc:
+        state_path = task_dir / "pipeline-state.json"
+        state = read_json(state_path) if state_path.exists() else {"species": task["species"]["scientificName"], "history": []}
+        state.setdefault("notifications", []).append({"at": now(), "body": body, "delivered": False, "error": str(exc)})
+        write_json(state_path, state)
+        return False
+    return True
+
+
 def close_issue(task, body):
-    completed = subprocess.run(["gh", "issue", "comment", issue_number(task), "--repo", "hunknownz/intoreal-insect-sticker", "--body", body], cwd=PROJECT_ROOT, capture_output=True, text=True, check=False)
+    completed = subprocess.run(["gh", "issue", "view", issue_number(task), "--repo", "hunknownz/intoreal-insect-sticker", "--json", "state,comments"], cwd=PROJECT_ROOT, capture_output=True, text=True, check=False)
     if completed.returncode != 0:
         raise RuntimeError(completed.stderr)
-    completed = subprocess.run(["gh", "issue", "close", issue_number(task), "--repo", "hunknownz/intoreal-insect-sticker"], cwd=PROJECT_ROOT, capture_output=True, text=True, check=False)
-    if completed.returncode != 0:
-        raise RuntimeError(completed.stderr)
+    issue = json.loads(completed.stdout)
+    if body not in {comment.get("body") for comment in issue.get("comments", [])}:
+        issue_comment(task, body)
+    if issue.get("state") != "CLOSED":
+        completed = subprocess.run(["gh", "issue", "close", issue_number(task), "--repo", "hunknownz/intoreal-insect-sticker"], cwd=PROJECT_ROOT, capture_output=True, text=True, check=False)
+        if completed.returncode != 0:
+            raise RuntimeError(completed.stderr)
 
 
 def load(task_dir):
@@ -184,7 +201,7 @@ def generate(task_dir, task, reference_paths):
         redo = f"本轮是 redo，必须读取并遵循 {redo_path}，保留上一轮文件，不得覆盖。"
     prompt = f"""执行 {task['githubIssue']} 的 attempt {attempt} generate。先读取并遵守 {PROTOCOL_PATH}、{task_dir / 'generate-task.md'}、{task_dir / 'task.json'} 和 {task_dir / 'references.json'}。{redo}
 
-使用 Codex CLI 实际可用的 image_generation 工具生成新的位图插画，不得用 SVG、文字、截图拼贴或占位图冒充。以任务书和三张附加参考图为准。必须在当前任务目录交付：
+使用 Codex CLI 实际可用的 image_generation 工具生成新的位图插画，不得用 SVG、文字、截图拼贴或占位图冒充。以任务书和全部附加参考图为准。必须在当前任务目录交付：
 attempt-{attempt:02d}-generated.png
 attempt-{attempt:02d}-sticker.png
 attempt-{attempt:02d}-generation.json
@@ -248,7 +265,7 @@ def review_prompt(task_dir, task, stage, candidate):
         review_type = "blind-independent"
     return f"""执行 {task['githubIssue']} 的 attempt {attempt} {stage}。你是独立新进程，reviewer 写 {reviewer!r}，reviewType 写 {review_type!r}。先读取 {PROTOCOL_PATH}、{task_dir / 'review-checklist.json'} 和 {task_dir / 'review-output.schema.json'}。{allowed}
 
-实际查看命令附加的三张参考图和候选图 {candidate}，逐项核对检查清单。候选 SHA-256 为 {expected}，用只读命令复核。按协议从100分开始扣分，不预设目标分数；关键项失败必须 fail 且封顶77，pass 至少80且无关键项失败，非关键项失败按规则扣分但不自动阻塞 pass。
+实际查看命令附加的全部参考图和候选图 {candidate}，逐项核对检查清单。候选 SHA-256 为 {expected}，用只读命令复核。按协议从100分开始扣分，不预设目标分数；关键项失败必须 fail 且封顶77，pass 至少80且无关键项失败，非关键项失败按规则扣分但不自动阻塞 pass。
 
 最终回复只输出符合 schema 的 JSON 对象，不用 Markdown。必须包含 reviewedFiles.candidate、reviewedFiles.references、candidateHashCheck、checks、issues、redoNote 和 unverifiable。不要修改图片或其他文件。
 """
@@ -295,6 +312,8 @@ def validate_review(path, task_dir, task, stage, candidate):
     critical_failures = []
     for check in checks:
         check_id = check.get("id")
+        if check_id in seen:
+            errors.append(f"{check_id}: 检查 ID 重复")
         seen.add(check_id)
         if check.get("status") not in {"pass", "fail", "unverifiable"}:
             errors.append(f"{check_id}: 状态非法")
@@ -323,7 +342,7 @@ def validate_review(path, task_dir, task, stage, candidate):
             reviewed_path = task_dir / reviewed_path
         if reviewed_path.resolve() != candidate.resolve():
             errors.append("审核候选路径不一致")
-    if task.get("reviewProtocolVersion") == 2:
+    if protocol_version(task) == 2:
         if required.get("view-consistency", {}).get("critical") is not True:
             errors.append("v2 缺少关键 view-consistency 检查")
         for check in checks:
@@ -366,10 +385,11 @@ def prepare_redo(task_dir, task, stage, review):
     task["attempt"] = next_attempt
     task["generationOutput"] = f"attempt-{next_attempt:02d}-generation.json"
     record(task_dir, task, "generate", "ready-for-redo", f"from attempt {attempt} {stage}")
-    issue_comment(task, f"Stage: {stage} → redo. attempt {attempt} 未通过，已生成定向 redoNote，自动进入 attempt {next_attempt}。")
+    notify_issue(task_dir, task, f"Stage: {stage} → redo. attempt {attempt} 未通过，已生成定向 redoNote，自动进入 attempt {next_attempt}。")
 
 
 def validate_done(task_dir, task):
+    validate_task_package(task_dir, task)
     attempt = task["attempt"]
     candidate = task_dir / f"attempt-{attempt:02d}-sticker.png"
     validate_generation(task_dir, task)
@@ -380,6 +400,10 @@ def validate_done(task_dir, task):
 
 def run(task_dir):
     task_dir, task, candidate, reference_paths = load(task_dir)
+    version = protocol_version(task)
+    if "reviewProtocolVersion" not in task and task["stage"] not in {"done", "blocked"}:
+        task["reviewProtocolVersion"] = version
+        save_task(task_dir, task)
     if task["stage"] == "done":
         validate_done(task_dir, task)
         return {"ok": True, "stage": "done", "attempt": task["attempt"]}
@@ -387,9 +411,14 @@ def run(task_dir):
         while True:
             task_dir, task, candidate, reference_paths = load(task_dir)
             stage = task["stage"]
+            if stage == "close-issue":
+                close_issue(task, task["closureMessage"])
+                record(task_dir, task, "done", "done", "GitHub issue closure verified")
+                return {"ok": True, "stage": "done", "attempt": task["attempt"], "score": task.get("reviewScore")}
+            validate_task_package(task_dir, task)
             if stage == "generate":
                 record(task_dir, task, "generate", "running")
-                issue_comment(task, f"Stage: generate. Codex CLI 自动启动 attempt {task['attempt']}。")
+                notify_issue(task_dir, task, f"Stage: generate. Codex CLI 自动启动 attempt {task['attempt']}。")
                 generate(task_dir, task, reference_paths)
                 record(task_dir, task, "primary-review", "ready", "technical checks passed")
             elif stage == "primary-review":
@@ -397,7 +426,7 @@ def run(task_dir):
                 review = run_review(task_dir, task, stage, candidate, reference_paths)
                 if review["verdict"] == "pass":
                     record(task_dir, task, "blind-review", "ready", "primary passed")
-                    issue_comment(task, f"Stage: primary-review → blind-review. attempt {task['attempt']} 一审 {review['score']} / pass；共享入口不记录该结论供盲审读取。")
+                    notify_issue(task_dir, task, f"Stage: primary-review → blind-review. attempt {task['attempt']} 一审 {review['score']} / pass；共享入口不记录该结论供盲审读取。")
                 else:
                     prepare_redo(task_dir, task, stage, review)
             elif stage == "blind-review":
@@ -406,19 +435,27 @@ def run(task_dir):
                 if review["verdict"] == "pass":
                     validate_done(task_dir, task)
                     exported = export_approved(task_dir)
-                    record(task_dir, task, "done", "done", f"blind {review['score']}/pass; exported {exported['sticker']['file']}")
-                    close_issue(task, f"Stage: blind-review → done. attempt {task['attempt']} 盲审 {review['score']} / pass。候选哈希、图片技术检查、一审和盲审均已由本地程序复验，公开交付为 `{exported['sticker']['file']}`，Issue 自动关闭。")
+                    task["closureMessage"] = f"Stage: blind-review → done. attempt {task['attempt']} 盲审 {review['score']} / pass。候选哈希、图片技术检查、一审和盲审均已由本地程序复验，公开交付为 `{exported['sticker']['file']}`，Issue 自动关闭。"
+                    task["reviewScore"] = review["score"]
+                    record(task_dir, task, "close-issue", "ready", f"blind {review['score']}/pass; exported {exported['sticker']['file']}")
+                    close_issue(task, task["closureMessage"])
+                    record(task_dir, task, "done", "done", "GitHub issue closure verified")
                     return {"ok": True, "stage": "done", "attempt": task["attempt"], "score": review["score"]}
                 prepare_redo(task_dir, task, stage, review)
             else:
                 raise ValueError(f"不支持的阶段: {stage}")
     except Exception as exc:
         task_dir, task, _, _ = load(task_dir)
+        if task["stage"] == "close-issue":
+            task["closeAttempts"] = task.get("closeAttempts", 0) + 1
+            if task["closeAttempts"] < 3:
+                record(task_dir, task, "close-issue", "retry", str(exc))
+                return {"ok": False, "stage": "close-issue", "error": str(exc)}
         blocked = task_dir / f"attempt-{task['attempt']:02d}-{task['stage']}-blocked.json"
         if not blocked.exists():
             write_json(blocked, {"verdict": "blocked", "stage": task["stage"], "attempt": task["attempt"], "score": None, "reason": str(exc), "at": now()})
         record(task_dir, task, "blocked", "blocked", str(exc))
-        issue_comment(task, f"Stage: {task['stage']} → blocked. {exc}")
+        notify_issue(task_dir, task, f"Stage: {task['stage']} → blocked. {exc}")
         return {"ok": False, "stage": "blocked", "error": str(exc)}
 
 
