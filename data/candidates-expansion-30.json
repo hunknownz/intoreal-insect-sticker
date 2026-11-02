@@ -605,7 +605,7 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "pilot-ready",
+      "status": "published",
       "reviewProtocolVersion": 2,
       "references": [
         {
@@ -671,7 +671,10 @@
       "ids": {
         "gbif": 1994576,
         "wikidata": "Q1073729"
-      }
+      },
+      "reviewScore": 95,
+      "primaryReviewScore": 95,
+      "sticker": "stickers/Blattodea/Blaberidae/Gromphadorhina_portentosa.webp"
     },
     {
       "id": "Gryllotalpa_gryllotalpa",
@@ -906,7 +909,7 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "pilot-ready",
+      "status": "published",
       "reviewProtocolVersion": 2,
       "references": [
         {
@@ -972,7 +975,10 @@
       "ids": {
         "gbif": 1442474,
         "wikidata": "Q2209374"
-      }
+      },
+      "reviewScore": 90,
+      "primaryReviewScore": 90,
+      "sticker": "stickers/Trichoptera/Limnephilidae/Limnephilus_lunatus.webp"
     },
     {
       "id": "Locusta_migratoria",
@@ -1111,7 +1117,7 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "pilot-ready",
+      "status": "published",
       "reviewProtocolVersion": 2,
       "references": [
         {
@@ -1177,7 +1183,10 @@
       "ids": {
         "gbif": 2107724,
         "wikidata": "Q1656577"
-      }
+      },
+      "reviewScore": 90,
+      "primaryReviewScore": 90,
+      "sticker": "stickers/Neuroptera/Mantispidae/Mantispa_styriaca.webp"
     },
     {
       "id": "Myrmeleon_formicarius",

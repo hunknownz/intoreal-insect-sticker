@@ -1,7 +1,7 @@
 {
   "license": "CC BY-SA 4.0",
   "note": "中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核记录改写；basedOn 列出分类与主要形态依据。未核实的性别、精细结构、生态和保护状态不作推断。",
-  "count": 22,
+  "count": 25,
   "species": {
     "Aeshna_cyanea": {
       "impression": "深色长腹上具有成对蓝绿色斑点的伟蜓，胸部有黄绿色斑，四片膜质翅展开。",
@@ -91,6 +91,14 @@
       "range": "欧洲",
       "basedOn": ["https://www.gbif.org/species/7437802", "https://commons.wikimedia.org/wiki/File:2013-06-07_21-00-56-Graphosoma-italicum.JPG"]
     },
+    "Gromphadorhina_portentosa": {
+      "impression": "粗壮无翅的发声蟑螂，前胸深黑光亮，腹节具有黄褐色横带。",
+      "marks": ["无翅的粗壮分节躯体", "前胸背板黑亮", "腹部黄褐色横带与深色斑", "两根长触角和六条具刺步足"],
+      "sexAge": "本任务以完整成虫为依据；性别、生殖结构、精细跗节和尾端附器不作认证。",
+      "similar": [{"sci": "Periplaneta americana", "zh": "美洲大蠊", "diff": "美洲大蠊具有覆盖腹部的覆翅；马达加斯加发声蟑螂无翅，且前胸和腹节带纹不同。"}],
+      "range": "马达加斯加",
+      "basedOn": ["https://www.gbif.org/species/1994576", "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa(Karaczan_madagaskarski.JPG"]
+    },
     "Gryllotalpa_gryllotalpa": {
       "impression": "褐色修长的蝼蛄，宽扁铲形挖掘前足、折叠覆翅和成对尾须明显，采用前背侧视角。",
       "marks": ["两条前足宽扁并具掘土齿", "身体延长，前胸背板宽厚", "六条足分别可追踪", "腹端有两条独立尾须"],
@@ -115,6 +123,14 @@
       "range": "欧洲、北非及西亚",
       "basedOn": ["https://www.gbif.org/species/1423395", "https://commons.wikimedia.org/wiki/File:%27C_type%27_immature_female_Ischnura_elegans_(48600333716).jpg"]
     },
+    "Limnephilus_lunatus": {
+      "impression": "褐色毛翅沼石蛾，前翅有浅色新月斑，触角细长，双翅收拢呈屋脊状。",
+      "marks": ["前翅褐色斑驳并有浅色弯月状区域", "两根细长丝状触角", "膜质翅面有细毛并呈屋脊状收拢", "身体细长，头胸与翅基连续"],
+      "sexAge": "本任务以完整成虫为依据；性别、后翅遮挡关系、六足完整连接和精细翅脉不作认证。",
+      "similar": [{"sci": "Actias selene", "zh": "绿尾大蚕蛾", "diff": "绿尾大蚕蛾为大型鳞翅目蛾，翅面有眼斑和后翅尾突；奇异沼石蛾为毛翅目，翅面有毛和新月斑，不应混作有鳞粉的蝶蛾。"}],
+      "range": "欧洲",
+      "basedOn": ["https://www.gbif.org/species/1442474", "https://commons.wikimedia.org/wiki/File:Trichoptera_Limnephilus_lunatus.jpg"]
+    },
     "Mantis_religiosa": {
       "impression": "绿色螳螂，三角头、长前胸和折叠捕捉足明显，采用头颈与躯干透视一致的前侧向视角。",
       "marks": ["三角形可转动头部", "前胸细长", "两根带刺捕捉足折叠", "覆翅覆盖腹部"],
@@ -122,6 +138,14 @@
       "similar": [{"sci": "Tenodera sinensis", "zh": "中华大刀螳", "diff": "近缘螳螂需结合前胸、前足和分布综合核对，不能只凭绿色体色区分。"}],
       "range": "欧洲、非洲、亚洲及北美引入地",
       "basedOn": ["https://www.gbif.org/species/6258028", "https://commons.wikimedia.org/wiki/File:18-05-2017_European_mantis,_Paderne.jpg"]
+    },
+    "Mantispa_styriaca": {
+      "impression": "长前胸的螳蛉，捕捉前足折叠，膜质翅具有细密网状脉，采用侧面姿态。",
+      "marks": ["捕捉前足具有膨大股节和折叠胫节", "前胸明显延长", "膜质翅有细密网状脉", "两根长触角与可见步足"],
+      "sexAge": "本任务以完整成虫为依据；性别、远侧捕捉足连接、遮挡翅根和六足完整数量不作认证。",
+      "similar": [{"sci": "Mantis religiosa", "zh": "欧洲螳螂", "diff": "斯提利亚螳蛉属于脉翅目，膜质翅网状脉细密；欧洲螳螂属于螳螂目，前胸和捕捉足的结构不同，不能只凭外形混同。"}],
+      "range": "欧洲",
+      "basedOn": ["https://www.gbif.org/species/2107724", "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(9566952168).jpg"]
     },
     "Nezara_viridula": {
       "impression": "绿色盾形蝽，小盾片发达，前缘常见浅色斑点。",

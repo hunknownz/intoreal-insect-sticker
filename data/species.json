@@ -997,6 +997,97 @@
       }
     },
     {
+      "id": "Gromphadorhina_portentosa",
+      "scientificName": "Gromphadorhina portentosa",
+      "authority": "(Schaum, 1853)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Blaberidae",
+        "genus": "Gromphadorhina"
+      },
+      "names": {
+        "en": "Madagascar hissing cockroach",
+        "zh-Hans": "马达加斯加发声蟑螂",
+        "ca": "panerola xiuladora",
+        "cs": "Gromphadorrhina portentosa",
+        "nl": "Sissende kakkerlak",
+        "eo": "Gromphadorhina portentosa",
+        "fi": "Gromphadorhina portentosa",
+        "fr": "Gromphadorhina portentosa",
+        "de": "Gromphadorhina portentosa",
+        "it": "Gromphadorrhina portentosa",
+        "ja": "マダガスカルヒッシングローチ",
+        "lt": "Madagaskaro šnypčiantysis tarakonas",
+        "pl": "Karaczan madagaskarski",
+        "ru": "Gromphadorhina",
+        "es": "Gromphadorhina portentosa",
+        "sv": "Gromphadorhina portentosa",
+        "tr": "Madagaskar tıslayan hamamböceği",
+        "uk": "Gromphadorhina portentosa",
+        "ar": "صرصور الفحاح المدغشقري",
+        "bg": "мадагаскарска съскаща хлебарка",
+        "et": "Madagaskari sisiprussakas",
+        "he": "תיקן לוחש",
+        "hu": "madagaszkári bütykös csótány",
+        "is": "Krabbalakki",
+        "id": "Gromphadorhina portentosa",
+        "ko": "마다가스카르휘파람바퀴벌레",
+        "mk": "Gromphadorhina portentosa",
+        "fa": "سوسک هیسینگ ماداگاسکار",
+        "ro": "Gromphadorhina portentosa",
+        "th": "แมลงสาบมาดากัสการ์"
+      },
+      "ids": {
+        "gbif": 1994576,
+        "wikidata": "Q1073729"
+      },
+      "range": {
+        "distribution": "马达加斯加"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Blattodea/Blaberidae/Gromphadorhina_portentosa.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 95,
+        "primaryReviewScore": 95,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "5b3322343d3fc9d2bf32e67bb852b7f86acdb37d39584b989661cbd7c0fa5f8c",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa(Karaczan_madagaskarski.JPG",
+          "author": "Kaczuszkax",
+          "license": "CC BY-SA 3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa(Karaczan_madagaskarski.JPG",
+            "author": "Kaczuszkax",
+            "license": "CC BY-SA 3.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa_(outside).jpg",
+            "author": "Markbenecke",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral pronotum detail",
+            "page": "https://commons.wikimedia.org/wiki/File:Male_Gromphadorhina_portentosa.jpg",
+            "author": "Eveha",
+            "license": "CC BY-SA 3.0"
+          }
+        ]
+      }
+    },
+    {
       "id": "Gryllotalpa_gryllotalpa",
       "scientificName": "Gryllotalpa gryllotalpa",
       "authority": "(Linnaeus, 1758)",
@@ -1276,6 +1367,83 @@
       }
     },
     {
+      "id": "Limnephilus_lunatus",
+      "scientificName": "Limnephilus lunatus",
+      "authority": "Curtis, 1834",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Trichoptera",
+        "family": "Limnephilidae",
+        "genus": "Limnephilus"
+      },
+      "names": {
+        "en": "Cinnamon Sedge",
+        "zh-Hans": "奇异沼石蛾",
+        "ca": "Limnephilus lunatus",
+        "nl": "Limnephilus lunatus",
+        "eo": "Limnephilus lunatus",
+        "fi": "kuuputkisirvikäs",
+        "fr": "Limnephilus lunatus",
+        "de": "Limnephilus lunatus",
+        "it": "Limnephilus lunatus",
+        "pl": "Limnephilus lunatus",
+        "ru": "Limnephilus lunatus",
+        "es": "Limnephilus lunatus",
+        "sv": "Limnephilus lunatus",
+        "uk": "Limnephilus lunatus",
+        "bg": "Limnephilus lunatus",
+        "ro": "Limnephilus lunatus"
+      },
+      "ids": {
+        "gbif": 1442474,
+        "wikidata": "Q2209374"
+      },
+      "range": {
+        "distribution": "欧洲"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Trichoptera/Limnephilidae/Limnephilus_lunatus.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 90,
+        "primaryReviewScore": 90,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "f17e9e6c564a2a2055e71691ddb902b600b3ac0807139eaf2b40d1ba6291a7ae",
+        "reference": {
+          "type": "photo",
+          "view": "dorsolateral",
+          "page": "https://commons.wikimedia.org/wiki/File:Trichoptera_Limnephilus_lunatus.jpg",
+          "author": "Mick Talbot",
+          "license": "CC BY 2.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Trichoptera_Limnephilus_lunatus.jpg",
+            "author": "Mick Talbot",
+            "license": "CC BY 2.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Limnephilus_lunatus_(Limnephilidae_sp.),_Arnhem,_the_Netherlands_-_2.jpg",
+            "author": "Bj.schoenmakers",
+            "license": "CC0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral wing and body detail",
+            "page": "https://commons.wikimedia.org/wiki/File:Limnephilus_lunatus_01.JPG",
+            "author": "Sanja565658",
+            "license": "CC BY-SA 3.0"
+          }
+        ]
+      }
+    },
+    {
       "id": "Mantis_religiosa",
       "scientificName": "Mantis religiosa",
       "authority": "(Linne, 1758)",
@@ -1379,6 +1547,85 @@
           "attempt": 1,
           "sourceSha256": "c67dd0b5fe5a1e264044f605ef5e3580f800fe14c4db979a745d6ca2925f0c53"
         }
+      }
+    },
+    {
+      "id": "Mantispa_styriaca",
+      "scientificName": "Mantispa styriaca",
+      "authority": "(Poda, 1761)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Neuroptera",
+        "family": "Mantispidae",
+        "genus": "Mantispa"
+      },
+      "names": {
+        "en": "Styrian praying lacewing",
+        "zh-Hans": "斯提利亚螳蛉",
+        "ca": "Mantispa styriaca",
+        "cs": "pakudlanka jižní",
+        "nl": "Mantispa styriaca",
+        "eo": "Mantispa styriaca",
+        "fi": "Mantispa styriaca",
+        "fr": "Mantispe commun",
+        "de": "Mantispa styriaca",
+        "it": "Mantispa styriaca",
+        "pl": "Mantispa styriaca",
+        "ru": "обыкновенная мантиспа",
+        "es": "Mantispa styriaca",
+        "sv": "Mantispa styriaca",
+        "uk": "Мантіспа штирійська",
+        "bg": "богомолкова мантиспа",
+        "hu": "kétszínű fogólábú-fátyolka",
+        "ro": "Mantispa styriaca"
+      },
+      "ids": {
+        "gbif": 2107724,
+        "wikidata": "Q1656577"
+      },
+      "range": {
+        "distribution": "欧洲"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Neuroptera/Mantispidae/Mantispa_styriaca.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 90,
+        "primaryReviewScore": 90,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "03159802d3914d0e6476e2ca4f3f81341255b0f11f99003cc6e37be99e709d64",
+        "reference": {
+          "type": "photo",
+          "view": "lateral",
+          "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(9566952168).jpg",
+          "author": "Gilles San Martin  from Namur, Belgium",
+          "license": "CC BY-SA 2.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(9566952168).jpg",
+            "author": "Gilles San Martin  from Namur, Belgium",
+            "license": "CC BY-SA 2.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral alternate",
+            "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca.jpg",
+            "author": "H. Dumas",
+            "license": "CC BY-SA 3.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral wing and leg detail",
+            "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(Mantispidae)_-_(imago),_Narbolia_(comuni),_Italy_-_5.jpg",
+            "author": "This image is created by user  B. Schoenmakers  at  Observation.org , a global biodiversity recording project.",
+            "license": "CC BY 3.0"
+          }
+        ]
       }
     },
     {
