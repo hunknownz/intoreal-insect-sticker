@@ -670,8 +670,11 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "pilot-ready",
+      "status": "published",
       "reviewProtocolVersion": 2,
+      "reviewScore": 95,
+      "primaryReviewScore": 85,
+      "sticker": "stickers/Orthoptera/Gryllotalpidae/Gryllotalpa_gryllotalpa.webp",
       "references": [
         {
           "role": "primary-pose",
@@ -1182,8 +1185,11 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "pilot-ready",
+      "status": "published",
       "reviewProtocolVersion": 2,
+      "reviewScore": 94,
+      "primaryReviewScore": 84,
+      "sticker": "stickers/Blattodea/Blattidae/Periplaneta_americana.webp",
       "references": [
         {
           "role": "primary-pose",
@@ -1520,8 +1526,9 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "pilot-ready",
+      "status": "blocked",
       "reviewProtocolVersion": 2,
+      "blockingReason": "三次 attempt 后足关节连接均未达到质量门槛；达到重画上限，不公开导出。",
       "references": [
         {
           "role": "primary-pose",

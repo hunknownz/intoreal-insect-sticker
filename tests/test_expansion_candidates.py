@@ -51,11 +51,12 @@ class ExpansionCandidateTests(unittest.TestCase):
                 self.assertIn(reference["imageReview"], {"pending", "approved"})
                 self.assertNotIn("localPath", reference)
 
-    def test_three_pilot_ready_candidates(self):
+    def test_pilot_batch_outcomes(self):
         pilots = [row for row in self.rows if row.get("pilot") is True]
         self.assertEqual(len(pilots), 3)
+        outcomes = {}
         for row in pilots:
-            self.assertEqual(row["status"], "pilot-ready")
+            outcomes[row["status"]] = outcomes.get(row["status"], 0) + 1
             self.assertEqual(row["reviewProtocolVersion"], 2)
             self.assertGreaterEqual(len(row["references"]), 2)
             self.assertEqual(sum(ref["role"] == "primary-pose" for ref in row["references"]), 1)
@@ -63,6 +64,15 @@ class ExpansionCandidateTests(unittest.TestCase):
                 self.assertEqual(reference["imageReview"], "approved")
                 self.assertEqual(reference["archive"], "local-only")
                 self.assertRegex(reference["sha256"], r"^[0-9a-f]{64}$")
+            if row["status"] == "published":
+                self.assertGreaterEqual(row["reviewScore"], 80)
+                self.assertGreaterEqual(row["primaryReviewScore"], 80)
+                self.assertTrue(row["sticker"].startswith("stickers/"))
+            else:
+                self.assertEqual(row["status"], "blocked")
+                self.assertNotIn("sticker", row)
+                self.assertTrue(row["blockingReason"])
+        self.assertEqual(outcomes, {"published": 2, "blocked": 1})
 
 
 if __name__ == "__main__":

@@ -997,6 +997,100 @@
       }
     },
     {
+      "id": "Gryllotalpa_gryllotalpa",
+      "scientificName": "Gryllotalpa gryllotalpa",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Orthoptera",
+        "family": "Gryllotalpidae",
+        "genus": "Gryllotalpa"
+      },
+      "names": {
+        "en": "European mole cricket",
+        "zh-Hans": "欧洲蝼蛄",
+        "ca": "grill talp europeu",
+        "hr": "Rovac podzemni",
+        "cs": "krtonožka obecná",
+        "da": "Gryllotalpa gryllotalpa",
+        "nl": "Veenmol",
+        "eo": "Talpa grilo",
+        "fi": "maamyyräsirkka",
+        "fr": "Courtilière",
+        "de": "Europäische Maulwurfsgrille",
+        "it": "Gryllotalpa gryllotalpa",
+        "lt": "Paprastasis kurklys",
+        "pl": "Turkuć podjadek",
+        "ru": "Обыкновенная медведка",
+        "sk": "Gryllotalpa gryllotalpa",
+        "es": "Gryllotalpa gryllotalpa",
+        "sv": "Mullvadssyrsa",
+        "tr": "Danaburnu",
+        "uk": "Вовчок звичайний",
+        "af": "Gryllotalpa gryllotalpa",
+        "ar": "حالوش البطاطا",
+        "bg": "попово прасе",
+        "et": "Kaerasori",
+        "he": "ערצב הגינה",
+        "hu": "lótücsök",
+        "is": "Gryllotalpa gryllotalpa",
+        "id": "Gryllotalpa gryllotalpa",
+        "lv": "Zemesvēzis",
+        "mk": "Ровец",
+        "fa": "آبدزدک",
+        "ro": "Gryllotalpa gryllotalpa",
+        "sl": "bramor"
+      },
+      "ids": {
+        "gbif": 1716128,
+        "wikidata": "Q476326"
+      },
+      "range": {
+        "distribution": "欧洲"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Orthoptera/Gryllotalpidae/Gryllotalpa_gryllotalpa.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 95,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "81ac41874ca818d2c8d6e4cca56a72ef6271553fcd246e0e84eed6e0686a42c1",
+        "reference": {
+          "type": "photo",
+          "view": "anterodorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_vorne-oben.jpg",
+          "author": "Eszter Kovács",
+          "license": "CC BY-SA 2.0 de"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "anterodorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_vorne-oben.jpg",
+            "author": "Eszter Kovács",
+            "license": "CC BY-SA 2.0 de"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_MHNT.jpg",
+            "author": "Didier Descouens",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "anterior head detail",
+            "page": "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_01.JPG",
+            "author": "H. Zell",
+            "license": "CC BY-SA 3.0"
+          }
+        ]
+      }
+    },
+    {
       "id": "Harmonia_axyridis",
       "scientificName": "Harmonia axyridis",
       "authority": "(Pallas, 1773)",
@@ -1554,6 +1648,94 @@
             "page": "https://commons.wikimedia.org/wiki/File:90%E6%9F%91%E6%A9%98%E9%B3%B3%E8%9D%B62(%E6%9D%8E%E6%A6%AE%E8%8A%B3%E6%94%9D)_(12943000884).jpg",
             "author": "Hsu Hong Lin",
             "license": "CC-BY-2.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Periplaneta_americana",
+      "scientificName": "Periplaneta americana",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Blattidae",
+        "genus": "Periplaneta"
+      },
+      "names": {
+        "en": "American Cockroach",
+        "zh-Hans": "美洲大蠊",
+        "ca": "panerola americana",
+        "cs": "šváb americký",
+        "nl": "Amerikaanse kakkerlak",
+        "eo": "Periplaneta americana",
+        "fi": "amerikantorakka",
+        "fr": "Blatte américaine",
+        "de": "Amerikanische Großschabe",
+        "it": "Periplaneta americana",
+        "ja": "ワモンゴキブリ",
+        "pl": "Przybyszka amerykańska",
+        "ru": "Таракан американский",
+        "es": "Periplaneta americana",
+        "sv": "Amerikansk kackerlacka",
+        "tr": "Amerikan hamam böceği",
+        "uk": "Periplaneta americana",
+        "ar": "صرصور أمريكي",
+        "bg": "Periplaneta americana",
+        "et": "ameerika prussakas",
+        "he": "תיקן אמריקני",
+        "hu": "amerikai csótány",
+        "id": "Kecoak amerika",
+        "ko": "이질바퀴",
+        "fa": "سوسک آمریکایی",
+        "ro": "Periplaneta americana",
+        "sl": "ameriški ščurek"
+      },
+      "ids": {
+        "gbif": 2000152,
+        "wikidata": "Q267996"
+      },
+      "range": {
+        "distribution": "全球"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Blattodea/Blattidae/Periplaneta_americana.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 94,
+        "primaryReviewScore": 84,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "c8ee35b1ae68bfa7b99b19b7580cf1bf1e547a05c6fdb80df881b074dc57d491",
+        "reference": {
+          "type": "photo",
+          "view": "dorsolateral",
+          "page": "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25859665686).jpg",
+          "author": "Insects Unlocked",
+          "license": "CC0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25859665686).jpg",
+            "author": "Insects Unlocked",
+            "license": "CC0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_Amerikanische_Grossschabe_2.jpg",
+            "author": "User  Preiselbeere  on  de.wikipedia",
+            "license": "CC BY-SA 2.0 de"
+          },
+          {
+            "type": "photo",
+            "view": "lateral alternate",
+            "page": "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25765232092).jpg",
+            "author": "Insects Unlocked",
+            "license": "CC0"
           }
         ]
       }

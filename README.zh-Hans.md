@@ -6,7 +6,7 @@
 
 [English](README.md) · **简体中文**
 
-首次公开发布包含 **7 个目、12 个科的 20 个已审核物种**。后续物种只有在通过同一套参考、生成、技术检查和独立审核流程后才会加入。当前数据使用 **46 个语言代码**，具体名称覆盖以 Wikidata 实际存在的标签为准。
+当前公开图鉴包含 **9 个目、14 个科的 22 个已审核物种**。后续物种只有在通过同一套参考、生成、技术检查和独立审核流程后才会加入。当前数据使用 **46 个语言代码**，具体名称覆盖以 Wikidata 实际存在的标签为准。
 
 **许可简述：** 贴纸和预览图可以用于任何用途，包括商用、复制、修改和再分发，**唯一的例外是提供与 IntoReal 竞争的昆虫识别或图鉴产品**。使用时注明 IntoReal-insect-sticker 并附仓库链接即可。项目整理的数据采用 MIT，第三方材料保留各自条款。详见 [LICENSE.md](LICENSE.md) 和 [NOTICE.md](NOTICE.md)。
 
@@ -23,6 +23,14 @@
 ### 瓢虫科 · *Coccinellidae* — 4 种
 
 ![瓢虫科](previews/families/coccinellidae.webp)
+
+### 蝼蛄科 · *Gryllotalpidae* — 1 种
+
+![蝼蛄科](previews/families/gryllotalpidae.webp)
+
+### 蜚蠊科 · *Blattidae* — 1 种
+
+![蜚蠊科](previews/families/blattidae.webp)
 
 ### 凤蝶科 · *Papilionidae* — 2 种
 
@@ -81,10 +89,10 @@
 | `data/species.csv` | 核心数据的表格展开版本 |
 | `data/names.csv` | 46 个语言代码的名称，包括地区变体 |
 | `data/languages.json` | 语言代码及来源 |
-| `data/field-guide.zh-Hans.json` | 20 个物种的中文形态、辨识和相似种说明，CC BY-SA 4.0 |
+| `data/field-guide.zh-Hans.json` | 22 个物种的中文形态、辨识和相似种说明，CC BY-SA 4.0 |
 | `data/candidates-20.json` | 首批正式候选，其中 3 个 blocked 项不进入公开贴纸库 |
 | `data/candidates-next.json` | 已完成生产的 3 个扩充物种 |
-| `data/candidates-expansion-30.json` | 6 目、6 个洲际采样区域的 30 种证据矩阵，其中 3 种已具备试点条件；其余候选尚未获准生图 |
+| `data/candidates-expansion-30.json` | 6 目、6 个洲际采样区域的 30 种证据矩阵，3 个试点中 2 种已发布、1 种保持 blocked；其余候选尚未获准生图 |
 | `previews/` | 首页、目级和科级标本图版 |
 | `scripts/` | Codex CLI 流水线、Issue worker、v2 任务包生成、元数据补充和预览渲染脚本 |
 | `tests/` | 任务校验、独立审核、技术重试、修订替换和 Issue 收尾的回归测试；运行 `python3 -m unittest discover -s tests -v` |
@@ -134,13 +142,13 @@
 
 ## 覆盖情况
 
-- **公开贴纸：** 7 个目、12 个科的 20 个物种。
+- **公开贴纸：** 9 个目、14 个科的 22 个物种。
 - **名称：** 46 个语言代码，使用 Wikidata 实际标签；缺失标签保持为空，不做机器翻译补全。
-- **标识：** 20 个物种均具有精确匹配的 GBIF 和 Wikidata ID，以及 GBIF 命名权威。
+- **标识：** 22 个物种均具有精确匹配的 GBIF 和 Wikidata ID，以及 GBIF 命名权威。
 - **保护状态：** 目前 6 个物种具有来自 Wikidata 的 IUCN LC 记录；没有声明的保护字段保持为空。
 - **形态数据：** 目前 3 个物种具有 Wikidata 翅展记录；其他没有证据的形态字段不作推断。
-- **中文图鉴：** 20 个物种的形态、辨识和相似种说明。
-- **Blocked 候选：** 黄蜻、丝光绿蝇和金环胡蜂因未达到质量标准，未进入公开贴纸数据集。
+- **中文图鉴：** 22 个物种的形态、辨识和相似种说明。
+- **Blocked 候选：** 黄蜻、丝光绿蝇、金环胡蜂和沙漠蝗因未达到质量标准，未进入公开贴纸数据集。
 
 首批候选不代表全球或地区完整性。后续物种也必须经过相同的生产和审核流程。
 

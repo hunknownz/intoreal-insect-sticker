@@ -1,7 +1,7 @@
 {
   "license": "CC BY-SA 4.0",
   "note": "中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核记录改写；basedOn 列出分类与主要形态依据。未核实的性别、精细结构、生态和保护状态不作推断。",
-  "count": 20,
+  "count": 22,
   "species": {
     "Aeshna_cyanea": {
       "impression": "深色长腹上具有成对蓝绿色斑点的伟蜓，胸部有黄绿色斑，四片膜质翅展开。",
@@ -91,6 +91,14 @@
       "range": "欧洲",
       "basedOn": ["https://www.gbif.org/species/7437802", "https://commons.wikimedia.org/wiki/File:2013-06-07_21-00-56-Graphosoma-italicum.JPG"]
     },
+    "Gryllotalpa_gryllotalpa": {
+      "impression": "褐色修长的蝼蛄，宽扁铲形挖掘前足、折叠覆翅和成对尾须明显，采用前背侧视角。",
+      "marks": ["两条前足宽扁并具掘土齿", "身体延长，前胸背板宽厚", "六条足分别可追踪", "腹端有两条独立尾须"],
+      "sexAge": "本任务以成虫形态为依据；性别、生殖细节、微小齿刺和隐藏结构不作认证。",
+      "similar": [{"sci": "Schistocerca gregaria", "zh": "沙漠蝗", "diff": "欧洲蝼蛄前足呈铲状，适于挖掘；沙漠蝗后足腿节发达，适于跳跃，不能混同。"}],
+      "range": "欧洲",
+      "basedOn": ["https://www.gbif.org/species/1716128", "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_vorne-oben.jpg"]
+    },
     "Harmonia_axyridis": {
       "impression": "色斑多变的瓢虫，前胸背板常见深色 M 形中央纹。",
       "marks": ["本任务采用有斑橙红色色型", "前胸背板有 M 形深色中央纹和浅色侧斑", "两片闭合鞘翅、六足和短触角"],
@@ -138,6 +146,14 @@
       "similar": [{"sci": "Danaus plexippus", "zh": "君主斑蝶", "diff": "柑橘凤蝶以黑白图案和尾突为主；君主斑蝶以橙色翅面和粗黑翅脉为主。"}],
       "range": "东亚",
       "basedOn": ["https://www.gbif.org/species/1937819", "https://commons.wikimedia.org/wiki/File:MZLU-00129145_dorsal_(51008259851).jpg"]
+    },
+    "Periplaneta_americana": {
+      "impression": "红褐色扁平的美洲大蠊，长丝状触角、胸背深浅斑纹和覆盖腹部的覆翅明显，采用背侧斜视。",
+      "marks": ["前胸背板浅缘与内部深色斑形成对比", "两根长丝状触角", "六条具刺步行足", "两根尾须和覆盖腹部的覆翅"],
+      "sexAge": "本任务以完整成虫为依据；不判定性别，精确跗节、尾须分节和隐藏结构不作认证。",
+      "similar": [{"sci": "Blattella germanica", "zh": "德国小蠊", "diff": "美洲大蠊体型较大，胸背板有浅缘与深色斑对比；德国小蠊较小，常见两条深色纵带。"}],
+      "range": "全球",
+      "basedOn": ["https://www.gbif.org/species/2000152", "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25859665686).jpg"]
     },
     "Pieris_rapae": {
       "impression": "翅面以白色为主，前翅有深色顶角斑和少量暗色斑点。",
