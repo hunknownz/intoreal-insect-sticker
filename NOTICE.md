@@ -16,7 +16,7 @@ GBIF 的标识、命名权威和 `taxonomy.system` 通过 GBIF species API 获�
 
 Multilingual common names in `data/names.csv` are drawn from Wikidata labels (CC0), using exact taxon matches verified through the P225 taxon-name statement. No machine-translated names are invented; missing labels remain blank.
 
-`data/names.csv` 中的多语言俗名来自 Wikidata 标签（CC0），并通过 P225 学名声明核对精确分类实体。不凭空生成机器翻译名，缺失标签保持为空。
+`data/names.csv` 中的 46 个语言代码的多语言俗名来自 Wikidata 标签（CC0），并通过 P225 学名声明核对精确分类实体。不凭空生成机器翻译名，缺失标签保持为空。
 
 ## Conservation and traits / 保护与形态生态
 
