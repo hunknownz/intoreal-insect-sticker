@@ -12,6 +12,8 @@
 | `languages.json` | 当前名称字段及来源 | MIT |
 | `field-guide.zh-Hans.json` | 20 个已发布物种的中文形态、辨识和相似种说明 | CC BY-SA 4.0；basedOn 记录分类与形态依据 |
 | `candidates-20.json` | 首批 20 种生产候选及参考元数据，不代表已通过审核 | 项目整理部分 MIT；参考照片保留各自许可 |
+| `candidates-next.json` | 已完成生产的 3 个扩充物种及参考元数据 | 项目整理部分 MIT；参考照片保留各自许可 |
+| `candidates-expansion-30.json` | 30 种证据矩阵，含分类、采样地区、参考视角、作者、许可与核验状态；只有 `pilot-ready` 可进入本批生产 | 项目整理部分 MIT；参考照片保留各自许可 |
 
 ## 贴纸路径
 

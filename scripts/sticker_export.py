@@ -58,10 +58,13 @@ def review_path(task_dir, stage, attempt):
 
 
 def candidate_distribution(scientific_name):
-    for filename in ("candidates-20.json", "candidates-next.json"):
-        for row in read_json(PROJECT_ROOT / "data" / filename)["candidates"]:
+    for filename in ("candidates-20.json", "candidates-next.json", "candidates-expansion-30.json"):
+        path = PROJECT_ROOT / "data" / filename
+        if not path.exists():
+            continue
+        for row in read_json(path)["candidates"]:
             if row["scientificName"] == scientific_name:
-                return row["distribution"]
+                return row.get("distribution", "")
     return ""
 
 
