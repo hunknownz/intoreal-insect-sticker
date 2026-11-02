@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+import argparse
+import csv
+import hashlib
+import json
+import sys
+from pathlib import Path
+from PIL import Image
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+COMMON_NAMES_EN = {
+    "Papilio xuthus": "Asian swallowtail",
+    "Actias selene": "Indian moon moth",
+    "Danaus plexippus": "Monarch",
+    "Vanessa cardui": "Painted lady",
+    "Coccinella septempunctata": "Seven-spot ladybird",
+    "Harmonia axyridis": "Harlequin ladybird",
+    "Carabus auratus": "Golden ground beetle",
+    "Coccinella undecimpunctata": "Eleven-spot ladybird",
+    "Pantala flavescens": "Wandering glider",
+    "Anax imperator": "Emperor dragonfly",
+    "Ischnura elegans": "Blue-tailed damselfly",
+    "Tenodera sinensis": "Chinese mantis",
+    "Mantis religiosa": "European mantis",
+    "Apis mellifera": "Western honey bee",
+    "Bombus terrestris": "Buff-tailed bumblebee",
+    "Vespa mandarinia": "Asian giant hornet",
+    "Nezara viridula": "Southern green stink bug",
+    "Graphosoma italicum": "Italian striped bug",
+    "Eristalis tenax": "Drone fly",
+    "Lucilia sericata": "Common green bottle fly",
+}
+
+
+def read_json(path):
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
+def write_json(path, value):
+    path = Path(path)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.replace(path)
+
+
+def sha256(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def review_path(task_dir, stage, attempt):
+    if stage == "primary":
+        return task_dir / ("primary-review.json" if attempt == 1 else f"primary-review-attempt-{attempt:02d}.json")
+    return task_dir / f"attempt-{attempt:02d}-blind-review.json"
+
+
+def candidate_distribution(scientific_name):
+    candidates = read_json(PROJECT_ROOT / "data/candidates-20.json")["candidates"]
+    for row in candidates:
+        if row["scientificName"] == scientific_name:
+            return row["distribution"]
+    return ""
+
+
+def public_reference(row):
+    return {key: row[key] for key in ("type", "view", "page", "author", "license") if key in row}
+
+
+def export_approved(task_dir):
+    task_dir = Path(task_dir).resolve()
+    task = read_json(task_dir / "task.json")
+    species = task["species"]
+    scientific_name = species["scientificName"]
+    attempt = task["attempt"]
+    candidate = task_dir / f"attempt-{attempt:02d}-sticker.png"
+    primary = read_json(review_path(task_dir, "primary", attempt))
+    blind = read_json(review_path(task_dir, "blind", attempt))
+    if primary.get("verdict") != "pass" or blind.get("verdict") != "pass":
+        raise ValueError("两级审核未全部通过，禁止导出")
+    if primary.get("score", 0) < 80 or blind.get("score", 0) < 80:
+        raise ValueError("审核分数低于质量门槛，禁止导出")
+    source_sha256 = sha256(candidate)
+    if blind.get("candidateHashCheck", {}).get("actual") != source_sha256:
+        raise ValueError("候选与盲审哈希不一致，禁止导出")
+
+    order = species["order"]
+    family = species["family"]
+    species_id = scientific_name.replace(" ", "_")
+    relative_sticker = Path("stickers") / order / family / f"{species_id}.webp"
+    target = PROJECT_ROOT / relative_sticker
+    data_path = PROJECT_ROOT / "data/species.json"
+    if target.exists():
+        dataset = read_json(data_path) if data_path.exists() else {"species": []}
+        existing = next((row for row in dataset["species"] if row["id"] == species_id), None)
+        if not existing or existing["sticker"].get("sourceSha256") != source_sha256:
+            raise ValueError(f"公开贴纸已存在且来源不同，拒绝覆盖: {target}")
+        return existing
+
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with Image.open(candidate) as image:
+        if image.mode != "RGBA" or max(image.size) != 1000:
+            raise ValueError("导出候选必须为长边1000px的RGBA图片")
+        temporary = target.with_suffix(".webp.tmp")
+        image.save(temporary, "WEBP", quality=92, method=6, exact=True)
+    with Image.open(temporary) as exported:
+        if exported.mode != "RGBA" or exported.size != image.size:
+            temporary.unlink()
+            raise ValueError("WebP 导出核验失败")
+    temporary.replace(target)
+
+    references = read_json(task_dir / "references.json")["references"]
+    record = {
+        "id": species_id,
+        "scientificName": scientific_name,
+        "authority": None,
+        "taxonomy": {
+            "system": None,
+            "order": order,
+            "family": family,
+            "genus": scientific_name.split()[0],
+        },
+        "names": {
+            "en": species.get("commonNameEn") or COMMON_NAMES_EN.get(scientific_name, scientific_name),
+            "zh-Hans": species["commonNameZhHans"],
+        },
+        "ids": {},
+        "range": {"distribution": candidate_distribution(scientific_name)},
+        "traits": {},
+        "conservation": {},
+        "sticker": {
+            "file": relative_sticker.as_posix(),
+            "kind": "ai-illustration",
+            "reviewScore": blind["score"],
+            "primaryReviewScore": primary["score"],
+            "meetsQualityBar": True,
+            "license": "PolyForm-Shield-1.0.0",
+            "sourceSha256": source_sha256,
+            "reference": public_reference(references[0]),
+            "references": [public_reference(row) for row in references],
+        },
+    }
+    dataset = read_json(data_path) if data_path.exists() else {"species": []}
+    dataset["species"] = [row for row in dataset["species"] if row["id"] != species_id]
+    dataset["species"].append(record)
+    dataset["species"].sort(key=lambda row: row["scientificName"])
+    write_json(data_path, dataset)
+    write_csv_exports(dataset["species"])
+    write_json(PROJECT_ROOT / "data/languages.json", [
+        {"code": "en", "source": "project metadata"},
+        {"code": "zh-Hans", "source": "project metadata"},
+    ])
+    return record
+
+
+def write_csv_exports(rows):
+    fieldnames = [
+        "id", "scientificName", "authority", "taxonomy_system", "order", "family", "genus", "name_en",
+        "name_zh-Hans", "distribution", "wikidata", "gbif", "sticker_file", "review_score",
+        "meets_quality_bar", "reference_page", "reference_author", "reference_license",
+    ]
+    path = PROJECT_ROOT / "data/species.csv"
+    temporary = path.with_suffix(".csv.tmp")
+    with temporary.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({
+                "id": row["id"],
+                "scientificName": row["scientificName"],
+                "authority": row.get("authority") or "",
+                "taxonomy_system": row["taxonomy"].get("system") or "",
+                "order": row["taxonomy"]["order"],
+                "family": row["taxonomy"]["family"],
+                "genus": row["taxonomy"]["genus"],
+                "name_en": row["names"]["en"],
+                "name_zh-Hans": row["names"]["zh-Hans"],
+                "distribution": row["range"]["distribution"],
+                "wikidata": row["ids"].get("wikidata", ""),
+                "gbif": row["ids"].get("gbif", ""),
+                "sticker_file": row["sticker"]["file"],
+                "review_score": row["sticker"]["reviewScore"],
+                "meets_quality_bar": str(row["sticker"]["meetsQualityBar"]).lower(),
+                "reference_page": row["sticker"]["reference"].get("page", ""),
+                "reference_author": row["sticker"]["reference"].get("author", ""),
+                "reference_license": row["sticker"]["reference"].get("license", ""),
+            })
+    temporary.replace(path)
+    path = PROJECT_ROOT / "data/names.csv"
+    temporary = path.with_suffix(".csv.tmp")
+    with temporary.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["id", "scientificName", "en", "zh-Hans"])
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({"id": row["id"], "scientificName": row["scientificName"], "en": row["names"]["en"], "zh-Hans": row["names"]["zh-Hans"]})
+    temporary.replace(path)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Export an approved formal insect task to the public bird-sticker-compatible layout.")
+    parser.add_argument("task_dirs", nargs="+")
+    args = parser.parse_args()
+    try:
+        records = [export_approved(path) for path in args.task_dirs]
+        result = {"ok": True, "exported": [row["sticker"]["file"] for row in records]}
+    except Exception as exc:
+        result = {"ok": False, "error": str(exc)}
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    return 0 if result["ok"] else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

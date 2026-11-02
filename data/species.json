@@ -1,0 +1,1071 @@
+{
+  "species": [
+    {
+      "id": "Actias_selene",
+      "scientificName": "Actias selene",
+      "authority": "Hübner, 1806",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Saturniidae",
+        "genus": "Actias"
+      },
+      "names": {
+        "en": "Indian moon moth",
+        "zh-Hans": "绿尾大蚕蛾"
+      },
+      "ids": {
+        "wikidata": "Q135316",
+        "gbif": 1865660
+      },
+      "range": {
+        "distribution": "南亚及东南亚"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Lepidoptera/Saturniidae/Actias_selene.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 95,
+        "primaryReviewScore": 89,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "a99d0a0b30bee535bc3ee90a15377d2df6e8213297ba4e31b17d19d41b4415f4",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Actias_luna.jpg",
+          "author": "Dinesh P Pawar",
+          "license": "CC-BY-SA-3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Actias_luna.jpg",
+            "author": "Dinesh P Pawar",
+            "license": "CC-BY-SA-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Actias_selene_(Indian_Luna_Moth)_(3915496724).jpg",
+            "author": "Dinesh Valke",
+            "license": "CC-BY-SA-2.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsolateral alternate",
+            "page": "https://commons.wikimedia.org/wiki/File:Actias_selene_(Indian_Moon_Moth)_(14695250701).jpg",
+            "author": "Dinesh Valke",
+            "license": "CC-BY-SA-2.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Anax_imperator",
+      "scientificName": "Anax imperator",
+      "authority": "Leach, 1815",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Odonata",
+        "family": "Aeshnidae",
+        "genus": "Anax"
+      },
+      "names": {
+        "en": "Emperor dragonfly",
+        "zh-Hans": "帝王伟蜓"
+      },
+      "ids": {
+        "gbif": 5051775
+      },
+      "range": {
+        "distribution": "欧洲、北非及西亚"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Odonata/Aeshnidae/Anax_imperator.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 90,
+        "primaryReviewScore": 90,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "1309b09c33c895794383dc51cd901c1e6bb97305aa6d23e690a03e785c78984c",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Anax_imperator_qtl2.jpg",
+          "author": "Quartl",
+          "license": "CC-BY-3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Anax_imperator_qtl2.jpg",
+            "author": "Quartl",
+            "license": "CC-BY-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:A.imperator_M.JPG",
+            "author": "Protallagma",
+            "license": "CC-BY-SA-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Emperor_dragonfly_(Anax_imperator)_male_2.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Apis_mellifera",
+      "scientificName": "Apis mellifera",
+      "authority": "Linnaeus, 1758",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Hymenoptera",
+        "family": "Apidae",
+        "genus": "Apis"
+      },
+      "names": {
+        "en": "Western honey bee",
+        "zh-Hans": "西方蜜蜂"
+      },
+      "ids": {
+        "wikidata": "Q30034",
+        "gbif": 1341976
+      },
+      "range": {
+        "distribution": "全球养殖"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Hymenoptera/Apidae/Apis_mellifera.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 80,
+        "primaryReviewScore": 80,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "0e685915117192047b63d9c5509e69fddda793daeae5a7bf907388f63768c637",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_feeding_on_Dandelion.jpg",
+          "author": "Mr. Lvíčátko",
+          "license": "CC-BY-4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_feeding_on_Dandelion.jpg",
+            "author": "Mr. Lvíčátko",
+            "license": "CC-BY-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal specimen",
+            "page": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_F_(13632828544).jpg",
+            "author": "maxson.erin",
+            "license": "CC-BY-2.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:2011-06-28-apis.jpg",
+            "author": "Thomas Bresson",
+            "license": "CC-BY-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Bombus_terrestris",
+      "scientificName": "Bombus terrestris",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Hymenoptera",
+        "family": "Apidae",
+        "genus": "Bombus"
+      },
+      "names": {
+        "en": "Buff-tailed bumblebee",
+        "zh-Hans": "欧洲熊蜂"
+      },
+      "ids": {
+        "wikidata": "Q752274",
+        "gbif": 1340503
+      },
+      "range": {
+        "distribution": "欧洲及多地引入地"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Hymenoptera/Apidae/Bombus_terrestris.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 81,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "ac349bd80928c1bc18139dd3ca2e94d9f76e30d92a50aeae03f1493277feea26",
+        "reference": {
+          "type": "photo",
+          "view": "dorsolateral",
+          "page": "https://commons.wikimedia.org/wiki/File:2010-03-16_(3)_Erdhummel,_Buff-tailes_bumblebee,_Bombus_terrestris.JPG",
+          "author": "Vera Buhl",
+          "license": "CC-BY-SA-3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:2010-03-16_(3)_Erdhummel,_Buff-tailes_bumblebee,_Bombus_terrestris.JPG",
+            "author": "Vera Buhl",
+            "license": "CC-BY-SA-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:2010-03-24_(53)_Erdhummel,_Buff-tailes_bumblebee,_Bombus_terrestris.JPG",
+            "author": "Vera Buhl",
+            "license": "CC-BY-SA-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Abellon_-_Abejorro_-_Bumblebee_-_Bombus_Terrestris_-_01.jpg",
+            "author": "Xosema",
+            "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Carabus_auratus",
+      "scientificName": "Carabus auratus",
+      "authority": "Linnaeus, 1760",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Coleoptera",
+        "family": "Carabidae",
+        "genus": "Carabus"
+      },
+      "names": {
+        "en": "Golden ground beetle",
+        "zh-Hans": "金步甲"
+      },
+      "ids": {
+        "wikidata": "Q1535889",
+        "gbif": 1036779
+      },
+      "range": {
+        "distribution": "欧洲"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Coleoptera/Carabidae/Carabus_auratus.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 81,
+        "primaryReviewScore": 81,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "5c8b19840ed4275e2d37140cf56fe91954c3edbbbb3902382aa0f8e0a788323e",
+        "reference": {
+          "type": "photo",
+          "view": "dorsolateral specimen",
+          "page": "https://commons.wikimedia.org/wiki/File:2Entomologick%C3%A1_podsb%C3%ADrka._St%C5%99evl%C3%ADk_zlat%C3%BD_(Carabus_auratus),_datum_sb%C4%9Bru_7.6.1983,_N%C4%9Bmecko,_Beiersdorf.jpg",
+          "author": "Muzeumzlin",
+          "license": "CC-BY-3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsolateral specimen",
+            "page": "https://commons.wikimedia.org/wiki/File:2Entomologick%C3%A1_podsb%C3%ADrka._St%C5%99evl%C3%ADk_zlat%C3%BD_(Carabus_auratus),_datum_sb%C4%9Bru_7.6.1983,_N%C4%9Bmecko,_Beiersdorf.jpg",
+            "author": "Muzeumzlin",
+            "license": "CC-BY-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Biegacz_z%C5%82ocisty.jpg",
+            "author": "Maarek75",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Carabe_dor%C3%A9_dos.jpg",
+            "author": "Didier Descouens",
+            "license": "CC-BY-SA-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Coccinella_septempunctata",
+      "scientificName": "Coccinella septempunctata",
+      "authority": "Linnaeus, 1758",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Coleoptera",
+        "family": "Coccinellidae",
+        "genus": "Coccinella"
+      },
+      "names": {
+        "en": "Seven-spot ladybird",
+        "zh-Hans": "七星瓢虫"
+      },
+      "ids": {
+        "wikidata": "Q159543",
+        "gbif": 4990191
+      },
+      "range": {
+        "distribution": "欧亚及北美引入地"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Coleoptera/Coccinellidae/Coccinella_septempunctata.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 92,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "a5e2233f47d840b6f94402b8a9cb572b8f572fa007df41a0f6d27725587e141e",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal-anterior",
+          "page": "https://commons.wikimedia.org/wiki/File:7-spot_ladybird_(FG)_(13506236664).jpg",
+          "author": "David Short from Windsor, UK",
+          "license": "CC-BY-2.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal-anterior",
+            "page": "https://commons.wikimedia.org/wiki/File:7-spot_ladybird_(FG)_(13506236664).jpg",
+            "author": "David Short from Windsor, UK",
+            "license": "CC-BY-2.0"
+          },
+          {
+            "type": "local-reference-crop",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Coccinella_septempunctata_(10.3897-BDJ.12.e137417)_Figure_5.jpg",
+            "author": "Iqbal et al. (2024)",
+            "license": "CC-BY-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "anterolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Ladybird_coccinella_septempunctata.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC-BY-SA-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Coccinella_undecimpunctata",
+      "scientificName": "Coccinella undecimpunctata",
+      "authority": "Linnaeus, 1758",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Coleoptera",
+        "family": "Coccinellidae",
+        "genus": "Coccinella"
+      },
+      "names": {
+        "en": "Eleven-spot ladybird",
+        "zh-Hans": "十一星瓢虫"
+      },
+      "ids": {
+        "wikidata": "Q1328595",
+        "gbif": 4990195
+      },
+      "range": {
+        "distribution": "欧洲、北非及西亚，并引入北美"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Coleoptera/Coccinellidae/Coccinella_undecimpunctata.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 80,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "b8ed684562a980405e4e57123e526c9231c07239f993d1b35fa2b091cb5e9b5f",
+        "reference": {
+          "type": "photo",
+          "view": "anterolateral",
+          "page": "https://commons.wikimedia.org/wiki/File:20140413_125205_4660M.JPG",
+          "author": "Gilles San Martin",
+          "license": "CC-BY-SA-3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "anterolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:20140413_125205_4660M.JPG",
+            "author": "Gilles San Martin",
+            "license": "CC-BY-SA-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal-anterior",
+            "page": "https://commons.wikimedia.org/wiki/File:Coccinella_(Spilota)_undecimpunctata_(11-spot_ladybird)_-_Flickr_-_S._Rae_(1).jpg",
+            "author": "S. Rae from Scotland, UK",
+            "license": "CC-BY-2.0"
+          },
+          {
+            "type": "local-reference-crop",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Coccinella_undecimpunctata_(10.3897-BDJ.12.e137417)_Figure_7.jpg",
+            "author": "Iqbal et al. (2024)",
+            "license": "CC-BY-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Danaus_plexippus",
+      "scientificName": "Danaus plexippus",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Nymphalidae",
+        "genus": "Danaus"
+      },
+      "names": {
+        "en": "Monarch",
+        "zh-Hans": "君主斑蝶"
+      },
+      "ids": {
+        "wikidata": "Q212398",
+        "gbif": 5133088
+      },
+      "range": {
+        "distribution": "美洲及引入地"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Lepidoptera/Nymphalidae/Danaus_plexippus.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "82b491fd0dfa96fc379e00efa19efd797d7cf7ebabc489a66e8fc93499d14900",
+        "reference": {
+          "type": "photo",
+          "view": "dorsolateral",
+          "page": "https://commons.wikimedia.org/wiki/File:%22Wait_for_the_moment_-_I_have_to_draw_you!%22_(3444024257).jpg",
+          "author": "Tatters ✾",
+          "license": "CC-BY-2.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:%22Wait_for_the_moment_-_I_have_to_draw_you!%22_(3444024257).jpg",
+            "author": "Tatters ✾",
+            "license": "CC-BY-2.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Alight_(15451540860).jpg",
+            "author": "Christopher Michel",
+            "license": "CC-BY-2.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsolateral alternate",
+            "page": "https://commons.wikimedia.org/wiki/File:At_Mariposario_del_Drago_2022_019.jpg",
+            "author": "Mike Peel",
+            "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Eristalis_tenax",
+      "scientificName": "Eristalis tenax",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Syrphidae",
+        "genus": "Eristalis"
+      },
+      "names": {
+        "en": "Drone fly",
+        "zh-Hans": "长尾管蚜蝇"
+      },
+      "ids": {
+        "wikidata": "Q1048880",
+        "gbif": 1541217
+      },
+      "range": {
+        "distribution": "欧洲及北美引入地"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Diptera/Syrphidae/Eristalis_tenax.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 96,
+        "primaryReviewScore": 96,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "be5909a2ff3537927328f74fbfdcb0b22753abacb928125c53e49df9ba8ac71a",
+        "reference": {
+          "type": "photo",
+          "view": "dorsolateral",
+          "page": "https://commons.wikimedia.org/wiki/File:Common_drone_fly_(Eristalis_tenax)_(47995559276).jpg",
+          "author": "Lukas Large",
+          "license": "CC-BY-SA-2.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Common_drone_fly_(Eristalis_tenax)_(47995559276).jpg",
+            "author": "Lukas Large",
+            "license": "CC-BY-SA-2.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Common_Drone_Fly_(Eristalis_tenax)_-_Stavanger,_Norway_2021-08-03.jpg",
+            "author": "Ryan Hodnett",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal specimen",
+            "page": "https://commons.wikimedia.org/wiki/File:Eristalis_tenax_(10.3897-BDJ.10.e78518)_Figure_25a.jpg",
+            "author": "Rego et al. (2022)",
+            "license": "CC-BY-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Graphosoma_italicum",
+      "scientificName": "Graphosoma italicum",
+      "authority": "(O.F.Müller, 1766)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Hemiptera",
+        "family": "Pentatomidae",
+        "genus": "Graphosoma"
+      },
+      "names": {
+        "en": "Italian striped bug",
+        "zh-Hans": "意大利条蝽"
+      },
+      "ids": {
+        "wikidata": "Q56085742",
+        "gbif": 7437802
+      },
+      "range": {
+        "distribution": "欧洲"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Hemiptera/Pentatomidae/Graphosoma_italicum.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 90,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "0f5a169ae0b6a50498dad6083db1d05179371625465b6865ddfd4ec943454b88",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:2013-06-07_21-00-56-Graphosoma-italicum.JPG",
+          "author": "Thomas Bresson",
+          "license": "CC-BY-3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:2013-06-07_21-00-56-Graphosoma-italicum.JPG",
+            "author": "Thomas Bresson",
+            "license": "CC-BY-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:1024_Streifenwanze-2348.jpg",
+            "author": "Hedwig Storch",
+            "license": "CC-BY-SA-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "ventrolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:2013-06-07_21-02-04-Graphosoma-italicum.JPG",
+            "author": "Thomas Bresson",
+            "license": "CC-BY-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Harmonia_axyridis",
+      "scientificName": "Harmonia axyridis",
+      "authority": "(Pallas, 1773)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Coleoptera",
+        "family": "Coccinellidae",
+        "genus": "Harmonia"
+      },
+      "names": {
+        "en": "Harlequin ladybird",
+        "zh-Hans": "异色瓢虫"
+      },
+      "ids": {
+        "gbif": 4989904
+      },
+      "range": {
+        "distribution": "亚洲原产并广泛引入"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Coleoptera/Coccinellidae/Harmonia_axyridis.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 82,
+        "primaryReviewScore": 82,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "95aef97ce384bdaf3dc34bda7ac4a1e1116d8b70afebd4212b5341f86e29ab95",
+        "reference": {
+          "type": "photo",
+          "view": "dorsolateral",
+          "page": "https://commons.wikimedia.org/wiki/File:002_2012_06_12_Insekten.jpg",
+          "author": "Friedrich Haag",
+          "license": "CC-BY-SA-4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:002_2012_06_12_Insekten.jpg",
+            "author": "Friedrich Haag",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "anterior",
+            "page": "https://commons.wikimedia.org/wiki/File:Animal-luck-insect-beetle_(23698499414).jpg",
+            "author": "www.Pixel.la Free Stock Photos",
+            "license": "CC0"
+          },
+          {
+            "type": "local-reference-crop",
+            "view": "dorsal specimen figure 12",
+            "page": "https://commons.wikimedia.org/wiki/File:Harmonia_axyridis_(10.3897-zoologia.38.e64154)_Figures_12%E2%80%9317.jpg",
+            "author": "Celli NGR, Almeida LM, Basílio DS, Castro CF (2021)",
+            "license": "CC-BY-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ischnura_elegans",
+      "scientificName": "Ischnura elegans",
+      "authority": "(Vander Linden, 1820)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Odonata",
+        "family": "Coenagrionidae",
+        "genus": "Ischnura"
+      },
+      "names": {
+        "en": "Blue-tailed damselfly",
+        "zh-Hans": "蓝尾豆娘"
+      },
+      "ids": {
+        "gbif": 1423395
+      },
+      "range": {
+        "distribution": "欧洲、北非及西亚"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Odonata/Coenagrionidae/Ischnura_elegans.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "7cc7f2dece823b882422dc99c4f844c81c80432928732e9219bd8b22b58f235d",
+        "reference": {
+          "type": "photo",
+          "view": "dorsolateral",
+          "page": "https://commons.wikimedia.org/wiki/File:%27C_type%27_immature_female_Ischnura_elegans_(48600333716).jpg",
+          "author": "gailhampshire",
+          "license": "CC-BY-2.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:%27C_type%27_immature_female_Ischnura_elegans_(48600333716).jpg",
+            "author": "gailhampshire",
+            "license": "CC-BY-2.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:%27C_type%27_immature_female_Ischnura_elegans_(48600334051).jpg",
+            "author": "gailhampshire",
+            "license": "CC-BY-2.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral anatomy",
+            "page": "https://commons.wikimedia.org/wiki/File:124_Ischnura_elegans_copy.jpg",
+            "author": "Anna N Chapman",
+            "license": "CC0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mantis_religiosa",
+      "scientificName": "Mantis religiosa",
+      "authority": "(Linne, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Mantodea",
+        "family": "Mantidae",
+        "genus": "Mantis"
+      },
+      "names": {
+        "en": "European mantis",
+        "zh-Hans": "欧洲螳螂"
+      },
+      "ids": {
+        "gbif": 6258028
+      },
+      "range": {
+        "distribution": "欧洲、非洲、亚洲及北美引入地"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Mantodea/Mantidae/Mantis_religiosa.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 91,
+        "primaryReviewScore": 82,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "c67dd0b5fe5a1e264044f605ef5e3580f800fe14c4db979a745d6ca2925f0c53",
+        "reference": {
+          "type": "photo",
+          "view": "anterolateral full body",
+          "page": "https://commons.wikimedia.org/wiki/File:18-05-2017_European_mantis,_Paderne.jpg",
+          "author": "Kolforn",
+          "license": "CC-BY-SA-4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "anterolateral full body",
+            "page": "https://commons.wikimedia.org/wiki/File:18-05-2017_European_mantis,_Paderne.jpg",
+            "author": "Kolforn",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "anterior head and forelegs",
+            "page": "https://commons.wikimedia.org/wiki/File:04_Modliszka_w_Polsce.jpg",
+            "author": "Marek Ślusarczyk",
+            "license": "CC-BY-3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:2004-08-21~16-29-18_6811_-_panoramio.jpg",
+            "author": "Marián Hubinský",
+            "license": "CC-BY-SA-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nezara_viridula",
+      "scientificName": "Nezara viridula",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Hemiptera",
+        "family": "Pentatomidae",
+        "genus": "Nezara"
+      },
+      "names": {
+        "en": "Southern green stink bug",
+        "zh-Hans": "稻绿蝽"
+      },
+      "ids": {
+        "wikidata": "Q600498",
+        "gbif": 2078852
+      },
+      "range": {
+        "distribution": "全球广布"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Hemiptera/Pentatomidae/Nezara_viridula.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "3026ad2f76763be4d6561c4e029aaaf7d71ca91fe7e7fe5f381c93ae0e2fb387",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:30-07-2017_Southern_green_shield_bug,_(Nezara_viridula),_Albufeira_(2).JPG",
+          "author": "Kolforn",
+          "license": "CC-BY-SA-4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:30-07-2017_Southern_green_shield_bug,_(Nezara_viridula),_Albufeira_(2).JPG",
+            "author": "Kolforn",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal-oblique",
+            "page": "https://commons.wikimedia.org/wiki/File:30-07-2017_Southern_green_shield_bug,_(Nezara_viridula),_Albufeira_(1).JPG",
+            "author": "Kolforn",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:20230519_Nezara_viridula.jpg",
+            "author": "Gb89.2",
+            "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Papilio_xuthus",
+      "scientificName": "Papilio xuthus",
+      "authority": "Linnaeus, 1767",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Papilionidae",
+        "genus": "Papilio"
+      },
+      "names": {
+        "en": "Asian swallowtail",
+        "zh-Hans": "柑橘凤蝶"
+      },
+      "ids": {
+        "wikidata": "Q132092",
+        "gbif": 1937819
+      },
+      "range": {
+        "distribution": "东亚"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Lepidoptera/Papilionidae/Papilio_xuthus.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 95,
+        "primaryReviewScore": 90,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "6dabf3a7e70c0fd222be89f81d904143d3439c31c2c0a5e462249bf18391551a",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal specimen",
+          "page": "https://commons.wikimedia.org/wiki/File:MZLU-00129145_dorsal_(51008259851).jpg",
+          "author": "NSG group from Lund, Sweden",
+          "license": "CC0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal specimen",
+            "page": "https://commons.wikimedia.org/wiki/File:MZLU-00129145_dorsal_(51008259851).jpg",
+            "author": "NSG group from Lund, Sweden",
+            "license": "CC0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:90%E6%9F%91%E6%A9%98%E9%B3%B3%E8%9D%B61(%E9%83%AD%E6%9C%88%E7%A7%80%E6%94%9D)_(18423001103).jpg",
+            "author": "Hsu Hong Lin",
+            "license": "CC-BY-2.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:90%E6%9F%91%E6%A9%98%E9%B3%B3%E8%9D%B62(%E6%9D%8E%E6%A6%AE%E8%8A%B3%E6%94%9D)_(12943000884).jpg",
+            "author": "Hsu Hong Lin",
+            "license": "CC-BY-2.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tenodera_sinensis",
+      "scientificName": "Tenodera sinensis",
+      "authority": "Saussure, 1871",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Mantodea",
+        "family": "Mantidae",
+        "genus": "Tenodera"
+      },
+      "names": {
+        "en": "Chinese mantis",
+        "zh-Hans": "中华大刀螳"
+      },
+      "ids": {
+        "wikidata": "Q1149167",
+        "gbif": 5887934
+      },
+      "range": {
+        "distribution": "东亚及北美引入地"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Mantodea/Mantidae/Tenodera_sinensis.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 91,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "0a9a0abf3bbd429695ae0d75f3e5689919ad00ac572f39d7457d06a6ee589622",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal-three-quarter",
+          "page": "https://commons.wikimedia.org/wiki/File:Tenodera_sinensis_01.jpg",
+          "author": "Kaldari",
+          "license": "CC0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal-three-quarter",
+            "page": "https://commons.wikimedia.org/wiki/File:Tenodera_sinensis_01.jpg",
+            "author": "Kaldari",
+            "license": "CC0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:2015-08-07_22_40_32_Praying_Mantis_on_an_Araucaria_houseplant_along_Tranquility_Court_in_the_Franklin_Farm_section_of_Oak_Hill,_Virginia.jpg",
+            "author": "Famartin",
+            "license": "CC-BY-SA-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Adult_female_Tenodera_sinensis_on_arm.JPG",
+            "author": "Happy1892",
+            "license": "CC-BY-SA-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vanessa_cardui",
+      "scientificName": "Vanessa cardui",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Nymphalidae",
+        "genus": "Vanessa"
+      },
+      "names": {
+        "en": "Painted lady",
+        "zh-Hans": "小红蛱蝶"
+      },
+      "ids": {
+        "wikidata": "Q158603",
+        "gbif": 4299368
+      },
+      "range": {
+        "distribution": "全球广布"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Lepidoptera/Nymphalidae/Vanessa_cardui.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "e1ac0e3c2a7864951599f968e4a179cf152bffa7799b18582f234f64bcc41068",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:20220709_Vanessa_cardui_04.jpg",
+          "author": "Flocci Nivis",
+          "license": "CC-BY-4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:20220709_Vanessa_cardui_04.jpg",
+            "author": "Flocci Nivis",
+            "license": "CC-BY-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsolateral",
+            "page": "https://commons.wikimedia.org/wiki/File:2026-05-09_Vanessa_cardui_in_Atouguia_da_Baleia_1.jpg",
+            "author": "Alexkom000",
+            "license": "CC-BY-4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal alternate",
+            "page": "https://commons.wikimedia.org/wiki/File:2026-05-09_Vanessa_cardui_in_Atouguia_da_Baleia_2.jpg",
+            "author": "Alexkom000",
+            "license": "CC-BY-4.0"
+          }
+        ]
+      }
+    }
+  ]
+}

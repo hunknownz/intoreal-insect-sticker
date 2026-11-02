@@ -1,0 +1,22 @@
+# Original reference photographs are local working assets only.
+/reference-library/
+**/references/
+spikes/**/reference-*.jpg
+spikes/**/reference-*.jpeg
+spikes/**/reference-*.png
+spikes/**/reference-*.webp
+spikes/**/reference-*.tif
+spikes/**/reference-*.tiff
+
+# Local-only clones, work records and agent state
+/reference/
+/production/
+/spikes/
+/docs/superpowers/
+/AGENTS.md
+/.release/
+/remote-intoreal-insect-sticker/
+
+__pycache__/
+*.pyc
+.DS_Store
