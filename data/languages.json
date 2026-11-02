@@ -6,5 +6,37 @@
   {
     "code": "zh-Hans",
     "source": "project metadata"
+  },
+  {
+    "code": "zh-Hant",
+    "source": "Wikidata labels (CC0)"
+  },
+  {
+    "code": "ja",
+    "source": "Wikidata labels (CC0)"
+  },
+  {
+    "code": "fr",
+    "source": "Wikidata labels (CC0)"
+  },
+  {
+    "code": "de",
+    "source": "Wikidata labels (CC0)"
+  },
+  {
+    "code": "es",
+    "source": "Wikidata labels (CC0)"
+  },
+  {
+    "code": "pt",
+    "source": "Wikidata labels (CC0)"
+  },
+  {
+    "code": "ru",
+    "source": "Wikidata labels (CC0)"
+  },
+  {
+    "code": "it",
+    "source": "Wikidata labels (CC0)"
   }
 ]

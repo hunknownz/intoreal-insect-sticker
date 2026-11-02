@@ -1,18 +1,18 @@
-id,scientificName,en,zh-Hans
-Actias_selene,Actias selene,Indian moon moth,绿尾大蚕蛾
-Anax_imperator,Anax imperator,Emperor dragonfly,帝王伟蜓
-Apis_mellifera,Apis mellifera,Western honey bee,西方蜜蜂
-Bombus_terrestris,Bombus terrestris,Buff-tailed bumblebee,欧洲熊蜂
-Carabus_auratus,Carabus auratus,Golden ground beetle,金步甲
-Coccinella_septempunctata,Coccinella septempunctata,Seven-spot ladybird,七星瓢虫
-Coccinella_undecimpunctata,Coccinella undecimpunctata,Eleven-spot ladybird,十一星瓢虫
-Danaus_plexippus,Danaus plexippus,Monarch,君主斑蝶
-Eristalis_tenax,Eristalis tenax,Drone fly,长尾管蚜蝇
-Graphosoma_italicum,Graphosoma italicum,Italian striped bug,意大利条蝽
-Harmonia_axyridis,Harmonia axyridis,Harlequin ladybird,异色瓢虫
-Ischnura_elegans,Ischnura elegans,Blue-tailed damselfly,蓝尾豆娘
-Mantis_religiosa,Mantis religiosa,European mantis,欧洲螳螂
-Nezara_viridula,Nezara viridula,Southern green stink bug,稻绿蝽
-Papilio_xuthus,Papilio xuthus,Asian swallowtail,柑橘凤蝶
-Tenodera_sinensis,Tenodera sinensis,Chinese mantis,中华大刀螳
-Vanessa_cardui,Vanessa cardui,Painted lady,小红蛱蝶
+id,scientificName,en,zh-Hans,zh-Hant,ja,fr,de,es,pt,ru,it
+Actias_selene,Actias selene,Indian moon moth,绿尾大蚕蛾,,ネッタイオナガミズアオ,Actias selene,Actias selene,Actias selene,Actias selene,Actias selene,Actias selene
+Anax_imperator,Anax imperator,Emperor dragonfly,帝王伟蜓,,コウテイギンヤンマ,Anax empereur,Große Königslibelle,,,Дозорщик-император,
+Apis_mellifera,Apis mellifera,Western honey bee,西方蜜蜂,,セイヨウミツバチ,Apis mellifera,Westliche Honigbiene,Apis mellifera,Abelha-europeia,медоносная пчела,Apis mellifera
+Bombus_terrestris,Bombus terrestris,Buff-tailed bumblebee,欧洲熊蜂,,セイヨウオオマルハナバチ,Bourdon terrestre,Dunkle Erdhummel,Abejorro común,,Шмель земляной,
+Carabus_auratus,Carabus auratus,Golden ground beetle,金步甲,,,Carabus auratus,Goldlaufkäfer,Carabus auratus,Carabus auratus,Жужелица золотистая,Carabus auratus
+Coccinella_septempunctata,Coccinella septempunctata,Seven-spot ladybird,七星瓢虫,,ナナホシテントウ,Coccinella septempunctata,Siebenpunkt-Marienkäfer,Coccinella septempunctata,Coccinella septempunctata,Семиточечная коровка,Coccinella septempunctata
+Coccinella_undecimpunctata,Coccinella undecimpunctata,Eleven-spot ladybird,十一星瓢虫,,,Coccinella undecimpunctata,Elfpunkt-Marienkäfer,Coccinella undecimpunctata,Coccinella undecimpunctata,Coccinella undecimpunctata,Coccinella undecimpunctata
+Danaus_plexippus,Danaus plexippus,Monarch,君主斑蝶,,オオカバマダラ,monarque (papillon),Monarchfalter,Danaus plexippus,Borboleta-monarca,Данаида монарх,Danaus plexippus
+Eristalis_tenax,Eristalis tenax,Drone fly,长尾管蚜蝇,,ハナアブ,Éristale gluante,Mistbiene,Eristalis tenax,Eristalis tenax,Ильница цепкая,Eristalis tenax
+Graphosoma_italicum,Graphosoma italicum,Italian striped bug,意大利条蝽,,,Graphosome d'Italie,Graphosoma italicum,Graphosoma italicum,Graphosoma italicum,Graphosoma italicum,Graphosoma italicum
+Harmonia_axyridis,Harmonia axyridis,Harlequin ladybird,异色瓢虫,,ナミテントウ,Coccinelle asiatique,Asiatischer Marienkäfer,Harmonia axyridis,Joaninha-asiática,Harmonia axyridis,Harmonia axyridis
+Ischnura_elegans,Ischnura elegans,Blue-tailed damselfly,蓝尾豆娘,,,Agrion élégant,Große Pechlibelle,Ischnura elegans,Ischnura elegans,Ischnura elegans,Ischnura elegans
+Mantis_religiosa,Mantis religiosa,European mantis,欧洲螳螂,,ウスバカマキリ,Mante religieuse,Europäische Gottesanbeterin,Mantis religiosa,Mantis religiosa,богомол обыкновенный,Mantis religiosa
+Nezara_viridula,Nezara viridula,Southern green stink bug,稻绿蝽,,ミナミアオカメムシ,Nezara viridula,Grüne Reiswanze,Nezara viridula,Maria-fedida,Nezara viridula,Nezara viridula
+Papilio_xuthus,Papilio xuthus,Asian swallowtail,柑橘凤蝶,,ナミアゲハ,Papilio xuthus,Papilio xuthus,Papilio xuthus,Papilio xuthus,Парусник ксут,Papilio xuthus
+Tenodera_sinensis,Tenodera sinensis,Chinese mantis,中华大刀螳,,,Tenodera sinensis,Große Chinesen-Mantis,Tenodera sinensis,Louva-a-deus-chinês,Tenodera sinensis,Tenodera sinensis
+Vanessa_cardui,Vanessa cardui,Painted lady,小红蛱蝶,,ヒメアカタテハ,Vanessa cardui,Distelfalter,Vanessa cardui,Vanessa cardui,Репейница,Vanessa cardui

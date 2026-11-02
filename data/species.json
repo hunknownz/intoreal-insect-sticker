@@ -12,7 +12,14 @@
       },
       "names": {
         "en": "Indian moon moth",
-        "zh-Hans": "绿尾大蚕蛾"
+        "zh-Hans": "绿尾大蚕蛾",
+        "ja": "ネッタイオナガミズアオ",
+        "fr": "Actias selene",
+        "de": "Actias selene",
+        "es": "Actias selene",
+        "pt": "Actias selene",
+        "ru": "Actias selene",
+        "it": "Actias selene"
       },
       "ids": {
         "wikidata": "Q135316",
@@ -75,10 +82,15 @@
       },
       "names": {
         "en": "Emperor dragonfly",
-        "zh-Hans": "帝王伟蜓"
+        "zh-Hans": "帝王伟蜓",
+        "ja": "コウテイギンヤンマ",
+        "fr": "Anax empereur",
+        "de": "Große Königslibelle",
+        "ru": "Дозорщик-император"
       },
       "ids": {
-        "gbif": 5051775
+        "gbif": 5051775,
+        "wikidata": "Q527496"
       },
       "range": {
         "distribution": "欧洲、北非及西亚"
@@ -137,7 +149,14 @@
       },
       "names": {
         "en": "Western honey bee",
-        "zh-Hans": "西方蜜蜂"
+        "zh-Hans": "西方蜜蜂",
+        "ja": "セイヨウミツバチ",
+        "fr": "Apis mellifera",
+        "de": "Westliche Honigbiene",
+        "es": "Apis mellifera",
+        "pt": "Abelha-europeia",
+        "ru": "медоносная пчела",
+        "it": "Apis mellifera"
       },
       "ids": {
         "wikidata": "Q30034",
@@ -200,7 +219,12 @@
       },
       "names": {
         "en": "Buff-tailed bumblebee",
-        "zh-Hans": "欧洲熊蜂"
+        "zh-Hans": "欧洲熊蜂",
+        "ja": "セイヨウオオマルハナバチ",
+        "fr": "Bourdon terrestre",
+        "de": "Dunkle Erdhummel",
+        "es": "Abejorro común",
+        "ru": "Шмель земляной"
       },
       "ids": {
         "wikidata": "Q752274",
@@ -263,7 +287,13 @@
       },
       "names": {
         "en": "Golden ground beetle",
-        "zh-Hans": "金步甲"
+        "zh-Hans": "金步甲",
+        "fr": "Carabus auratus",
+        "de": "Goldlaufkäfer",
+        "es": "Carabus auratus",
+        "pt": "Carabus auratus",
+        "ru": "Жужелица золотистая",
+        "it": "Carabus auratus"
       },
       "ids": {
         "wikidata": "Q1535889",
@@ -326,7 +356,14 @@
       },
       "names": {
         "en": "Seven-spot ladybird",
-        "zh-Hans": "七星瓢虫"
+        "zh-Hans": "七星瓢虫",
+        "ja": "ナナホシテントウ",
+        "fr": "Coccinella septempunctata",
+        "de": "Siebenpunkt-Marienkäfer",
+        "es": "Coccinella septempunctata",
+        "pt": "Coccinella septempunctata",
+        "ru": "Семиточечная коровка",
+        "it": "Coccinella septempunctata"
       },
       "ids": {
         "wikidata": "Q159543",
@@ -389,7 +426,13 @@
       },
       "names": {
         "en": "Eleven-spot ladybird",
-        "zh-Hans": "十一星瓢虫"
+        "zh-Hans": "十一星瓢虫",
+        "fr": "Coccinella undecimpunctata",
+        "de": "Elfpunkt-Marienkäfer",
+        "es": "Coccinella undecimpunctata",
+        "pt": "Coccinella undecimpunctata",
+        "ru": "Coccinella undecimpunctata",
+        "it": "Coccinella undecimpunctata"
       },
       "ids": {
         "wikidata": "Q1328595",
@@ -452,7 +495,14 @@
       },
       "names": {
         "en": "Monarch",
-        "zh-Hans": "君主斑蝶"
+        "zh-Hans": "君主斑蝶",
+        "ja": "オオカバマダラ",
+        "fr": "monarque (papillon)",
+        "de": "Monarchfalter",
+        "es": "Danaus plexippus",
+        "pt": "Borboleta-monarca",
+        "ru": "Данаида монарх",
+        "it": "Danaus plexippus"
       },
       "ids": {
         "wikidata": "Q212398",
@@ -515,7 +565,14 @@
       },
       "names": {
         "en": "Drone fly",
-        "zh-Hans": "长尾管蚜蝇"
+        "zh-Hans": "长尾管蚜蝇",
+        "ja": "ハナアブ",
+        "fr": "Éristale gluante",
+        "de": "Mistbiene",
+        "es": "Eristalis tenax",
+        "pt": "Eristalis tenax",
+        "ru": "Ильница цепкая",
+        "it": "Eristalis tenax"
       },
       "ids": {
         "wikidata": "Q1048880",
@@ -578,7 +635,13 @@
       },
       "names": {
         "en": "Italian striped bug",
-        "zh-Hans": "意大利条蝽"
+        "zh-Hans": "意大利条蝽",
+        "fr": "Graphosome d'Italie",
+        "de": "Graphosoma italicum",
+        "es": "Graphosoma italicum",
+        "pt": "Graphosoma italicum",
+        "ru": "Graphosoma italicum",
+        "it": "Graphosoma italicum"
       },
       "ids": {
         "wikidata": "Q56085742",
@@ -641,10 +704,18 @@
       },
       "names": {
         "en": "Harlequin ladybird",
-        "zh-Hans": "异色瓢虫"
+        "zh-Hans": "异色瓢虫",
+        "ja": "ナミテントウ",
+        "fr": "Coccinelle asiatique",
+        "de": "Asiatischer Marienkäfer",
+        "es": "Harmonia axyridis",
+        "pt": "Joaninha-asiática",
+        "ru": "Harmonia axyridis",
+        "it": "Harmonia axyridis"
       },
       "ids": {
-        "gbif": 4989904
+        "gbif": 4989904,
+        "wikidata": "Q499627"
       },
       "range": {
         "distribution": "亚洲原产并广泛引入"
@@ -703,10 +774,17 @@
       },
       "names": {
         "en": "Blue-tailed damselfly",
-        "zh-Hans": "蓝尾豆娘"
+        "zh-Hans": "蓝尾豆娘",
+        "fr": "Agrion élégant",
+        "de": "Große Pechlibelle",
+        "es": "Ischnura elegans",
+        "pt": "Ischnura elegans",
+        "ru": "Ischnura elegans",
+        "it": "Ischnura elegans"
       },
       "ids": {
-        "gbif": 1423395
+        "gbif": 1423395,
+        "wikidata": "Q548472"
       },
       "range": {
         "distribution": "欧洲、北非及西亚"
@@ -765,10 +843,18 @@
       },
       "names": {
         "en": "European mantis",
-        "zh-Hans": "欧洲螳螂"
+        "zh-Hans": "欧洲螳螂",
+        "ja": "ウスバカマキリ",
+        "fr": "Mante religieuse",
+        "de": "Europäische Gottesanbeterin",
+        "es": "Mantis religiosa",
+        "pt": "Mantis religiosa",
+        "ru": "богомол обыкновенный",
+        "it": "Mantis religiosa"
       },
       "ids": {
-        "gbif": 6258028
+        "gbif": 6258028,
+        "wikidata": "Q268319"
       },
       "range": {
         "distribution": "欧洲、非洲、亚洲及北美引入地"
@@ -827,7 +913,14 @@
       },
       "names": {
         "en": "Southern green stink bug",
-        "zh-Hans": "稻绿蝽"
+        "zh-Hans": "稻绿蝽",
+        "ja": "ミナミアオカメムシ",
+        "fr": "Nezara viridula",
+        "de": "Grüne Reiswanze",
+        "es": "Nezara viridula",
+        "pt": "Maria-fedida",
+        "ru": "Nezara viridula",
+        "it": "Nezara viridula"
       },
       "ids": {
         "wikidata": "Q600498",
@@ -890,7 +983,14 @@
       },
       "names": {
         "en": "Asian swallowtail",
-        "zh-Hans": "柑橘凤蝶"
+        "zh-Hans": "柑橘凤蝶",
+        "ja": "ナミアゲハ",
+        "fr": "Papilio xuthus",
+        "de": "Papilio xuthus",
+        "es": "Papilio xuthus",
+        "pt": "Papilio xuthus",
+        "ru": "Парусник ксут",
+        "it": "Papilio xuthus"
       },
       "ids": {
         "wikidata": "Q132092",
@@ -953,7 +1053,13 @@
       },
       "names": {
         "en": "Chinese mantis",
-        "zh-Hans": "中华大刀螳"
+        "zh-Hans": "中华大刀螳",
+        "fr": "Tenodera sinensis",
+        "de": "Große Chinesen-Mantis",
+        "es": "Tenodera sinensis",
+        "pt": "Louva-a-deus-chinês",
+        "ru": "Tenodera sinensis",
+        "it": "Tenodera sinensis"
       },
       "ids": {
         "wikidata": "Q1149167",
@@ -1016,7 +1122,14 @@
       },
       "names": {
         "en": "Painted lady",
-        "zh-Hans": "小红蛱蝶"
+        "zh-Hans": "小红蛱蝶",
+        "ja": "ヒメアカタテハ",
+        "fr": "Vanessa cardui",
+        "de": "Distelfalter",
+        "es": "Vanessa cardui",
+        "pt": "Vanessa cardui",
+        "ru": "Репейница",
+        "it": "Vanessa cardui"
       },
       "ids": {
         "wikidata": "Q158603",

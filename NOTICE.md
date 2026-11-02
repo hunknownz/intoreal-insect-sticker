@@ -14,6 +14,10 @@ GBIF identifiers, taxonomic authority and `taxonomy.system` were matched through
 
 GBIF 的标识、命名权威和 `taxonomy.system` 通过 GBIF species API 获取，仅采用学名精确匹配的接受种，相关条款见上述链接。Wikidata 标识通过 Wikidata API 获取（CC0）。无法匹配的字段保持为空，不作猜测。
 
+Multilingual common names in `data/names.csv` are drawn from Wikidata labels (CC0), using exact taxon matches verified through the P225 taxon-name statement. No machine-translated names are invented; missing labels remain blank.
+
+`data/names.csv` 中的多语言俗名来自 Wikidata 标签（CC0），并通过 P225 学名声明核对精确分类实体。不凭空生成机器翻译名，缺失标签保持为空。
+
 ## Chinese field-guide notes / 中文图鉴
 
 `data/field-guide.zh-Hans.json` contains original Chinese notes written from project-approved reference photographs, GBIF taxonomic records and independent review evidence, and is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). `basedOn` records the taxonomic page and principal morphology reference for each species. No Wikipedia article text is redistributed.
