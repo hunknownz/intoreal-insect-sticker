@@ -586,17 +586,18 @@
     {
       "id": "Gromphadorhina_portentosa",
       "scientificName": "Gromphadorhina portentosa",
-      "commonNameEn": "Giant Islander Roach",
-      "commonNameZhHans": "",
+      "commonNameEn": "Madagascar hissing cockroach",
+      "commonNameZhHans": "马达加斯加发声蟑螂",
       "nameSources": {
-        "en": "GBIF vernacularNames"
+        "en": "https://en.wikipedia.org/wiki/Madagascar_hissing_cockroach",
+        "zh-Hans": "https://baike.sogou.com/m/fullLemma?g_ut=3&lid=196996"
       },
       "taxonomy": {
         "system": "GBIF Backbone Taxonomy",
         "order": "Blattodea",
         "family": "Blaberidae",
         "genus": "Gromphadorhina",
-        "authority": null,
+        "authority": "(Schaum, 1853)",
         "gbif": 1994576
       },
       "samplingRegions": [
@@ -604,13 +605,28 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "evidence-review",
+      "status": "pilot-ready",
       "reviewProtocolVersion": 2,
       "references": [
         {
-          "role": "primary-pose-candidate",
+          "role": "primary-pose",
           "type": "photo",
-          "view": "dorsolateral",
+          "view": "dorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa(Karaczan_madagaskarski.JPG",
+          "author": "Kaczuszkax",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "610331d5aeb830a6171fb43126cd0a9c08fad69b083137c08158ee076fe2154b",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral",
           "lifeStage": "adult",
           "sex": "unverifiable",
           "page": "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa_(outside).jpg",
@@ -618,22 +634,24 @@
           "license": "CC BY-SA 4.0",
           "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
           "imageReview": "approved",
-          "archive": "metadata-only",
-          "sha256": ""
+          "archive": "local-only",
+          "sha256": "509a4aa55d1ef992e7b7d7e89c766f2f07bdab1af7a9e3c5ad376257ca2e2a81",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
         },
         {
-          "role": "local-detail-candidate",
+          "role": "local-detail-only",
           "type": "photo",
-          "view": "unreviewed-view",
+          "view": "lateral pronotum detail",
           "lifeStage": "adult",
           "sex": "unverifiable",
-          "page": "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa_2.jpg",
-          "author": "TimVickers",
-          "license": "Public domain",
-          "licenseURL": "",
-          "imageReview": "pending",
-          "archive": "metadata-only",
-          "sha256": ""
+          "page": "https://commons.wikimedia.org/wiki/File:Male_Gromphadorhina_portentosa.jpg",
+          "author": "Eveha",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "07831350ccd117ad0d457639a6ca8c7cdd9c1b62b314437c3ad13aa7711320bc",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
         }
       ],
       "unverifiable": [
@@ -644,6 +662,15 @@
         "gbifExactMatch": true,
         "licenseVerified": true,
         "imageReview": "approved"
+      },
+      "batch": "expansion-02",
+      "workspace": "production/Gromphadorhina_portentosa",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/33",
+      "distribution": "马达加斯加",
+      "distributionSource": "https://www.gbif.org/species/1994576",
+      "ids": {
+        "gbif": 1994576,
+        "wikidata": "Q1073729"
       }
     },
     {
@@ -861,16 +888,17 @@
       "id": "Limnephilus_lunatus",
       "scientificName": "Limnephilus lunatus",
       "commonNameEn": "Cinnamon Sedge",
-      "commonNameZhHans": "",
+      "commonNameZhHans": "奇异沼石蛾",
       "nameSources": {
-        "en": "GBIF vernacularNames"
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "https://xueshu.baidu.com/usercenter/paper/show?paperid=6f80ad41a6bb63b567fcda2b89a1fef0&site=xueshu_se"
       },
       "taxonomy": {
         "system": "GBIF Backbone Taxonomy",
         "order": "Trichoptera",
         "family": "Limnephilidae",
         "genus": "Limnephilus",
-        "authority": null,
+        "authority": "Curtis, 1834",
         "gbif": 1442474
       },
       "samplingRegions": [
@@ -878,13 +906,43 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "evidence-review",
+      "status": "pilot-ready",
       "reviewProtocolVersion": 2,
       "references": [
         {
-          "role": "primary-pose-candidate",
+          "role": "primary-pose",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Trichoptera_Limnephilus_lunatus.jpg",
+          "author": "Mick Talbot",
+          "license": "CC BY 2.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "42e172f1a13c6db8b23defbbb34a7a3f253d6f538e240f69a91c1f64a4a6f622",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
           "type": "photo",
           "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Limnephilus_lunatus_(Limnephilidae_sp.),_Arnhem,_the_Netherlands_-_2.jpg",
+          "author": "Bj.schoenmakers",
+          "license": "CC0",
+          "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "c2c28385c037cef559c6b3ab7b5b4ae8ff083e3c13fd01235d02593f37928ea7",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral wing and body detail",
           "lifeStage": "adult",
           "sex": "unverifiable",
           "page": "https://commons.wikimedia.org/wiki/File:Limnephilus_lunatus_01.JPG",
@@ -892,22 +950,9 @@
           "license": "CC BY-SA 3.0",
           "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
           "imageReview": "approved",
-          "archive": "metadata-only",
-          "sha256": ""
-        },
-        {
-          "role": "local-detail-candidate",
-          "type": "photo",
-          "view": "unreviewed-view",
-          "lifeStage": "adult",
-          "sex": "unverifiable",
-          "page": "https://commons.wikimedia.org/wiki/File:Limnephilus_lunatus_(Limnephilidae_sp.),_Arnhem,_the_Netherlands.jpg",
-          "author": "Bj.schoenmakers",
-          "license": "CC0",
-          "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "imageReview": "pending",
-          "archive": "metadata-only",
-          "sha256": ""
+          "archive": "local-only",
+          "sha256": "81f6f462c28837ff54a025b58f4e6139786da2926a34ccab8f688a0f864ce2ce",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
         }
       ],
       "unverifiable": [
@@ -918,6 +963,15 @@
         "gbifExactMatch": true,
         "licenseVerified": true,
         "imageReview": "approved"
+      },
+      "batch": "expansion-02",
+      "workspace": "production/Limnephilus_lunatus",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/32",
+      "distribution": "欧洲",
+      "distributionSource": "https://www.gbif.org/species/1442474",
+      "ids": {
+        "gbif": 1442474,
+        "wikidata": "Q2209374"
       }
     },
     {
@@ -1039,16 +1093,17 @@
       "id": "Mantispa_styriaca",
       "scientificName": "Mantispa styriaca",
       "commonNameEn": "Styrian praying lacewing",
-      "commonNameZhHans": "",
+      "commonNameZhHans": "斯提利亚螳蛉",
       "nameSources": {
-        "en": "GBIF vernacularNames"
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "http://sp2000.org.cn/species/show_species_details/c1c01d983b05412b948d1b7663a32a96"
       },
       "taxonomy": {
         "system": "GBIF Backbone Taxonomy",
         "order": "Neuroptera",
         "family": "Mantispidae",
         "genus": "Mantispa",
-        "authority": null,
+        "authority": "(Poda, 1761)",
         "gbif": 2107724
       },
       "samplingRegions": [
@@ -1056,13 +1111,28 @@
       ],
       "lifeStage": "adult",
       "sex": "unverifiable",
-      "status": "evidence-review",
+      "status": "pilot-ready",
       "reviewProtocolVersion": 2,
       "references": [
         {
-          "role": "primary-pose-candidate",
+          "role": "primary-pose",
           "type": "photo",
           "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(9566952168).jpg",
+          "author": "Gilles San Martin  from Namur, Belgium",
+          "license": "CC BY-SA 2.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "2d521a8163926c17ce81b8557720f74f368c10b9a7578d8e3529b984086a152d",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral alternate",
           "lifeStage": "adult",
           "sex": "unverifiable",
           "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca.jpg",
@@ -1070,22 +1140,24 @@
           "license": "CC BY-SA 3.0",
           "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
           "imageReview": "approved",
-          "archive": "metadata-only",
-          "sha256": ""
+          "archive": "local-only",
+          "sha256": "046b916c2eb59d5ae76f63896f4091abe29cc4cd422cd506ec7ddb44a08037fc",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
         },
         {
-          "role": "local-detail-candidate",
+          "role": "local-detail-only",
           "type": "photo",
-          "view": "unreviewed-view",
+          "view": "lateral wing and leg detail",
           "lifeStage": "adult",
           "sex": "unverifiable",
-          "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(9566952168).jpg",
-          "author": "Gilles San Martin  from Namur, Belgium",
-          "license": "CC BY-SA 2.0",
-          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
-          "imageReview": "pending",
-          "archive": "metadata-only",
-          "sha256": ""
+          "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(Mantispidae)_-_(imago),_Narbolia_(comuni),_Italy_-_5.jpg",
+          "author": "This image is created by user  B. Schoenmakers  at  Observation.org , a global biodiversity recording project.",
+          "license": "CC BY 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "27b81e7199e52d0877cdfaaf7bc7330939656d65202e893fce9752df5999efbd",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
         }
       ],
       "unverifiable": [
@@ -1096,6 +1168,15 @@
         "gbifExactMatch": true,
         "licenseVerified": true,
         "imageReview": "approved"
+      },
+      "batch": "expansion-02",
+      "workspace": "production/Mantispa_styriaca",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/31",
+      "distribution": "欧洲",
+      "distributionSource": "https://www.gbif.org/species/2107724",
+      "ids": {
+        "gbif": 2107724,
+        "wikidata": "Q1656577"
       }
     },
     {

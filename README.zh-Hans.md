@@ -92,7 +92,7 @@
 | `data/field-guide.zh-Hans.json` | 22 个物种的中文形态、辨识和相似种说明，CC BY-SA 4.0 |
 | `data/candidates-20.json` | 首批正式候选，其中 3 个 blocked 项不进入公开贴纸库 |
 | `data/candidates-next.json` | 已完成生产的 3 个扩充物种 |
-| `data/candidates-expansion-30.json` | 6 目、6 个洲际采样区域的 30 种证据矩阵，3 个试点中 2 种已发布、1 种保持 blocked；其余候选尚未获准生图 |
+| `data/candidates-expansion-30.json` | 6 目、6 个洲际采样区域的 30 种证据矩阵，3 个试点中 2 种已发布、1 种保持 blocked；expansion-02 另有 3 种待生产，其余候选尚未获准生图 |
 | `previews/` | 首页、目级和科级标本图版 |
 | `scripts/` | Codex CLI 流水线、Issue worker、v2 任务包生成、元数据补充和预览渲染脚本 |
 | `tests/` | 任务校验、独立审核、技术重试、修订替换和 Issue 收尾的回归测试；运行 `python3 -m unittest discover -s tests -v` |

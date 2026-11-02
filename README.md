@@ -92,7 +92,7 @@ Every image below is generated from the approved public stickers. Only species t
 | `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for 22 species, CC BY-SA 4.0 |
 | `data/candidates-20.json` | The first formal candidate set, including 3 blocked items not admitted to the public dataset |
 | `data/candidates-next.json` | The completed 3-species expansion batch |
-| `data/candidates-expansion-30.json` | Evidence matrix for 30 candidates across 6 orders and 6 continental sampling regions, with 2 published pilots and 1 blocked locust; other entries are not approved for generation yet |
+| `data/candidates-expansion-30.json` | Evidence matrix for 30 candidates across 6 orders and 6 continental sampling regions, with 2 published pilots and 1 blocked locust; expansion-02 adds 3 pilot-ready tasks |
 | `previews/` | Header, hero, order and family specimen drawers |
 | `scripts/` | Codex CLI pipeline, Issue worker, v2 task generator, metadata enrichment and preview rendering |
 | `tests/` | Standard-library regression tests for task validation, isolated review, retry, replacement and Issue closure; run `python3 -m unittest discover -s tests -v` |
