@@ -138,7 +138,14 @@ def main():
     acquire_lock()
     try:
         while True:
-            result = run_cycle(args.issue)
+            try:
+                result = run_cycle(args.issue)
+            except Exception as exc:
+                if args.once or args.issue is not None:
+                    raise
+                print(json.dumps({"ok": False, "retry": True, "error": str(exc)}, ensure_ascii=False), flush=True)
+                time.sleep(args.poll_interval)
+                continue
             print(json.dumps(result, ensure_ascii=False), flush=True)
             if args.once or args.issue is not None:
                 return 0 if result["ok"] else 1
