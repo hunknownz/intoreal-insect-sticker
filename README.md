@@ -6,7 +6,7 @@
 
 **English** · [简体中文](README.zh-Hans.md)
 
-The public library currently contains **30 reviewed species across 12 orders and 20 families**. Additional species are added only after passing the same reference, generation, technical and independent review pipeline. The dataset currently uses **46 language codes**, with coverage varying by the labels actually available in Wikidata.
+The public library currently contains **33 reviewed species across 12 orders and 20 families**. Additional species are added only after passing the same reference, generation, technical and independent review pipeline. The dataset currently uses **46 language codes**, with coverage varying by the labels actually available in Wikidata.
 
 **License in short:** stickers and previews may be used, copied, modified and shared, including commercially, **except to provide a competing IntoREAL insect-identification or illustrated field-guide product**. Credit IntoReal-insect-sticker with a link to this repository. Project-compiled data is MIT; third-party material keeps its own terms. See [LICENSE.md](LICENSE.md) and [NOTICE.md](NOTICE.md).
 
@@ -44,7 +44,7 @@ Every image below is generated from the approved public stickers. Only species t
 
 ![Cockroaches](previews/families/blattidae.webp)
 
-### Swallowtails · *Papilionidae* — 2 species
+### Swallowtails · *Papilionidae* — 3 species
 
 ![Swallowtails](previews/families/papilionidae.webp)
 
@@ -52,7 +52,7 @@ Every image below is generated from the approved public stickers. Only species t
 
 ![Whites and yellows](previews/families/pieridae.webp)
 
-### Brush-footed butterflies · *Nymphalidae* — 2 species
+### Brush-footed butterflies · *Nymphalidae* — 3 species
 
 ![Brush-footed butterflies](previews/families/nymphalidae.webp)
 
@@ -68,7 +68,7 @@ Every image below is generated from the approved public stickers. Only species t
 
 ![Damselflies](previews/families/coenagrionidae.webp)
 
-### Skimmers · *Libellulidae* — 1 species
+### Skimmers · *Libellulidae* — 2 species
 
 ![Skimmers](previews/families/libellulidae.webp)
 
@@ -113,12 +113,13 @@ Every image below is generated from the approved public stickers. Only species t
 | `data/species.csv` | The same core data flattened for spreadsheets |
 | `data/names.csv` | Names in 46 language codes, including regional variants |
 | `data/languages.json` | Language codes and their sources |
-| `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for 30 species, CC BY-SA 4.0 |
+| `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for 33 species, CC BY-SA 4.0 |
 | `data/candidates-20.json` | The first formal candidate set, including 3 blocked items not admitted to the public dataset |
 | `data/candidates-next.json` | The completed 3-species expansion batch |
 | `data/candidates-expansion-30.json` | Evidence matrix for 30 candidates across 6 orders and 6 continental sampling regions, with 2 published pilots and 1 blocked locust; expansion-02 adds 3 published species |
 | `data/candidates-expansion-03.json` | Four-class validation batch (beetle, butterfly, dragonfly, spider): 3 published species and 1 blocked butterfly |
-| `data/candidates-expansion-04.json` | Second four-class batch: rhinoceros beetle and wasp spider published; great mormon and scarlet skimmer blocked on dorsal leg-junction evidence |
+| `data/candidates-expansion-04.json` | Second four-class batch: rhinoceros beetle and wasp spider published; great mormon and scarlet skimmer rescued by revision after the dorsal leg-junction policy update |
+| `data/candidates-revision-01` (tasks) | Revision batch: Papilio memnon, Crocothemis servilia and Aglais io re-admitted under the revised leg policy; Aeshna cyanea and Anax imperator re-drawn to fix ventral-style splayed legs |
 | `previews/` | Header, hero, order and family specimen drawers |
 | `scripts/` | Codex CLI pipeline, Issue worker, v2 task generator, metadata enrichment and preview rendering |
 | `tests/` | Standard-library regression tests for task validation, isolated review, retry, replacement and Issue closure; run `python3 -m unittest discover -s tests -v` |
@@ -168,13 +169,13 @@ A record looks like this (some fields are omitted for readability):
 
 ## Coverage
 
-- **Published stickers:** 30 species across 12 orders and 20 families.
+- **Published stickers:** 33 species across 12 orders and 20 families.
 - **Names:** 46 language codes, sourced from Wikidata labels where available; missing labels remain empty rather than being machine-translated.
-- **Identifiers:** all 30 species have exact-match GBIF and Wikidata IDs, plus taxonomic authority from GBIF.
-- **Conservation:** 7 species currently have an IUCN LC record from Wikidata; other conservation fields remain empty when no claim exists.
-- **Traits:** 3 species currently have a wingspan record from Wikidata; unsupported traits are not inferred.
-- **Chinese field guide:** 30 species with appearance, identification and similar-species notes.
-- **Blocked candidates:** Pantala flavescens, Lucilia sericata, Vespa mandarinia, Schistocerca gregaria, Aglais io, Papilio memnon and Crocothemis servilia remain outside the public sticker dataset because they did not meet the quality bar.
+- **Identifiers:** all 33 species have exact-match GBIF and Wikidata IDs, plus taxonomic authority from GBIF.
+- **Conservation:** 8 species currently have an IUCN LC record from Wikidata; other conservation fields remain empty when no claim exists.
+- **Traits:** 4 species currently have a wingspan record from Wikidata; unsupported traits are not inferred.
+- **Chinese field guide:** 33 species with appearance, identification and similar-species notes.
+- **Blocked candidates:** Pantala flavescens, Lucilia sericata, Vespa mandarinia and Schistocerca gregaria remain outside the public sticker dataset because they did not meet the quality bar.
 - **Scope note:** the library is insect-focused; it also includes one spider (*Araneus diadematus*, order Araneae) as a commonly confused non-insect, reviewed under the same pipeline with arachnid-specific checks (eight legs, two body segments, no antennae or wings).
 
 The initial candidate set is not a claim of worldwide or regional completeness. New species are appended through the same production and review process.

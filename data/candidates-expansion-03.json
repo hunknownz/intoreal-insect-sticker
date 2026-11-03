@@ -129,7 +129,7 @@
    ],
    "lifeStage": "adult",
    "sex": "unverifiable",
-   "status": "blocked",
+   "status": "published",
    "reviewProtocolVersion": 2,
    "references": [
     {
@@ -225,7 +225,10 @@
     "gbif": 4535827,
     "wikidata": "Q158699"
    },
-   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/35"
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/44",
+   "primaryReviewScore": 85,
+   "reviewScore": 85,
+   "sticker": "stickers/Lepidoptera/Nymphalidae/Aglais_io.webp"
   },
   {
    "id": "Orthetrum_cancellatum",

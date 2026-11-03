@@ -168,6 +168,114 @@
       }
     },
     {
+      "id": "Aglais_io",
+      "scientificName": "Aglais io",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Nymphalidae",
+        "genus": "Aglais"
+      },
+      "names": {
+        "en": "European peacock",
+        "zh-Hans": "孔雀蛱蝶",
+        "ca": "paó de dia",
+        "hr": "Danje paunče",
+        "cs": "babočka paví oko",
+        "da": "Dagpåfugleøje",
+        "nl": "dagpauwoog",
+        "eo": "Taga pavo",
+        "fi": "neitoperhonen",
+        "fr": "paon du jour",
+        "de": "Tagpfauenauge",
+        "it": "Aglais io",
+        "ja": "クジャクチョウ",
+        "lt": "Spungė",
+        "pl": "rusałka pawik",
+        "ru": "Павлиний глаз",
+        "sr": "Дневни пауновац",
+        "sk": "babôčka pávooká",
+        "sv": "påfågelöga",
+        "tr": "Aglais io",
+        "uk": "Павине око",
+        "ar": "طويس أوروبي",
+        "be": "Паўлінава вока",
+        "bg": "дневно пауново око",
+        "et": "päevapaabusilm",
+        "he": "אגלאיס איו",
+        "hu": "nappali pávaszem",
+        "is": "Páfiðrildi",
+        "ko": "공작나비",
+        "mk": "дневен пауновец",
+        "fa": "طاووس‌بال",
+        "ro": "Inachis io",
+        "sl": "dnevni pavlinček"
+      },
+      "ids": {
+        "gbif": 4535827,
+        "wikidata": "Q158699"
+      },
+      "range": {
+        "distribution": "欧洲至亚洲温带、北美"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Lepidoptera/Nymphalidae/Aglais_io.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "054af04657ce94feaf1a70be7f397c37b6c8dc7e11067430394344cd27a01944",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Aglais_io_top_MichaD.jpg",
+          "author": "Michael Apel",
+          "license": "CC BY-SA 2.5"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Aglais_io_top_MichaD.jpg",
+            "author": "Michael Apel",
+            "license": "CC BY-SA 2.5"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Peacock_butterfly_(Aglais_io)_2.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 3.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal oblique",
+            "page": "https://commons.wikimedia.org/wiki/File:Butterfly_Aglais_io.jpg",
+            "author": "Sergei Mosin",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal legs detail",
+            "page": "https://commons.wikimedia.org/wiki/File:Paon-du-jour_MHNT_CUT_2013_3_14_Cahors_Dos.jpg",
+            "author": "Didier Descouens",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "ventral",
+            "page": "https://commons.wikimedia.org/wiki/File:Paon-du-jour_MHNT_CUT_2013_3_14_Cahors_Ventre.jpg",
+            "author": "Didier Descouens",
+            "license": "CC BY-SA 4.0"
+          }
+        ]
+      }
+    },
+    {
       "id": "Anax_imperator",
       "scientificName": "Anax imperator",
       "authority": "Leach, 1815",
@@ -985,6 +1093,109 @@
             "page": "https://commons.wikimedia.org/wiki/File:Coccinella_undecimpunctata_(10.3897-BDJ.12.e137417)_Figure_7.jpg",
             "author": "Iqbal et al. (2024)",
             "license": "CC-BY-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Crocothemis_servilia",
+      "scientificName": "Crocothemis servilia",
+      "authority": "(Drury, 1773)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Odonata",
+        "family": "Libellulidae",
+        "genus": "Crocothemis"
+      },
+      "names": {
+        "en": "Scarlet skimmer",
+        "zh-Hans": "红蜻",
+        "ca": "Crocothemis servilia",
+        "cs": "Crocothemis servilia",
+        "nl": "oostelijke vuurlibel",
+        "eo": "Crocothemis servilia",
+        "fi": "Crocothemis servilia",
+        "fr": "Crocothemis servilia",
+        "de": "Crocothemis servilia",
+        "it": "Crocothemis servilia",
+        "ja": "ショウジョウトンボ",
+        "pl": "Crocothemis servilia",
+        "ru": "Crocothemis servilia",
+        "es": "Crocothemis servilia",
+        "sv": "Crocothemis servilia",
+        "uk": "Crocothemis servilia",
+        "bg": "Crocothemis servilia",
+        "et": "Crocothemis servilia",
+        "he": "דלגנית אסיאתית",
+        "id": "Crocothemis servilia",
+        "ko": "고추잠자리",
+        "ml": "വയൽത്തുമ്പി",
+        "ro": "Crocothemis servilia"
+      },
+      "ids": {
+        "gbif": 1427734,
+        "wikidata": "Q643655"
+      },
+      "range": {
+        "distribution": "亚洲大部，引入美洲等地"
+      },
+      "traits": {},
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
+      "sticker": {
+        "file": "stickers/Odonata/Libellulidae/Crocothemis_servilia.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 80,
+        "primaryReviewScore": 80,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "846d50e557b80eb7db7bdec32e0b4d3845323f4918d1fea99c43c5063575cdfc",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Crocothemis_servilia-Kadavoor-2016-10-15-002.jpg",
+          "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jkadavoor\" tit",
+          "license": "CC BY-SA 4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Crocothemis_servilia-Kadavoor-2016-10-15-002.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jkadavoor\" tit",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Scarlet_skimmer,_Keitakuen,_Osaka_II.jpg",
+            "author": "Laitche",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "oblique lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Ruddy_marsh_skimmer_(Crocothemis_servilia_servilia)_female_Kerala.jpg",
+            "author": "<a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q5",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "oblique legs detail",
+            "page": "https://commons.wikimedia.org/wiki/File:Crocothemis_servilia-Kadavoor-2016-10-15-001.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jkadavoor\" tit",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "anterior oblique legs detail",
+            "page": "https://commons.wikimedia.org/wiki/File:Crocothemis_servilia-Kadavoor-2016-10-15-003.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jkadavoor\" tit",
+            "license": "CC BY-SA 4.0"
           }
         ]
       }
@@ -2184,6 +2395,92 @@
             "page": "https://commons.wikimedia.org/wiki/File:Machaon_pos%C3%A9.jpg",
             "author": "Anna Weber",
             "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Papilio_memnon",
+      "scientificName": "Papilio memnon",
+      "authority": "Linnaeus, 1758",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Papilionidae",
+        "genus": "Papilio"
+      },
+      "names": {
+        "en": "Great Mormon",
+        "zh-Hans": "美凤蝶",
+        "ca": "Papilio memnon",
+        "nl": "Papilio memnon",
+        "eo": "Papilio memnon",
+        "fi": "Papilio memnon",
+        "fr": "Papilio memnon",
+        "de": "Papilio memnon",
+        "it": "Papilio memnon",
+        "ja": "ナガサキアゲハ",
+        "pl": "Papilio memnon",
+        "ru": "Papilio memnon",
+        "es": "Papilio memnon",
+        "sv": "Mångformig riddarfjäril",
+        "uk": "Papilio memnon",
+        "bg": "Papilio memnon",
+        "hu": "Papilio memnon",
+        "id": "Kupu-kupu pastur",
+        "ko": "멤논제비나비",
+        "ro": "Papilio memnon"
+      },
+      "ids": {
+        "gbif": 1937892,
+        "wikidata": "Q1303868"
+      },
+      "range": {
+        "distribution": "南亚、东南亚至东亚南部"
+      },
+      "traits": {
+        "wingspanMm": 135.0,
+        "sources": {
+          "wingspanMm": "Wikidata P2050"
+        }
+      },
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Lepidoptera/Papilionidae/Papilio_memnon.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "b43a960f20501062d1655dc0fa4b9501c45dce98ee1aa388a38ff571303afbf4",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Open_wing_position_of_Male_Papilio_memnon_Linnaeus,_1758_–_Great_Mormon_DSC_0213.jpg",
+          "author": "Atudu",
+          "license": "CC BY 4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Open_wing_position_of_Male_Papilio_memnon_Linnaeus,_1758_–_Great_Mormon_DSC_0213.jpg",
+            "author": "Atudu",
+            "license": "CC BY 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Open_wing_Basking_of_Papilio_memnon_Linnaeus,_1758_–_Great_Mormon_(Male)_Form_agenor_WLB_IMG_2515.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sandipoutsider\" title=\"User:Sandipout",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Great_mormon_(Papilio_memnon_agenor)_male_underside_Luang_Prabang.jpg",
+            "author": "<a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q5",
+            "license": "CC BY-SA 4.0"
           }
         ]
       }

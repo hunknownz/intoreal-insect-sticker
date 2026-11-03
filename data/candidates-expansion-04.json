@@ -125,7 +125,7 @@
    ],
    "lifeStage": "adult",
    "sex": "unverifiable",
-   "status": "blocked",
+   "status": "published",
    "reviewProtocolVersion": 2,
    "references": [
     {
@@ -192,7 +192,10 @@
     "gbif": 1937892,
     "wikidata": "Q1303868"
    },
-   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/39"
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/42",
+   "primaryReviewScore": 85,
+   "reviewScore": 85,
+   "sticker": "stickers/Lepidoptera/Papilionidae/Papilio_memnon.webp"
   },
   {
    "id": "Crocothemis_servilia",
@@ -217,7 +220,7 @@
    ],
    "lifeStage": "adult",
    "sex": "unverifiable",
-   "status": "blocked",
+   "status": "published",
    "reviewProtocolVersion": 2,
    "references": [
     {
@@ -284,7 +287,10 @@
     "gbif": 1427734,
     "wikidata": "Q643655"
    },
-   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/40"
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/43",
+   "primaryReviewScore": 80,
+   "reviewScore": 80,
+   "sticker": "stickers/Odonata/Libellulidae/Crocothemis_servilia.webp"
   },
   {
    "id": "Argiope_bruennichi",

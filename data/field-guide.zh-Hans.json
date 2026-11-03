@@ -1,7 +1,7 @@
 {
   "license": "CC BY-SA 4.0",
   "note": "中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核记录改写；basedOn 列出分类与主要形态依据。未核实的性别、精细结构、生态和保护状态不作推断。",
-  "count": 30,
+  "count": 33,
   "species": {
     "Aeshna_cyanea": {
       "impression": "深色长腹上具有成对蓝绿色斑点的伟蜓，胸部有黄绿色斑，四片膜质翅展开。",
@@ -643,6 +643,73 @@
       "basedOn": [
         "https://www.gbif.org/species/5170994",
         "https://commons.wikimedia.org/wiki/File:(MHNT)_Argiope_bruennichi_female_dorsal.jpg"
+      ]
+    },
+    "Papilio_memnon": {
+      "impression": "黑色的大型凤蝶，雄虫四翅绒黑并辐射蓝色至蓝绿色条纹，后翅基部上表面有红色斑，后翅无尾突。",
+      "marks": [
+        "雄虫翅面蓝色辐射状条纹，光泽强",
+        "后翅基部上表面红斑",
+        "后翅无尾突（区别于多数凤蝶）",
+        "六足发达（凤蝶科前足不退化）"
+      ],
+      "sexAge": "本任务表现为雄虫型（form agenor）；雌虫多型（部分型具尾突）不在本图范围。足的连接细节按修订政策记录为不可核实。",
+      "similar": [
+        {
+          "sci": "Papilio machaon",
+          "zh": "金凤蝶",
+          "diff": "金凤蝶黄色为主、后翅具明显尾突；美凤蝶雄虫绒黑带蓝纹、无尾突。"
+        }
+      ],
+      "range": "南亚、东南亚至东亚南部",
+      "basedOn": [
+        "https://www.gbif.org/species/1937892",
+        "https://commons.wikimedia.org/wiki/File:Open_wing_position_of_Male_Papilio_memnon_Linnaeus,_1758_%E2%80%93_Great_Mormon_DSC_0213.jpg"
+      ]
+    },
+    "Crocothemis_servilia": {
+      "impression": "通体黄褐色至鲜红色的蜻，四翅平展，后翅基部宽并带琥珀色斑，腹部中等纤细。",
+      "marks": [
+        "后翅基部宽，具小琥珀色斑",
+        "每翅端部有深色翅痣",
+        "腹部环节清晰，中等纤细（比伟蜓粗短）",
+        "雄虫（参考展示）鲜红色并具同色复眼"
+      ],
+      "sexAge": "本任务以黄褐色型为主姿态；成熟雄虫鲜红色（红蜻之名由来）。足根连接按修订政策记录为不可核实。IUCN 无危（LC）。",
+      "similar": [
+        {
+          "sci": "Orthetrum cancellatum",
+          "zh": "粗灰蜻",
+          "diff": "粗灰蜻腹部明显扁宽、体色灰褐具粉霜；红蜻腹部较圆细，雄虫通体鲜红。"
+        }
+      ],
+      "range": "亚洲大部，引入美洲等地",
+      "basedOn": [
+        "https://www.gbif.org/species/1427734",
+        "https://commons.wikimedia.org/wiki/File:Black-tailed_skimmer_(Orthetrum_cancellatum)_female_Belgium.jpg",
+        "https://www.gbif.org/species/1427734"
+      ]
+    },
+    "Aglais_io": {
+      "impression": "锈红色四翅各有一枚大眼斑的蛱蝶，翅缘深褐色波状；前足退化，停栖时收拢贴胸不可见。",
+      "marks": [
+        "每翅一枚大型眼斑（黑芯、蓝环、黄圈）",
+        "翅缘深褐色、边缘波状无尾突",
+        "前足退化贴胸（蛱蝶科），步行仅用四足",
+        "体色锈红，腹面深褐似枯叶"
+      ],
+      "sexAge": "本任务表现为完整成虫；性别与足根连接按修订政策记录为不可核实。",
+      "similar": [
+        {
+          "sci": "Vanessa cardui",
+          "zh": "小红蛱蝶",
+          "diff": "小红蛱蝶体色橙褐、眼斑较小且翅尖有白斑；孔雀蛱蝶眼斑大而华丽、锈红底色更浓。"
+        }
+      ],
+      "range": "欧洲至亚洲温带、北美",
+      "basedOn": [
+        "https://www.gbif.org/species/4535827",
+        "https://commons.wikimedia.org/wiki/File:Aglais_io_top_MichaD.jpg"
       ]
     }
   }
