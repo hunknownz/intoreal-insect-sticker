@@ -1,7 +1,7 @@
 {
   "license": "CC BY-SA 4.0",
   "note": "中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核记录改写；basedOn 列出分类与主要形态依据。未核实的性别、精细结构、生态和保护状态不作推断。",
-  "count": 28,
+  "count": 30,
   "species": {
     "Aeshna_cyanea": {
       "impression": "深色长腹上具有成对蓝绿色斑点的伟蜓，胸部有黄绿色斑，四片膜质翅展开。",
@@ -599,6 +599,50 @@
       "basedOn": [
         "https://www.gbif.org/species/2160133",
         "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_MHNT_Femelle_Fronton.jpg"
+      ]
+    },
+    "Trypoxylus_dichotomus": {
+      "impression": "深红褐至黑色的大型犀金龟，雄虫头部伸出一根长而端部多次分叉的额角，前胸背板另有较短的分叉角，体躯光亮粗壮。",
+      "marks": [
+        "雄虫额角长、端部四分叉（两大枝各自再分叉）",
+        "前胸背板有较短的分叉角",
+        "体色深红褐至黑色，鞘翅光滑有光泽",
+        "六条粗壮步足，胫节具刺"
+      ],
+      "sexAge": "本任务表现为雄虫型（有完整头角与胸角）；性别鉴定特征即角本身，精细附肢分节及被遮挡结构不能由现有参考充分确认。",
+      "similar": [
+        {
+          "sci": "Cetonia aurata",
+          "zh": "金花金龟",
+          "diff": "金花金龟体色金属绿、无头角胸角、常具白色横纹访花；双叉犀金龟深褐色、雄虫具发达双角。"
+        }
+      ],
+      "range": "中国东部、日本、朝鲜半岛及东南亚",
+      "basedOn": [
+        "https://www.gbif.org/species/1076217",
+        "https://commons.wikimedia.org/wiki/File:Japanese_rhinoceros_beetle_at_Gunma_Insect_World.jpg"
+      ]
+    },
+    "Argiope_bruennichi": {
+      "impression": "黄黑相间横纹的园蛛，八条环纹步足呈典型 X 形展开，椭圆形腹部具黄黑横带，头胸部被银白色毛。",
+      "marks": [
+        "腹部黄黑/银黑相间横条纹",
+        "头胸部小、密被银白色毛",
+        "八条步足具深浅环纹，张成 X 形",
+        "身体分头胸部与腹部两段，无触角无翅"
+      ],
+      "sexAge": "本任务表现为完整成蛛；性别（雌蛛腹部大而圆）、眼列排列与丝腺结构不能由现有参考充分确认。园蛛为蛛形纲蜘蛛目，不是昆虫。",
+      "similar": [
+        {
+          "sci": "Araneus diadematus",
+          "zh": "十字园蛛",
+          "diff": "十字园蛛腹部褐色具白色十字斑、足色较单一；横纹金蛛腹部黄黑警示横纹、足具醒目环纹。"
+        }
+      ],
+      "range": "欧洲至中亚、东亚，引入北美",
+      "basedOn": [
+        "https://www.gbif.org/species/5170994",
+        "https://commons.wikimedia.org/wiki/File:(MHNT)_Argiope_bruennichi_female_dorsal.jpg"
       ]
     }
   }

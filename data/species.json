@@ -451,6 +451,100 @@
       }
     },
     {
+      "id": "Argiope_bruennichi",
+      "scientificName": "Argiope bruennichi",
+      "authority": "(Scopoli, 1772)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Araneae",
+        "family": "Araneidae",
+        "genus": "Argiope"
+      },
+      "names": {
+        "en": "Wasp spider",
+        "zh-Hans": "横纹金蛛",
+        "ca": "aranya vespa",
+        "cs": "křižák pruhovaný",
+        "da": "Hvepseedderkop",
+        "nl": "Wespspin",
+        "eo": "Argiope bruennichi",
+        "fi": "ampiaishämähäkki",
+        "fr": "Argiope bruennichi",
+        "de": "Wespenspinne",
+        "it": "Argiope bruennichi",
+        "ja": "ナガコガネグモ",
+        "lt": "Paprastasis vapsvavoris",
+        "pl": "tygrzyk paskowany",
+        "ru": "Аргиопа Брюнниха",
+        "sr": "Паук-оса",
+        "sk": "Križiak pásavý",
+        "es": "Argiope bruennichi",
+        "sv": "Getingspindel",
+        "tr": "Argiope bruennichi",
+        "uk": "Аргіопа Брюнніга",
+        "bg": "тигров паяк",
+        "et": "herilasämblik",
+        "el": "Αργιόπη (αράχνη)",
+        "he": "כסופי דל־פסים",
+        "hu": "darázspók",
+        "id": "Argiope bruennichi",
+        "ko": "긴호랑거미",
+        "lv": "lapseņzirneklis",
+        "mk": "Пајак-оса",
+        "fa": "عنکبوت زنبوری",
+        "ro": "Argiope bruennichi",
+        "sl": "osasti pajek"
+      },
+      "ids": {
+        "wikidata": "Q902450",
+        "gbif": 5170994
+      },
+      "range": {
+        "distribution": "欧洲至中亚、东亚，引入北美"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Araneae/Araneidae/Argiope_bruennichi.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "2b29213a083ee720bb1d68d9072e87b46b95695dbec2c1dfb1700ec087736e6d",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Argiope_bruennichi_female_dorsal.jpg",
+          "author": "<div class=\"fn value\"> <a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosa",
+          "license": "CC BY-SA 4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Argiope_bruennichi_female_dorsal.jpg",
+            "author": "<div class=\"fn value\"> <a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosa",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Wasp_spider_(Argiope_bruennichi)_female_dorsal_Hrdovicka.jpg",
+            "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q5",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Argiope_bruennichi_08Oct10.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%B1%A0%E7%94%B0%E6%AD%A3%E6%A8%B9\"",
+            "license": "Public domain"
+          }
+        ]
+      }
+    },
+    {
       "id": "Bombus_terrestris",
       "scientificName": "Bombus terrestris",
       "authority": "(Linnaeus, 1758)",
@@ -2435,6 +2529,87 @@
             "page": "https://commons.wikimedia.org/wiki/File:Adult_female_Tenodera_sinensis_on_arm.JPG",
             "author": "Happy1892",
             "license": "CC-BY-SA-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Trypoxylus_dichotomus",
+      "scientificName": "Trypoxylus dichotomus",
+      "authority": "(Linnaeus, 1771)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Coleoptera",
+        "family": "Scarabaeidae",
+        "genus": "Trypoxylus"
+      },
+      "names": {
+        "en": "Japanese rhinoceros beetle",
+        "zh-Hans": "双叉犀金龟",
+        "da": "Allomyrina dichotoma",
+        "nl": "Japanse neushoornkever",
+        "fi": "Trypoxylus dichotomus",
+        "fr": "Allomyrina dichotoma",
+        "de": "Trypoxylus dichotomus",
+        "it": "Trypoxylus dichotomus",
+        "ja": "カブトムシ",
+        "pl": "Japoński rohatyniec dwurożny",
+        "ru": "Allomyrina dichotoma",
+        "es": "Trypoxylus dichotomus",
+        "sv": "Trypoxylus",
+        "uk": "Trypoxylus dichotomus",
+        "bg": "Trypoxylus dichotomus",
+        "id": "Kumbang badak jepang",
+        "ko": "장수풍뎅이",
+        "fa": "سوسک کرگدنی ژاپنی",
+        "ro": "Trypoxylus dichotomus",
+        "th": "ด้วงกว่างญี่ปุ่น"
+      },
+      "ids": {
+        "wikidata": "Q1334311",
+        "gbif": 1076217
+      },
+      "range": {
+        "distribution": "中国东部、日本、朝鲜半岛及东南亚"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Coleoptera/Scarabaeidae/Trypoxylus_dichotomus.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 81,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "f765564ef6dc2e83a4ad31677404fcd339420d146c8ee5299ce95765b0cbe5c8",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Japanese_rhinoceros_beetle_at_Gunma_Insect_World.jpg",
+          "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E5%B2%A1%E9%83%A8%E7%A2%A9%E9%81%93\"",
+          "license": "Public domain"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Japanese_rhinoceros_beetle_at_Gunma_Insect_World.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E5%B2%A1%E9%83%A8%E7%A2%A9%E9%81%93\"",
+            "license": "Public domain"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Kabutomushi-JapaneseBeetle-July2004.jpg",
+            "author": "<a href=\"https://en.wikipedia.org/wiki/ja:User:Gombe\" class=\"extiw\" title=\"w:ja:",
+            "license": "CC BY-SA 3.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Trypoxylus_dichotomus_298634125.jpg",
+            "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/",
+            "license": "CC BY-SA 4.0"
           }
         ]
       }

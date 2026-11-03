@@ -6,7 +6,7 @@
 
 **English** · [简体中文](README.zh-Hans.md)
 
-The public library currently contains **28 reviewed species across 12 orders and 20 families**. Additional species are added only after passing the same reference, generation, technical and independent review pipeline. The dataset currently uses **46 language codes**, with coverage varying by the labels actually available in Wikidata.
+The public library currently contains **30 reviewed species across 12 orders and 20 families**. Additional species are added only after passing the same reference, generation, technical and independent review pipeline. The dataset currently uses **46 language codes**, with coverage varying by the labels actually available in Wikidata.
 
 **License in short:** stickers and previews may be used, copied, modified and shared, including commercially, **except to provide a competing IntoREAL insect-identification or illustrated field-guide product**. Credit IntoReal-insect-sticker with a link to this repository. Project-compiled data is MIT; third-party material keeps its own terms. See [LICENSE.md](LICENSE.md) and [NOTICE.md](NOTICE.md).
 
@@ -76,7 +76,7 @@ Every image below is generated from the approved public stickers. Only species t
 
 ![Ground beetles](previews/families/carabidae.webp)
 
-### Rose chafers · *Scarabaeidae* — 1 species
+### Rose chafers · *Scarabaeidae* — 2 species
 
 ![Rose chafers](previews/families/scarabaeidae.webp)
 
@@ -96,7 +96,7 @@ Every image below is generated from the approved public stickers. Only species t
 
 ![Hoverflies](previews/families/syrphidae.webp)
 
-### Orb-weavers · *Araneidae* — 1 species
+### Orb-weavers · *Araneidae* — 2 species
 
 ![Orb-weavers](previews/families/araneidae.webp)
 
@@ -113,11 +113,12 @@ Every image below is generated from the approved public stickers. Only species t
 | `data/species.csv` | The same core data flattened for spreadsheets |
 | `data/names.csv` | Names in 46 language codes, including regional variants |
 | `data/languages.json` | Language codes and their sources |
-| `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for 28 species, CC BY-SA 4.0 |
+| `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for 30 species, CC BY-SA 4.0 |
 | `data/candidates-20.json` | The first formal candidate set, including 3 blocked items not admitted to the public dataset |
 | `data/candidates-next.json` | The completed 3-species expansion batch |
 | `data/candidates-expansion-30.json` | Evidence matrix for 30 candidates across 6 orders and 6 continental sampling regions, with 2 published pilots and 1 blocked locust; expansion-02 adds 3 published species |
 | `data/candidates-expansion-03.json` | Four-class validation batch (beetle, butterfly, dragonfly, spider): 3 published species and 1 blocked butterfly |
+| `data/candidates-expansion-04.json` | Second four-class batch: rhinoceros beetle and wasp spider published; great mormon and scarlet skimmer blocked on dorsal leg-junction evidence |
 | `previews/` | Header, hero, order and family specimen drawers |
 | `scripts/` | Codex CLI pipeline, Issue worker, v2 task generator, metadata enrichment and preview rendering |
 | `tests/` | Standard-library regression tests for task validation, isolated review, retry, replacement and Issue closure; run `python3 -m unittest discover -s tests -v` |
@@ -167,13 +168,13 @@ A record looks like this (some fields are omitted for readability):
 
 ## Coverage
 
-- **Published stickers:** 28 species across 12 orders and 20 families.
+- **Published stickers:** 30 species across 12 orders and 20 families.
 - **Names:** 46 language codes, sourced from Wikidata labels where available; missing labels remain empty rather than being machine-translated.
-- **Identifiers:** all 28 species have exact-match GBIF and Wikidata IDs, plus taxonomic authority from GBIF.
+- **Identifiers:** all 30 species have exact-match GBIF and Wikidata IDs, plus taxonomic authority from GBIF.
 - **Conservation:** 7 species currently have an IUCN LC record from Wikidata; other conservation fields remain empty when no claim exists.
 - **Traits:** 3 species currently have a wingspan record from Wikidata; unsupported traits are not inferred.
-- **Chinese field guide:** 28 species with appearance, identification and similar-species notes.
-- **Blocked candidates:** Pantala flavescens, Lucilia sericata, Vespa mandarinia, Schistocerca gregaria and Aglais io remain outside the public sticker dataset because they did not meet the quality bar.
+- **Chinese field guide:** 30 species with appearance, identification and similar-species notes.
+- **Blocked candidates:** Pantala flavescens, Lucilia sericata, Vespa mandarinia, Schistocerca gregaria, Aglais io, Papilio memnon and Crocothemis servilia remain outside the public sticker dataset because they did not meet the quality bar.
 - **Scope note:** the library is insect-focused; it also includes one spider (*Araneus diadematus*, order Araneae) as a commonly confused non-insect, reviewed under the same pipeline with arachnid-specific checks (eight legs, two body segments, no antennae or wings).
 
 The initial candidate set is not a claim of worldwide or regional completeness. New species are appended through the same production and review process.
