@@ -1,240 +1,39 @@
-# IntoReal insect stickers
-
-<img src="previews/header.webp" alt="IntoReal insect specimen drawer" width="100%">
-
-**IntoReal's open, worldwide insect sticker library: transparent WebP stickers with structured taxonomy, multilingual names, distribution, review scores and traceable references. [中文说明 →](README.zh-Hans.md)**
-
-**English** · [简体中文](README.zh-Hans.md)
-
-The public library currently contains **33 reviewed species across 12 orders and 20 families**. Additional species are added only after passing the same reference, generation, technical and independent review pipeline. The dataset currently uses **46 language codes**, with coverage varying by the labels actually available in Wikidata.
-
-**License in short:** stickers and previews may be used, copied, modified and shared, including commercially, **except to provide a competing IntoREAL insect-identification or illustrated field-guide product**. Credit IntoReal-insect-sticker with a link to this repository. Project-compiled data is MIT; third-party material keeps its own terms. See [LICENSE.md](LICENSE.md) and [NOTICE.md](NOTICE.md).
-
-## With thanks to huashu-bird-sticker
-
-This project directly learns from and builds upon the publishing model of [Huashu’s huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker). Its clear repository organization, combination of stickers and structured metadata, review workflow, and thoughtful approach to open licensing provided the foundation on which we are building this insect collection.
-
-We are sincerely grateful for that work and **warmly recommend huashu-bird-sticker** as an outstanding open project. IntoReal-insect-sticker is an independent insect project inspired by and adapted from that foundation; it does not reproduce Huashu’s bird species data or artwork, and no official affiliation or endorsement is implied.
-
-## Gallery
-
-Every image below is generated from the approved public stickers. Only species that passed both independent reviews are included.
-
-### Ladybirds · *Coccinellidae* — 4 species
-
-![Ladybirds](previews/families/coccinellidae.webp)
-
-### Mole crickets · *Gryllotalpidae* — 1 species
-
-![Mole crickets](previews/families/gryllotalpidae.webp)
-
-### Mantisflies · *Mantispidae* — 1 species
-
-![Mantisflies](previews/families/mantispidae.webp)
-
-### Caddisflies · *Limnephilidae* — 1 species
-
-![Caddisflies](previews/families/limnephilidae.webp)
-
-### Giant cockroaches · *Blaberidae* — 1 species
-
-![Giant cockroaches](previews/families/blaberidae.webp)
-
-### Cockroaches · *Blattidae* — 1 species
-
-![Cockroaches](previews/families/blattidae.webp)
-
-### Swallowtails · *Papilionidae* — 3 species
-
-![Swallowtails](previews/families/papilionidae.webp)
-
-### Whites and yellows · *Pieridae* — 1 species
-
-![Whites and yellows](previews/families/pieridae.webp)
-
-### Brush-footed butterflies · *Nymphalidae* — 3 species
-
-![Brush-footed butterflies](previews/families/nymphalidae.webp)
-
-### Moon moths · *Saturniidae* — 1 species
-
-![Moon moths](previews/families/saturniidae.webp)
-
-### Hawkers · *Aeshnidae* — 2 species
-
-![Hawkers](previews/families/aeshnidae.webp)
-
-### Damselflies · *Coenagrionidae* — 1 species
-
-![Damselflies](previews/families/coenagrionidae.webp)
-
-### Skimmers · *Libellulidae* — 2 species
-
-![Skimmers](previews/families/libellulidae.webp)
-
-### Ground beetles · *Carabidae* — 1 species
-
-![Ground beetles](previews/families/carabidae.webp)
-
-### Rose chafers · *Scarabaeidae* — 2 species
-
-![Rose chafers](previews/families/scarabaeidae.webp)
-
-### Bees · *Apidae* — 2 species
-
-![Bees](previews/families/apidae.webp)
-
-### Mantises · *Mantidae* — 2 species
-
-![Mantises](previews/families/mantidae.webp)
-
-### Stink bugs · *Pentatomidae* — 2 species
-
-![Stink bugs](previews/families/pentatomidae.webp)
-
-### Hoverflies · *Syrphidae* — 1 species
-
-![Hoverflies](previews/families/syrphidae.webp)
-
-### Orb-weavers · *Araneidae* — 2 species
-
-![Orb-weavers](previews/families/araneidae.webp)
-
-### One from each published order
-
-![Published orders](previews/orders.webp)
-
-## What's inside
-
-| Path | Contents |
-|---|---|
-| `stickers/<Order>/<Family>/<Genus_species>.webp` | Reviewed transparent stickers with a white outline, about 1,000 px on the long side |
-| `data/species.json` | One record per published species: taxonomy, names, IDs, range, traits, conservation, sticker and sources |
-| `data/species.csv` | The same core data flattened for spreadsheets |
-| `data/names.csv` | Names in 46 language codes, including regional variants |
-| `data/languages.json` | Language codes and their sources |
-| `data/field-guide.zh-Hans.json` | Chinese appearance, identification and similar-species notes for 33 species, CC BY-SA 4.0 |
-| `data/candidates-20.json` | The first formal candidate set, including 3 blocked items not admitted to the public dataset |
-| `data/candidates-next.json` | The completed 3-species expansion batch |
-| `data/candidates-expansion-30.json` | Evidence matrix for 30 candidates across 6 orders and 6 continental sampling regions, with 2 published pilots and 1 blocked locust; expansion-02 adds 3 published species |
-| `data/candidates-expansion-03.json` | Four-class validation batch (beetle, butterfly, dragonfly, spider): 3 published species and 1 blocked butterfly |
-| `data/candidates-expansion-04.json` | Second four-class batch: rhinoceros beetle and wasp spider published; great mormon and scarlet skimmer rescued by revision after the dorsal leg-junction policy update |
-| `data/candidates-revision-01` (tasks) | Revision batch: Papilio memnon, Crocothemis servilia and Aglais io re-admitted under the revised leg policy; Aeshna cyanea and Anax imperator re-drawn to fix ventral-style splayed legs |
-| `previews/` | Header, hero, order and family specimen drawers |
-| `scripts/` | Codex CLI pipeline, Issue worker, v2 task generator, metadata enrichment and preview rendering |
-| `tests/` | Standard-library regression tests for task validation, isolated review, retry, replacement and Issue closure; run `python3 -m unittest discover -s tests -v` |
-
-Field definitions and publication rules are documented in [data/README.md](data/README.md).
-
-A record looks like this (some fields are omitted for readability):
-
-```json
-{
-  "id": "Graphosoma_italicum",
-  "scientificName": "Graphosoma italicum",
-  "authority": "(O.F.Müller, 2066)",
-  "taxonomy": {
-    "system": "GBIF Backbone Taxonomy",
-    "order": "Hemiptera",
-    "family": "Pentatomidae",
-    "genus": "Graphosoma"
-  },
-  "names": {
-    "en": "Italian striped bug",
-    "zh-Hans": "意大利条蝽"
-  },
-  "ids": {
-    "wikidata": "Q56085742",
-    "gbif": 7437802
-  },
-  "range": {
-    "distribution": "欧洲"
-  },
-  "sticker": {
-    "file": "stickers/Hemiptera/Pentatomidae/Graphosoma_italicum.webp",
-    "kind": "ai-illustration",
-    "reviewScore": 90,
-    "primaryReviewScore": 85,
-    "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
-    "reference": {
-      "type": "photo",
-      "page": "https://commons.wikimedia.org/wiki/File:2013-06-07_21-00-56-Graphosoma-italicum.JPG",
-      "author": "Thomas Bresson",
-      "license": "CC-BY-3.0"
-    }
-  }
-}
-```
-
-## Coverage
-
-- **Published stickers:** 33 species across 12 orders and 20 families.
-- **Names:** 46 language codes, sourced from Wikidata labels where available; missing labels remain empty rather than being machine-translated.
-- **Identifiers:** all 33 species have exact-match GBIF and Wikidata IDs, plus taxonomic authority from GBIF.
-- **Conservation:** 8 species currently have an IUCN LC record from Wikidata; other conservation fields remain empty when no claim exists.
-- **Traits:** 4 species currently have a wingspan record from Wikidata; unsupported traits are not inferred.
-- **Chinese field guide:** 33 species with appearance, identification and similar-species notes.
-- **Blocked candidates:** Pantala flavescens, Lucilia sericata, Vespa mandarinia and Schistocerca gregaria remain outside the public sticker dataset because they did not meet the quality bar.
-- **Scope note:** the library is insect-focused; it also includes one spider (*Araneus diadematus*, order Araneae) as a commonly confused non-insect, reviewed under the same pipeline with arachnid-specific checks (eight legs, two body segments, no antennae or wings).
-
-The initial candidate set is not a claim of worldwide or regional completeness. New species are appended through the same production and review process.
-
-## How the stickers are made
-
-Each approved species begins with multiple reference photographs or scientific figure crops, with the view, life stage, author, license, local path and SHA-256 recorded. Codex CLI then creates a new natural-history illustration rather than copying a photograph.
-
-The production pipeline has two independent review stages:
-
-1. **Technical and primary review:** image decoding, RGBA transparency, canvas edges, hashes, anatomy, field marks and presentation.
-2. **Isolated blind review:** a fresh Codex CLI process receives only the approved references, candidate, checklist and candidate hash. It cannot read the generation record, primary-review score or previous comments.
-
-New and revision tasks also require a critical structural and perspective check. The overall pose must be explicitly supported by all specified references; a familiar silhouette cannot compensate for incompatible head and body views. A reviewed replacement is accepted only when its declared previous source hash still matches the published record.
-
-A critical identification failure blocks publication, and a score below 80 fails. A critical failure also caps the score at 77. Non-critical visual issues are deducted according to the checklist rather than being silently ignored. Failed attempts and targeted redraws are retained. A candidate that reaches the retry limit is marked `blocked` and is not exported.
-
-GitHub Issues provide the task queue and audit trail. The single worker discovers prepared Production issues, runs them serially, exports approved WebP stickers and closes issues automatically. Network failures are retried without duplicating attempts or overwriting historical files.
-
-These are AI-assisted natural-history illustrations, not expert taxonomic determinations. Features that cannot be checked against the references are marked `unverifiable`.
-
-## About the reference photos
-
-**Original reference photographs and local reference crops are not included in the public repository.** Each published record links to the source page and records the author and license under `sticker.reference` and `sticker.references`.
-
-The stickers are new drawings. Reference-photo licenses are recorded so users can filter and review them, but a reference-photo license is not automatically treated as the license of the new illustration. Rights in the source images remain with their authors.
-
-If you are the author of a reference image and object to its use in this project, please [open an issue](https://github.com/hunknownz/intoreal-insect-sticker/issues). We will review and replace or remove the affected material within 7 days.
-
-## Use it
-
-Raw files can be loaded directly:
+# 昆虫贴纸数据说明
+
+本目录采用与 `huashu-bird-sticker` 对应的公开数据结构。当前仅收录已经通过正式生产审核的物种，候选清单不等于已发布成品。
+
+## 文件
+
+| 文件 | 内容 | 许可 |
+|---|---|---|
+| `species.json` | 每个已发布物种的分类、名称、分布、贴纸路径、审核分数和参考来源 | 项目整理部分 MIT；第三方字段保留各自条款 |
+| `species.csv` | `species.json` 的表格展开版本 | 同上 |
+| `names.csv` | 物种学名与当前可用语言名称 | 项目整理部分 MIT；Wikidata 标签 CC0 |
+| `languages.json` | 当前名称字段及来源 | MIT |
+| `field-guide.zh-Hans.json` | 33 个已发布物种的中文形态、辨识和相似种说明 | CC BY-SA 4.0；basedOn 记录分类与形态依据 |
+| `candidates-20.json` | 首批 20 种生产候选及参考元数据，不代表已通过审核 | 项目整理部分 MIT；参考照片保留各自许可 |
+| `candidates-next.json` | 已完成生产的 3 个扩充物种及参考元数据 | 项目整理部分 MIT；参考照片保留各自许可 |
+| `candidates-expansion-30.json` | 30 种证据矩阵，含分类、采样地区、参考视角、作者、许可与核验状态；试点 3 种中 2 种已发布、1 种 blocked，expansion-02 另有 3 种已发布，仅通过双审者公开 | 项目整理部分 MIT；参考照片保留各自许可 |
+
+## 贴纸路径
 
 ```text
-https://raw.githubusercontent.com/hunknownz/intoreal-insect-sticker/main/stickers/Hemiptera/Pentatomidae/Graphosoma_italicum.webp
+stickers/<Order>/<Family>/<Genus_species>.webp
 ```
 
-```python
-import json
-species = json.load(open("data/species.json"))["species"]
-by_name = {row["scientificName"]: row for row in species}
-print(by_name["Graphosoma italicum"]["sticker"]["file"])
-```
+贴纸为保留 alpha 透明通道的 WebP，长边约 1000px。只有一审和独立盲审均达到质量门槛的物种才会自动导出。`sticker.sourceSha256` 对应审核通过的原始 PNG 候选，便于复核同一交付对象。
 
-To fetch only the data and a few sticker families:
+新任务和修订任务采用结构与视角一致性审核（v2）：整体通过时 `view-consistency` 必须明确通过，且审核记录必须覆盖全部指定参考。已发布图的修订只有在双审通过、公开原图哈希与 `sticker.revisionOf.sourceSha256` 一致时才允许替换；该字段同时记录原 Issue 和 attempt。替换保留分类、名称、ID、分布、形态及保护状态资料。
 
-```bash
-git clone --filter=blob:none --sparse https://github.com/hunknownz/intoreal-insect-sticker
-cd intoreal-insect-sticker && git sparse-checkout set data stickers/Coleoptera stickers/Hemiptera
-```
+## 主要字段
 
-The pipeline scripts are included for reproducibility, but local reference photographs are intentionally excluded.
+- `taxonomy.order`、`taxonomy.family`、`taxonomy.genus`：拉丁分类名称。
+- `names.en`、`names.zh-Hans`：当前英文名和简体中文名。
+- `range.distribution`：候选阶段整理的分布简述。
+- `sticker.reviewScore`：独立盲审分数。
+- `sticker.primaryReviewScore`：独立一审分数。
+- `sticker.meetsQualityBar`：是否达到当前发布质量门槛。
+- `sticker.reference`、`sticker.references`：参考页面、作者和许可；原始照片不包含在公开仓库中。
+- `sticker.license`：项目贴纸许可，当前为 `PolyForm-Shield-1.0.0`；参考照片保留各自许可，不与新插画许可混同。
 
-## Credits
-
-- **Taxonomy and IDs:** GBIF Backbone Taxonomy and the GBIF species API, using accepted exact-name matches.
-- **Names and additional claims:** Wikidata labels and taxon-name, conservation and trait claims (CC0).
-- **Reference images:** the photographers and institutions credited per species in `data/species.json`, principally Wikimedia Commons contributors.
-- **Generation and review:** Codex CLI image generation, independent primary review and isolated blind review.
-- **Repository structure:** inspired by [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), adapted for a global insect collection rather than copied species data or artwork.
-
-The full third-party source and license policy is in [NOTICE.md](NOTICE.md). Stickers and previews are licensed under [PolyForm Shield 1.0.0](LICENSES/PolyForm-Shield-1.0.0.md); project-compiled data is under [MIT](LICENSES/MIT.txt).
+`taxonomy.system` 和命名权威来自 GBIF Backbone Taxonomy 的精确接受种匹配；`ids.wikidata` 与 `ids.gbif` 分别来自 Wikidata API 和 GBIF species API。无法匹配的字段保持为空，不根据模型印象编造。`names.csv` 目前包含与上游对应的 46 个语言代码，其他语言标签来自 Wikidata（CC0），覆盖随实际标签而异；不存在的标签保持为空，不做机器翻译补全。`conservation` 来自 Wikidata P141/P7603，`traits` 来自 P2974/P2050/P2043/P2067；缺失声明保持为空，IUCN 等级可能滞后于最新红色名录。

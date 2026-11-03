@@ -1,0 +1,2042 @@
+{
+  "schemaVersion": 1,
+  "status": "evidence-matrix",
+  "count": 30,
+  "retrievedAt": "2026-11-02T13:06:21.770336+00:00",
+  "notes": [
+    "samplingRegions 是扩充采样优先级，不等于完整自然分布。",
+    "只有 status=pilot-ready 的三个候选获准进入本批生产；其他候选仍需补充或复核证据。",
+    "原始参考照片只存本地；本公开矩阵不包含原始照片或本地文件路径。",
+    "Ectobius lapponicus 因缺少合格公开参考而替换为 Ectobius sylvestris。",
+    "未知鉴定、模糊、人物合成或不适合主姿态的素材未纳入试点。"
+  ],
+  "candidates": [
+    {
+      "id": "Acheta_domesticus",
+      "scientificName": "Acheta domesticus",
+      "commonNameEn": "Common House Cricket",
+      "commonNameZhHans": "家蟋蟀",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Orthoptera",
+        "family": "Gryllidae",
+        "genus": "Acheta",
+        "authority": null,
+        "gbif": 1718308
+      },
+      "samplingRegions": [
+        "全球"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "anterior head and thorax detail",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Acheta_domesticus_head_16121.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "anterior head detail",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Acheta_domesticus_head161217_2.jpg",
+          "author": "Carlos Valenzuela",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构",
+        "现有首选为头胸局部，生产前必须补充完整主姿态"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "pending"
+      }
+    },
+    {
+      "id": "Anopheles_gambiae",
+      "scientificName": "Anopheles gambiae",
+      "commonNameEn": "",
+      "commonNameZhHans": "",
+      "nameSources": {},
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Culicidae",
+        "genus": "Anopheles",
+        "authority": null,
+        "gbif": 1650518
+      },
+      "samplingRegions": [
+        "非洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Anopheles_gambiae_mosquito_feeding_1354.p_lores.jpg",
+          "author": "Content Providers(s): CDC/James Gathany\nProvider Email:\tjdg1@cdc.gov\n \nPhoto Credit: James Gathany",
+          "license": "Public domain",
+          "licenseURL": "",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Anopheles_gambiae_Mosquitos.jpg",
+          "author": "National Institutes of Health (NIH)",
+          "license": "Public domain",
+          "licenseURL": "",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构",
+        "蚊种复合群成员不能仅凭单张生态照区分"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Blattella_germanica",
+      "scientificName": "Blattella germanica",
+      "commonNameEn": "German Cockroach",
+      "commonNameZhHans": "德國姬蠊",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Ectobiidae",
+        "genus": "Blattella",
+        "authority": null,
+        "gbif": 1997215
+      },
+      "samplingRegions": [
+        "全球"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Blattella_germanica_1236168.jpg",
+          "author": "Clemson University - USDA Cooperative Extension Slide Series,",
+          "license": "CC BY 3.0 us",
+          "licenseURL": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Ectobius_vittiventris_und_Blattella_germanica.jpg",
+          "author": "Amada44,  Lmbuga ,  derivative work   Lämpel",
+          "license": "CC BY 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Bombylius_major",
+      "scientificName": "Bombylius major",
+      "commonNameEn": "Bee Fly",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Bombyliidae",
+        "genus": "Bombylius",
+        "authority": null,
+        "gbif": 1670212
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Grosser_Wollschweber_Bombylius_major.jpg",
+          "author": "Richard Bartz , Munich aka  Makro Freak",
+          "license": "CC BY-SA 2.5",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Grosser_Wollschweber_Bombylius_major_detail.jpg",
+          "author": "Richard Bartz , Munich aka  Makro Freak",
+          "license": "CC BY-SA 2.5",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Chorthippus_biguttulus",
+      "scientificName": "Chorthippus biguttulus",
+      "commonNameEn": "bow-winged grasshopper",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Orthoptera",
+        "family": "Acrididae",
+        "genus": "Chorthippus",
+        "authority": null,
+        "gbif": 1708251
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Chorthippus_biguttulus_f_8835.jpg",
+          "author": "G.-U. Tolkiehn",
+          "license": "CC BY 2.5",
+          "licenseURL": "https://creativecommons.org/licenses/by/2.5",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Chorthippus_biguttulus,_Vic-la-Gardiole_02.jpg",
+          "author": "Christian Ferrer",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Chrysoperla_carnea",
+      "scientificName": "Chrysoperla carnea",
+      "commonNameEn": "Common green lacewing",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Neuroptera",
+        "family": "Chrysopidae",
+        "genus": "Chrysoperla",
+        "authority": null,
+        "gbif": 2105360
+      },
+      "samplingRegions": [
+        "欧洲",
+        "亚洲",
+        "北美洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Chrysoperla_carnea_-_dorsal_view.jpg",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Chrysopidae_-_Chrysoperla_carnea_group.jpg",
+          "author": "Hectonichus",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构",
+        "隐存种鉴别不能仅凭整体绿色和翅脉外观"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Culex_pipiens",
+      "scientificName": "Culex pipiens",
+      "commonNameEn": "Mosquito",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Culicidae",
+        "genus": "Culex",
+        "authority": null,
+        "gbif": 1652991
+      },
+      "samplingRegions": [
+        "全球"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Culex_pipiens_2007-1.jpg",
+          "author": "Alvesgaspar",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Culex_pipiens_Pete_DeVries.jpg",
+          "author": "Peter J. DeVries",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Drosophila_melanogaster",
+      "scientificName": "Drosophila melanogaster",
+      "commonNameEn": "Common fruit fly, Vinegar fly",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Drosophilidae",
+        "genus": "Drosophila",
+        "authority": null,
+        "gbif": 5073713
+      },
+      "samplingRegions": [
+        "全球"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_-_side_(aka).jpg",
+          "author": "André Karwath aka  Aka",
+          "license": "CC BY-SA 2.5",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_Proboscis.jpg",
+          "author": "Sanjay Acharya",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Ectobius_sylvestris",
+      "scientificName": "Ectobius sylvestris",
+      "commonNameEn": "Lesser cockroach",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "https://commons.wikimedia.org/wiki/File:Ectobius_sylvestris_(Lesser_cockroach)_male,_Nijmegen,_the_Netherlands.jpg"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Ectobiidae",
+        "genus": "Ectobius",
+        "authority": "(Poda, 1761)",
+        "gbif": 1998169
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Ectobius_sylvestris_(Lesser_cockroach)_male,_Nijmegen,_the_Netherlands.jpg",
+          "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bj.schoenmakers\" title=\"User:Bj.schoenmakers\">Bj.schoenmakers</a>",
+          "license": "CC0",
+          "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "dorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Ectobius_sylvestris_(Lesser_cockroach)_female,_Nijmegen,_the_Netherlands_-_2.jpg",
+          "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bj.schoenmakers\" title=\"User:Bj.schoenmakers\">Bj.schoenmakers</a>",
+          "license": "CC0",
+          "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Gromphadorhina_portentosa",
+      "scientificName": "Gromphadorhina portentosa",
+      "commonNameEn": "Madagascar hissing cockroach",
+      "commonNameZhHans": "马达加斯加发声蟑螂",
+      "nameSources": {
+        "en": "https://en.wikipedia.org/wiki/Madagascar_hissing_cockroach",
+        "zh-Hans": "https://baike.sogou.com/m/fullLemma?g_ut=3&lid=196996"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Blaberidae",
+        "genus": "Gromphadorhina",
+        "authority": "(Schaum, 1853)",
+        "gbif": 1994576
+      },
+      "samplingRegions": [
+        "非洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "published",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose",
+          "type": "photo",
+          "view": "dorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa(Karaczan_madagaskarski.JPG",
+          "author": "Kaczuszkax",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "610331d5aeb830a6171fb43126cd0a9c08fad69b083137c08158ee076fe2154b",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa_(outside).jpg",
+          "author": "Markbenecke",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "509a4aa55d1ef992e7b7d7e89c766f2f07bdab1af7a9e3c5ad376257ca2e2a81",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral pronotum detail",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Male_Gromphadorhina_portentosa.jpg",
+          "author": "Eveha",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "07831350ccd117ad0d457639a6ca8c7cdd9c1b62b314437c3ad13aa7711320bc",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      },
+      "batch": "expansion-02",
+      "workspace": "production/Gromphadorhina_portentosa",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/33",
+      "distribution": "马达加斯加",
+      "distributionSource": "https://www.gbif.org/species/1994576",
+      "ids": {
+        "gbif": 1994576,
+        "wikidata": "Q1073729"
+      },
+      "reviewScore": 95,
+      "primaryReviewScore": 95,
+      "sticker": "stickers/Blattodea/Blaberidae/Gromphadorhina_portentosa.webp"
+    },
+    {
+      "id": "Gryllotalpa_gryllotalpa",
+      "scientificName": "Gryllotalpa gryllotalpa",
+      "distribution": "欧洲",
+      "distributionSource": "https://www.gbif.org/species/1716128",
+      "commonNameEn": "European mole cricket",
+      "commonNameZhHans": "欧洲蝼蛄",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "https://baike.baidu.com/item/Gryllotalpa%20gryllotalpa/16704567"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Orthoptera",
+        "family": "Gryllotalpidae",
+        "genus": "Gryllotalpa",
+        "authority": null,
+        "gbif": 1716128
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "published",
+      "reviewProtocolVersion": 2,
+      "reviewScore": 95,
+      "primaryReviewScore": 85,
+      "sticker": "stickers/Orthoptera/Gryllotalpidae/Gryllotalpa_gryllotalpa.webp",
+      "references": [
+        {
+          "role": "primary-pose",
+          "type": "photo",
+          "view": "anterodorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_vorne-oben.jpg",
+          "author": "Eszter Kovács",
+          "license": "CC BY-SA 2.0 de",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "74c3c946f76a40e06bebf4e3dff785fbcf860fdc7f7211f5e019f6211278806e"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "dorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_MHNT.jpg",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "33ac35ed3785544c83ff7672dc74c22d129f74275a547aaa22a6b1b32d5c4955"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "anterior head detail",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_01.JPG",
+          "author": "H. Zell",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "8f0ad18cfd72eaa8b0bffdc9632bd8a25266cec8dcf674fba333cdfa7f00c7fc"
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      },
+      "pilot": true,
+      "workspace": "production/Gryllotalpa_gryllotalpa",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/29"
+    },
+    {
+      "id": "Hermetia_illucens",
+      "scientificName": "Hermetia illucens",
+      "commonNameEn": "Black Soldier Fly",
+      "commonNameZhHans": "亮斑扁角水虻",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Stratiomyidae",
+        "genus": "Hermetia",
+        "authority": null,
+        "gbif": 1577153
+      },
+      "samplingRegions": [
+        "全球"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "dorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Hermetia_illucens-2.jpg",
+          "author": "Eugene Zelenko",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Hermetia_illucens-4.jpg",
+          "author": "Eugene Zelenko",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Hydropsyche_pellucidula",
+      "scientificName": "Hydropsyche pellucidula",
+      "commonNameEn": "",
+      "commonNameZhHans": "",
+      "nameSources": {},
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Trichoptera",
+        "family": "Hydropsychidae",
+        "genus": "Hydropsyche",
+        "authority": null,
+        "gbif": 5054150
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Hydropsyche_pellucidula,_Hydropsychidae,_Dolydd_Hafren,_North_Wales,_Aug_2014_(3)_(18039948781).jpg",
+          "author": "Janet Graham",
+          "license": "CC BY 2.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Hydropsyche_pellucidula,_Hydropsychidae,_Dolydd_Hafren,_North_Wales,_Aug_2014_(1)_(18039956651).jpg",
+          "author": "Janet Graham",
+          "license": "CC BY 2.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Limnephilus_lunatus",
+      "scientificName": "Limnephilus lunatus",
+      "commonNameEn": "Cinnamon Sedge",
+      "commonNameZhHans": "奇异沼石蛾",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "https://xueshu.baidu.com/usercenter/paper/show?paperid=6f80ad41a6bb63b567fcda2b89a1fef0&site=xueshu_se"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Trichoptera",
+        "family": "Limnephilidae",
+        "genus": "Limnephilus",
+        "authority": "Curtis, 1834",
+        "gbif": 1442474
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "published",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Trichoptera_Limnephilus_lunatus.jpg",
+          "author": "Mick Talbot",
+          "license": "CC BY 2.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "42e172f1a13c6db8b23defbbb34a7a3f253d6f538e240f69a91c1f64a4a6f622",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Limnephilus_lunatus_(Limnephilidae_sp.),_Arnhem,_the_Netherlands_-_2.jpg",
+          "author": "Bj.schoenmakers",
+          "license": "CC0",
+          "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "c2c28385c037cef559c6b3ab7b5b4ae8ff083e3c13fd01235d02593f37928ea7",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral wing and body detail",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Limnephilus_lunatus_01.JPG",
+          "author": "Sanja565658",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "81f6f462c28837ff54a025b58f4e6139786da2926a34ccab8f688a0f864ce2ce",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      },
+      "batch": "expansion-02",
+      "workspace": "production/Limnephilus_lunatus",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/32",
+      "distribution": "欧洲",
+      "distributionSource": "https://www.gbif.org/species/1442474",
+      "ids": {
+        "gbif": 1442474,
+        "wikidata": "Q2209374"
+      },
+      "reviewScore": 90,
+      "primaryReviewScore": 90,
+      "sticker": "stickers/Trichoptera/Limnephilidae/Limnephilus_lunatus.webp"
+    },
+    {
+      "id": "Locusta_migratoria",
+      "scientificName": "Locusta migratoria",
+      "commonNameEn": "Locust",
+      "commonNameZhHans": "飛蝗",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Orthoptera",
+        "family": "Acrididae",
+        "genus": "Locusta",
+        "authority": null,
+        "gbif": 1713418
+      },
+      "samplingRegions": [
+        "非洲",
+        "欧洲",
+        "亚洲",
+        "大洋洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Locusta_migratoria_mating.jpg",
+          "author": "Phonon.b",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Locusta_migratoria_Lucca_01.jpg",
+          "author": "Syrio",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Macrotermes_bellicosus",
+      "scientificName": "Macrotermes bellicosus",
+      "commonNameEn": "",
+      "commonNameZhHans": "",
+      "nameSources": {},
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Termitidae",
+        "genus": "Macrotermes",
+        "authority": null,
+        "gbif": 9656725
+      },
+      "samplingRegions": [
+        "非洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "multiple individuals and castes",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Macrotermes_bellicosus_minor_soldier.jpg",
+          "author": "ETF89",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构",
+        "照片中多个体和级型需分别核对，生产前需单一主姿态参考"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "pending"
+      }
+    },
+    {
+      "id": "Mantispa_styriaca",
+      "scientificName": "Mantispa styriaca",
+      "commonNameEn": "Styrian praying lacewing",
+      "commonNameZhHans": "斯提利亚螳蛉",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "http://sp2000.org.cn/species/show_species_details/c1c01d983b05412b948d1b7663a32a96"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Neuroptera",
+        "family": "Mantispidae",
+        "genus": "Mantispa",
+        "authority": "(Poda, 1761)",
+        "gbif": 2107724
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "published",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(9566952168).jpg",
+          "author": "Gilles San Martin  from Namur, Belgium",
+          "license": "CC BY-SA 2.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "2d521a8163926c17ce81b8557720f74f368c10b9a7578d8e3529b984086a152d",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral alternate",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca.jpg",
+          "author": "H. Dumas",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "046b916c2eb59d5ae76f63896f4091abe29cc4cd422cd506ec7ddb44a08037fc",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral wing and leg detail",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(Mantispidae)_-_(imago),_Narbolia_(comuni),_Italy_-_5.jpg",
+          "author": "This image is created by user  B. Schoenmakers  at  Observation.org , a global biodiversity recording project.",
+          "license": "CC BY 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "27b81e7199e52d0877cdfaaf7bc7330939656d65202e893fce9752df5999efbd",
+          "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      },
+      "batch": "expansion-02",
+      "workspace": "production/Mantispa_styriaca",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/31",
+      "distribution": "欧洲",
+      "distributionSource": "https://www.gbif.org/species/2107724",
+      "ids": {
+        "gbif": 2107724,
+        "wikidata": "Q1656577"
+      },
+      "reviewScore": 90,
+      "primaryReviewScore": 90,
+      "sticker": "stickers/Neuroptera/Mantispidae/Mantispa_styriaca.webp"
+    },
+    {
+      "id": "Myrmeleon_formicarius",
+      "scientificName": "Myrmeleon formicarius",
+      "commonNameEn": "ant-lion",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Neuroptera",
+        "family": "Myrmeleontidae",
+        "genus": "Myrmeleon",
+        "authority": null,
+        "gbif": 2100670
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Myrmeleon_formicarius_01.JPG",
+          "author": "AfroBrazilian",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:410_Gemeine_Ameisenjungfer_Myrmeleon_formicarius.jpg",
+          "author": "Dietmar Foelsche",
+          "license": "CC BY-SA 3.0 at",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Periplaneta_americana",
+      "scientificName": "Periplaneta americana",
+      "distribution": "全球",
+      "distributionSource": "https://www.gbif.org/species/2000152",
+      "commonNameEn": "American Cockroach",
+      "commonNameZhHans": "美洲大蠊",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Blattidae",
+        "genus": "Periplaneta",
+        "authority": null,
+        "gbif": 2000152
+      },
+      "samplingRegions": [
+        "全球"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "published",
+      "reviewProtocolVersion": 2,
+      "reviewScore": 94,
+      "primaryReviewScore": 84,
+      "sticker": "stickers/Blattodea/Blattidae/Periplaneta_americana.webp",
+      "references": [
+        {
+          "role": "primary-pose",
+          "type": "photo",
+          "view": "dorsolateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25859665686).jpg",
+          "author": "Insects Unlocked",
+          "license": "CC0",
+          "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "67bfed2e1adaa037d21fdc8559302c885fe76f5f62de4f38f477a90db2bd44cb"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_Amerikanische_Grossschabe_2.jpg",
+          "author": "User  Preiselbeere  on  de.wikipedia",
+          "license": "CC BY-SA 2.0 de",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "f84acc358c586cd257d4b4c49e14d22e777f335ff40e3e0349826ec00ee34a33"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral alternate",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25765232092).jpg",
+          "author": "Insects Unlocked",
+          "license": "CC0",
+          "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "9714f19c00d18ead5f0d0853d1aa2b2688db288cbb4a40dba5a2702e0110e6a7"
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      },
+      "pilot": true,
+      "workspace": "production/Periplaneta_americana",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/30"
+    },
+    {
+      "id": "Phryganea_grandis",
+      "scientificName": "Phryganea grandis",
+      "commonNameEn": "Great Red Sedge",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Trichoptera",
+        "family": "Phryganeidae",
+        "genus": "Phryganea",
+        "authority": null,
+        "gbif": 1441007
+      },
+      "samplingRegions": [
+        "欧洲",
+        "北美洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Phryganea_grandis.jpg",
+          "author": "This image is created by user  Dick Belgers  at  Waarneming.nl , a source of nature observations in the Netherlands.",
+          "license": "CC BY 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Phryganea_grandis_(9335906931).jpg",
+          "author": "Donald Hobern  from Copenhagen, Denmark",
+          "license": "CC BY 2.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Pyrrhocoris_apterus",
+      "scientificName": "Pyrrhocoris apterus",
+      "commonNameEn": "European Firebug",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Hemiptera",
+        "family": "Pyrrhocoridae",
+        "genus": "Pyrrhocoris",
+        "authority": null,
+        "gbif": 4486826
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "dorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Zapatero_(Pyrrhocoris_apterus),_Hartelholz,_M%C3%BAnich,_Alemania,_2020-06-28,_DD_362-382_FS.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "multiple individuals, dorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Pyrrhocoris_apterus_LC0130.jpg",
+          "author": "Jörg Hempel",
+          "license": "CC BY-SA 2.0 de",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Reticulitermes_flavipes",
+      "scientificName": "Reticulitermes flavipes",
+      "commonNameEn": "Eastern Subterranean Termite",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Rhinotermitidae",
+        "genus": "Reticulitermes",
+        "authority": null,
+        "gbif": 2007366
+      },
+      "samplingRegions": [
+        "北美洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "adult worker, caste unverified",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Reticulitermes_flavipes_worker.jpg",
+          "author": "USGS Native Bee Inventory and Monitoring Laboratory  from Beltsville, USA",
+          "license": "Public domain",
+          "licenseURL": "",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "winged adult, lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Reticulitermes_flavipes_-_swarmer_-_ventral_view,_crop.jpg",
+          "author": "PumpkinSky",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构",
+        "工蚁与有翅繁殖蚁的级型需分别核对，不能混用"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "pending"
+      }
+    },
+    {
+      "id": "Sarcophaga_carnaria",
+      "scientificName": "Sarcophaga carnaria",
+      "commonNameEn": "",
+      "commonNameZhHans": "肉食麻蠅",
+      "nameSources": {
+        "zh-Hans": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Sarcophagidae",
+        "genus": "Sarcophaga",
+        "authority": null,
+        "gbif": 4518735
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Smilax_aspera_with_Sarcophaga_carnaria,_S%C3%A8te_01.jpg",
+          "author": "Christian Ferrer",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Smilax_aspera_with_Sarcophaga_carnaria,_S%C3%A8te_02.jpg",
+          "author": "Christian Ferrer",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Schistocerca_gregaria",
+      "scientificName": "Schistocerca gregaria",
+      "distribution": "非洲、亚洲",
+      "distributionSource": "https://www.gbif.org/species/1707320",
+      "commonNameEn": "Desert Locust",
+      "commonNameZhHans": "沙漠蝗",
+      "nameSources": {
+        "en": "GBIF vernacularNames",
+        "zh-Hans": "http://www.plantprotection.ac.cn/ch/reader/create_pdf.aspx?file_no=20200302&st=alljournals"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Orthoptera",
+        "family": "Acrididae",
+        "genus": "Schistocerca",
+        "authority": null,
+        "gbif": 1707320
+      },
+      "samplingRegions": [
+        "非洲",
+        "亚洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "blocked",
+      "reviewProtocolVersion": 2,
+      "blockingReason": "三次 attempt 后足关节连接均未达到质量门槛；达到重画上限，不公开导出。",
+      "references": [
+        {
+          "role": "primary-pose",
+          "type": "photo",
+          "view": "dorsal",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Schistocerca_gregaria_CB_FUE_004.JPG",
+          "author": "Donkey shot",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "a4e9437b649d4788ff4e22cf41a87ab71eb7bb59361d79bd8ddffd6e989d244e"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Schistocerca_gregaria_solitary.jpg",
+          "author": "Christiaan Kooyman",
+          "license": "Public domain",
+          "licenseURL": "",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "71ca1f309bee97f86b1dbe2079a1dbbdc0e41dfe735f94698b8185165abc8dcb"
+        },
+        {
+          "role": "local-detail-only",
+          "type": "photo",
+          "view": "anterior head detail",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Desert_locust_-_W%C3%BCstenheuschrecke_-_Criquet_p%C3%A8lerin_-_Schistocerca_gregaria.jpg",
+          "author": "NorbertNagel",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "local-only",
+          "sha256": "8e45058c7743031af9b30859c5f66547cf7c48eeb96a47bd19ca9a216663c8d7"
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      },
+      "pilot": true,
+      "workspace": "production/Schistocerca_gregaria",
+      "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/28"
+    },
+    {
+      "id": "Tabanus_bovinus",
+      "scientificName": "Tabanus bovinus",
+      "commonNameEn": "Pale Giant Horsefly",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Tabanidae",
+        "genus": "Tabanus",
+        "authority": null,
+        "gbif": 1499136
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Tabanus_bovinus.jpg",
+          "author": "No machine-readable author provided.  Nulb0ard~commonswiki  assumed (based on copyright claims).",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Tabanus_bovinus_flower.jpg",
+          "author": "Rude",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Tettigonia_viridissima",
+      "scientificName": "Tettigonia viridissima",
+      "commonNameEn": "Great Green Bush Cricket",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Orthoptera",
+        "family": "Tettigoniidae",
+        "genus": "Tettigonia",
+        "authority": null,
+        "gbif": 1692898
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Tettigoniidae_-_Tettigonia_viridissima.JPG",
+          "author": "Hectonichus",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Tettigonia_viridissima_148329129.jpg",
+          "author": "Michel Langeveld",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Tipula_oleracea",
+      "scientificName": "Tipula oleracea",
+      "commonNameEn": "",
+      "commonNameZhHans": "",
+      "nameSources": {},
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Tipulidae",
+        "genus": "Tipula",
+        "authority": null,
+        "gbif": 1506056
+      },
+      "samplingRegions": [
+        "欧洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Marsh_Crane_Fly_Tipula_oleracea_male_9561.jpg",
+          "author": "ImagePerson",
+          "license": "CC BY 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Martsh_Crane_Fly_Tipula_oleracea_male_9555.jpg",
+          "author": "ImagePerson",
+          "license": "CC BY 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Toxorhynchites_speciosus",
+      "scientificName": "Toxorhynchites speciosus",
+      "commonNameEn": "",
+      "commonNameZhHans": "",
+      "nameSources": {},
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Culicidae",
+        "genus": "Toxorhynchites",
+        "authority": null,
+        "gbif": 1649048
+      },
+      "samplingRegions": [
+        "北美洲",
+        "南美洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Toxorhynchites_speciosus_01_L.D..jpg",
+          "author": "Acrocynus",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "unreviewed-view",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Toxorhynchites_speciosus_03_L.D..jpg",
+          "author": "Acrocynus",
+          "license": "CC BY-SA 3.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+          "imageReview": "pending",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Volucella_zonaria",
+      "scientificName": "Volucella zonaria",
+      "commonNameEn": "Hornet Hoverfly",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Diptera",
+        "family": "Syrphidae",
+        "genus": "Volucella",
+        "authority": null,
+        "gbif": 1541832
+      },
+      "samplingRegions": [
+        "欧洲",
+        "北美洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Volucella_zonaria_149436275.jpg",
+          "author": "manniho",
+          "license": "CC BY 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        },
+        {
+          "role": "local-detail-candidate",
+          "type": "photo",
+          "view": "anterior head and thorax detail",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Volucella_zonaria-pjt2.jpg",
+          "author": "Pjt56 --- If you use the picture outside Wikipedia I would appreciate a short e-mail to pjt56@gmx.net or a message on  my discussion page",
+          "license": "CC BY-SA 4.0",
+          "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    },
+    {
+      "id": "Zootermopsis_angusticollis",
+      "scientificName": "Zootermopsis angusticollis",
+      "commonNameEn": "Pacific Dampwood Termite",
+      "commonNameZhHans": "",
+      "nameSources": {
+        "en": "GBIF vernacularNames"
+      },
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Blattodea",
+        "family": "Archotermopsidae",
+        "genus": "Zootermopsis",
+        "authority": null,
+        "gbif": 2007393
+      },
+      "samplingRegions": [
+        "北美洲"
+      ],
+      "lifeStage": "adult",
+      "sex": "unverifiable",
+      "status": "evidence-review",
+      "reviewProtocolVersion": 2,
+      "references": [
+        {
+          "role": "primary-pose-candidate",
+          "type": "photo",
+          "view": "lateral",
+          "lifeStage": "adult",
+          "sex": "unverifiable",
+          "page": "https://commons.wikimedia.org/wiki/File:Pacific_Coast_Dampwood_Termite_-_Zootermopsis_angusticollis,_Delta,_British_Columbia.jpg",
+          "author": "Judy Gallagher",
+          "license": "CC BY 2.0",
+          "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+          "imageReview": "approved",
+          "archive": "metadata-only",
+          "sha256": ""
+        }
+      ],
+      "unverifiable": [
+        "性别",
+        "精细附肢分节和被遮挡结构"
+      ],
+      "verification": {
+        "gbifExactMatch": true,
+        "licenseVerified": true,
+        "imageReview": "approved"
+      }
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+ "schemaVersion": 1,
+ "status": "evidence-matrix",
+ "count": 4,
+ "retrievedAt": "2026-11-03T02:08:08.468048+00:00",
+ "notes": [
+  "expansion-04 四类别继续补全批：犀金龟、凤蝶、赤蜻、园蛛各一种。",
+  "原图只存本地；本矩阵不包含原始照片或本地文件路径。",
+  "参考均为 Wikimedia 官方缩略图派生文件，非相机原尺寸文件。"
+ ],
+ "candidates": [
+  {
+   "id": "Trypoxylus_dichotomus",
+   "scientificName": "Trypoxylus dichotomus",
+   "commonNameEn": "Japanese rhinoceros beetle",
+   "commonNameZhHans": "双叉犀金龟",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://baike.baidu.com/item/%E5%8F%8C%E5%8F%89%E7%8A%80%E9%87%91%E9%BE%9F/8712983"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Coleoptera",
+    "family": "Scarabaeidae",
+    "genus": "Trypoxylus",
+    "authority": "(Linnaeus, 1771)",
+    "gbif": 1076217
+   },
+   "samplingRegions": [
+    "亚洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Japanese_rhinoceros_beetle_at_Gunma_Insect_World.jpg",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E5%B2%A1%E9%83%A8%E7%A2%A9%E9%81%93\"",
+     "license": "Public domain",
+     "licenseURL": "",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "549966ec075e4da49400b6bdef45360466b30e3ac41049818a5cb8e6808534b4",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Kabutomushi-JapaneseBeetle-July2004.jpg",
+     "author": "<a href=\"https://en.wikipedia.org/wiki/ja:User:Gombe\" class=\"extiw\" title=\"w:ja:",
+     "license": "CC BY-SA 3.0",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "6bb28e0f8d97fe72bfeab097f80d053623bafb7e5dbf6e088acdb5cf1a49f33a",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Trypoxylus_dichotomus_298634125.jpg",
+     "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "e550bd04bb3632fd34ee1be0d9520f64bf7d08f4f3309f91df8ed6b0ec4363b6",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "附肢精细分节和被遮挡结构",
+    "鞘翅下膜翅细节"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-04",
+   "workspace": "production/Trypoxylus_dichotomus",
+   "distribution": "中国东部、日本、朝鲜半岛及东南亚",
+   "distributionSource": "https://www.gbif.org/species/1076217",
+   "ids": {
+    "gbif": 1076217,
+    "wikidata": "Q1334311"
+   },
+   "primaryReviewScore": 85,
+   "reviewScore": 81,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/38",
+   "sticker": "stickers/Coleoptera/Scarabaeidae/Trypoxylus_dichotomus.webp"
+  },
+  {
+   "id": "Papilio_memnon",
+   "scientificName": "Papilio memnon",
+   "commonNameEn": "Great Mormon",
+   "commonNameZhHans": "美凤蝶",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%87%A4%E8%9D%B6"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Lepidoptera",
+    "family": "Papilionidae",
+    "genus": "Papilio",
+    "authority": "Linnaeus, 1758",
+    "gbif": 1937892
+   },
+   "samplingRegions": [
+    "亚洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Open_wing_position_of_Male_Papilio_memnon_Linnaeus,_1758_–_Great_Mormon_DSC_0213.jpg",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Atudu\" title=\"User:Atudu\">Atudu</a>",
+     "license": "CC BY 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "fde554388752965d9ab21b11afb52412dab70a61047b11b7bf21c28d46b07ebb",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Open_wing_Basking_of_Papilio_memnon_Linnaeus,_1758_–_Great_Mormon_(Male)_Form_agenor_WLB_IMG_2515.jpg",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sandipoutsider\" title=\"User:Sandipout",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "e3061844823896bf151b5eabf2ffad9c7831ce010b9eb96e2152a03566ec1acf",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Great_mormon_(Papilio_memnon_agenor)_male_underside_Luang_Prabang.jpg",
+     "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q5",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "d40045076d88db6f8ef6726eb9d43a1319a2caf8c98373e631aa230204d24cf6",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "雌虫多型（本任务以雄虫型为主参考）",
+    "精细鳞片色阶与微观质感"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-04",
+   "workspace": "production/Papilio_memnon",
+   "distribution": "南亚、东南亚至东亚南部",
+   "distributionSource": "https://www.gbif.org/species/1937892",
+   "ids": {
+    "gbif": 1937892,
+    "wikidata": "Q1303868"
+   },
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/42",
+   "primaryReviewScore": 85,
+   "reviewScore": 85,
+   "sticker": "stickers/Lepidoptera/Papilionidae/Papilio_memnon.webp"
+  },
+  {
+   "id": "Crocothemis_servilia",
+   "scientificName": "Crocothemis servilia",
+   "commonNameEn": "Scarlet skimmer",
+   "commonNameZhHans": "红蜻",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://www.inaturalist.org/guide_taxa/2386559"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Crocothemis",
+    "authority": "(Drury, 1773)",
+    "gbif": 1427734
+   },
+   "samplingRegions": [
+    "亚洲",
+    "北美洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Crocothemis_servilia-Kadavoor-2016-10-15-002.jpg",
+     "author": "<div class=\"fn value\"> <a href=\"//commons.wikimedia.org/wiki/User:Jkadavoor\" tit",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "a18b361b1c9f29cd55dafc08c2528d00338cffdd523463542c2fcc3857057dda",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Scarlet_skimmer,_Keitakuen,_Osaka_II.jpg",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Laitche\" title=\"User:Laitche\">Laitche",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "10c94b5531480a17ee09132e310dd73ef360fabc0db2ef8f6a2ed52e6922c652",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "oblique lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Ruddy_marsh_skimmer_(Crocothemis_servilia_servilia)_female_Kerala.jpg",
+     "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q5",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "b29da3e12f4eac0445b04876096a10b654696a6d132c0201744065aad83e29d8",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "翅脉精细拓扑",
+    "被遮挡的腹部末节细节"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-04",
+   "workspace": "production/Crocothemis_servilia",
+   "distribution": "亚洲大部，引入美洲等地",
+   "distributionSource": "https://www.gbif.org/species/1427734",
+   "ids": {
+    "gbif": 1427734,
+    "wikidata": "Q643655"
+   },
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/43",
+   "primaryReviewScore": 80,
+   "reviewScore": 80,
+   "sticker": "stickers/Odonata/Libellulidae/Crocothemis_servilia.webp"
+  },
+  {
+   "id": "Argiope_bruennichi",
+   "scientificName": "Argiope bruennichi",
+   "commonNameEn": "Wasp spider",
+   "commonNameZhHans": "横纹金蛛",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://zh.wikipedia.org/wiki/%E6%A8%AA%E7%BA%B9%E9%87%91%E8%9B%9B"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Araneae",
+    "family": "Araneidae",
+    "genus": "Argiope",
+    "authority": "(Scopoli, 1772)",
+    "gbif": 5170994
+   },
+   "samplingRegions": [
+    "欧洲",
+    "亚洲",
+    "北美洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Argiope_bruennichi_female_dorsal.jpg",
+     "author": "<div class=\"fn value\"> <a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosa",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "34d4e597e105dc5260273855ca473deeb1d3572539873fd2551c1ee32a7a194d",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Wasp_spider_(Argiope_bruennichi)_female_dorsal_Hrdovicka.jpg",
+     "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q5",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "558b5630a7f0541046f4107c6954464a9ab08d077949abb0b6c908399351c36e",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Argiope_bruennichi_08Oct10.jpg",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%B1%A0%E7%94%B0%E6%AD%A3%E6%A8%B9\"",
+     "license": "Public domain",
+     "licenseURL": "",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "2ce32a563724ffa9330fda334a1de4349784ef6c8ece2a3630a5eaf6b2bd91b5",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "头胸部被遮挡细节与眼列排列",
+    "丝腺与织网结构"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-04",
+   "workspace": "production/Argiope_bruennichi",
+   "distribution": "欧洲至中亚、东亚，引入北美",
+   "distributionSource": "https://www.gbif.org/species/5170994",
+   "ids": {
+    "gbif": 5170994,
+    "wikidata": "Q902450"
+   },
+   "primaryReviewScore": 85,
+   "reviewScore": 85,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/41",
+   "sticker": "stickers/Araneae/Araneidae/Argiope_bruennichi.webp"
+  }
+ ]
+}

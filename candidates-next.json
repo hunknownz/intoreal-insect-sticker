@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "candidates": [
+    {
+      "scientificName": "Papilio machaon",
+      "commonNameZhHans": "金凤蝶",
+      "commonNameEn": "Old World swallowtail",
+      "order": "Lepidoptera",
+      "family": "Papilionidae",
+      "distribution": "欧亚及北非",
+      "referencePage": "https://commons.wikimedia.org/wiki/File:Open_wing_basking_position_of_Papilio_machaon_Linnaeus,_1758_-_Common_Yellow_Swallowtail_WLB_IMG_0318.jpg",
+      "referenceAuthor": "Thamblyok",
+      "referenceLicense": "CC BY-SA 4.0",
+      "view": "成虫背面",
+      "notes": "黄黑翅纹、后翅蓝斑和尾突；使用两张背面照和一张侧方照。"
+    },
+    {
+      "scientificName": "Pieris rapae",
+      "commonNameZhHans": "菜粉蝶",
+      "commonNameEn": "Small white",
+      "order": "Lepidoptera",
+      "family": "Pieridae",
+      "distribution": "欧亚、北非及北美和澳洲引入地",
+      "referencePage": "https://commons.wikimedia.org/wiki/File:-2018-09-19_Cabbage_White_Butterfly_(Pieris_rapae),_Trimingham_(1).JPG",
+      "referenceAuthor": "Kolforn",
+      "referenceLicense": "CC BY-SA 4.0",
+      "view": "成虫背面",
+      "notes": "白色翅面、黑色前翅顶角和少量黑斑；使用三张不同角度生态照。"
+    },
+    {
+      "scientificName": "Aeshna cyanea",
+      "commonNameZhHans": "蓝绿伟蜓",
+      "commonNameEn": "Southern hawker",
+      "order": "Odonata",
+      "family": "Aeshnidae",
+      "distribution": "欧洲、北非及西亚",
+      "referencePage": "https://commons.wikimedia.org/wiki/File:1023_Libelle_8778.JPG",
+      "referenceAuthor": "Hedwig Storch",
+      "referenceLicense": "CC BY-SA 3.0",
+      "view": "成虫背面",
+      "notes": "蓝绿斑纹、透明翅脉和六足；使用完整背面和侧面生态照。"
+    }
+  ]
+}
