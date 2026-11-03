@@ -54,7 +54,10 @@ class Expansion03Tests(unittest.TestCase):
             self.assertEqual(row["taxonomy"]["gbif"], row["ids"]["gbif"])
 
     def test_local_reference_files_match_hashes(self):
-        selection = json.loads((ROOT / "production/expansion-03/expansion-03-selection.json").read_text())
+        selection_path = ROOT / "production/expansion-03/expansion-03-selection.json"
+        if not selection_path.exists():
+            self.skipTest("local reference library is not part of the public repository")
+        selection = json.loads(selection_path.read_text())
         by_id = {c["id"]: c for c in selection["candidates"]}
         self.assertEqual(set(by_id), {row["id"] for row in self.rows})
         import hashlib
