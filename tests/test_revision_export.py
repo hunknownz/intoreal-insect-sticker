@@ -184,6 +184,22 @@ class RevisionExportTests(unittest.TestCase):
             exporter.export_approved(self.task)
         self.assertEqual(self.target.read_bytes(), self.old_bytes)
 
+    def test_new_species_export_seeds_identifiers_from_verified_candidates(self):
+        self.target.unlink()
+        (self.root / "data/species.json").write_text('{"species":[]}')
+        (self.root / "data/candidates-expansion-03.json").write_text(json.dumps({"candidates": [
+            {
+                "scientificName": "Mantis religiosa",
+                "taxonomy": {"system": "GBIF Backbone Taxonomy", "order": "Mantodea", "family": "Mantidae", "genus": "Mantis", "authority": "(Linnaeus, 1758)", "gbif": 6258028},
+                "ids": {"gbif": 6258028, "wikidata": "Q268319"},
+            },
+        ]}))
+        self.write_task(None)
+        result = exporter.export_approved(self.task)
+        self.assertEqual(result["authority"], "(Linnaeus, 1758)")
+        self.assertEqual(result["taxonomy"]["system"], "GBIF Backbone Taxonomy")
+        self.assertEqual(result["ids"], {"gbif": 6258028, "wikidata": "Q268319"})
+
     def test_new_species_export_preserves_language_files(self):
         self.target.unlink()
         (self.root / "data/species.json").write_text('{"species":[]}')

@@ -57,15 +57,36 @@ def review_path(task_dir, stage, attempt):
     return task_dir / f"attempt-{attempt:02d}-blind-review.json"
 
 
-def candidate_distribution(scientific_name):
-    for filename in ("candidates-20.json", "candidates-next.json", "candidates-expansion-30.json"):
-        path = PROJECT_ROOT / "data" / filename
-        if not path.exists():
-            continue
+def find_candidate(scientific_name):
+    for path in sorted((PROJECT_ROOT / "data").glob("candidates-*.json")):
         for row in read_json(path)["candidates"]:
             if row["scientificName"] == scientific_name:
-                return row.get("distribution", "")
-    return ""
+                return row
+    return None
+
+
+def candidate_distribution(scientific_name):
+    candidate = find_candidate(scientific_name)
+    return candidate.get("distribution", "") if candidate else ""
+
+
+def candidate_identifiers(scientific_name):
+    candidate = find_candidate(scientific_name)
+    if not candidate:
+        return {}
+    taxonomy = candidate.get("taxonomy") or {}
+    ids = candidate.get("ids") or {}
+    result = {}
+    if taxonomy.get("system"):
+        result["system"] = taxonomy["system"]
+    if taxonomy.get("authority"):
+        result["authority"] = taxonomy["authority"]
+    gbif = ids.get("gbif") if isinstance(ids.get("gbif"), int) else taxonomy.get("gbif")
+    if isinstance(gbif, int):
+        result["gbif"] = gbif
+    if isinstance(ids.get("wikidata"), str) and ids["wikidata"].startswith("Q"):
+        result["wikidata"] = ids["wikidata"]
+    return result
 
 
 def public_reference(row):
@@ -134,12 +155,13 @@ def export_approved(task_dir):
     temporary.replace(target)
 
     references = read_json(task_dir / "references.json")["references"]
+    identifiers = candidate_identifiers(scientific_name)
     record = {
         "id": species_id,
         "scientificName": scientific_name,
-        "authority": None,
+        "authority": identifiers.get("authority"),
         "taxonomy": {
-            "system": None,
+            "system": identifiers.get("system"),
             "order": order,
             "family": family,
             "genus": scientific_name.split()[0],
@@ -148,7 +170,7 @@ def export_approved(task_dir):
             "en": species.get("commonNameEn") or COMMON_NAMES_EN.get(scientific_name, scientific_name),
             "zh-Hans": species["commonNameZhHans"],
         },
-        "ids": {},
+        "ids": {key: identifiers[key] for key in ("gbif", "wikidata") if key in identifiers},
         "range": {"distribution": candidate_distribution(scientific_name)},
         "traits": {},
         "conservation": {},
