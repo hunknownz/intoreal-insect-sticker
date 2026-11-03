@@ -357,6 +357,97 @@
       }
     },
     {
+      "id": "Araneus_diadematus",
+      "scientificName": "Araneus diadematus",
+      "authority": null,
+      "taxonomy": {
+        "system": null,
+        "order": "Araneae",
+        "family": "Araneidae",
+        "genus": "Araneus"
+      },
+      "names": {
+        "en": "European garden spider",
+        "zh-Hans": "十字园蛛",
+        "ca": "Araneus diadematus",
+        "cs": "křižák obecný",
+        "da": "Korsedderkop",
+        "nl": "Kruisspin",
+        "eo": "Araneus diadematus",
+        "fi": "ristihämähäkki",
+        "fr": "Aranea diadematus",
+        "de": "Gartenkreuzspinne",
+        "it": "Araneus diadematus",
+        "ja": "ニワオニグモ",
+        "pl": "Krzyżak ogrodowy",
+        "ru": "Крестовик обыкновенный",
+        "sr": "Pauk krstaš",
+        "sk": "Križiak obyčajný",
+        "es": "Araneus diadematus",
+        "sv": "korsspindel",
+        "tr": "Araneus diadematus",
+        "uk": "Павук-хрестовик",
+        "ar": "عنكبوت الحديقة الأوروبي",
+        "be": "Крыжавік звычайны",
+        "bg": "паяк кръстоносец",
+        "et": "harilik ristämblik",
+        "he": "גלגלן הצלב",
+        "hu": "koronás keresztespók",
+        "is": "krosskönguló",
+        "id": "Araneus diadematus",
+        "ko": "유럽정원거미",
+        "mk": "пајак-крстач",
+        "fa": "عنکبوت باغی اروپایی",
+        "ro": "Araneus diadematus",
+        "sl": "Navadni križevec"
+      },
+      "ids": {},
+      "range": {
+        "distribution": "欧洲、北美洲"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Araneae/Araneidae/Araneus_diadematus.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 97,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "52d35cac34e45e72e747e370a25f822dc5732c3cbd07df27997754b927ec03d1",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_MHNT_Femelle_Fronton.jpg",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_MHNT_Femelle_Fronton.jpg",
+            "author": "Didier Descouens",
+            "license": "CC BY-SA 3.0"
+          },
+          {
+            "type": "photo",
+            "view": "ventral",
+            "page": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_qtl1.jpg",
+            "author": "Quartl",
+            "license": "CC BY-SA 3.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_(8063057162).jpg",
+            "author": "sebastien lebrigand  from crépy en valois, FRANCE",
+            "license": "CC BY-SA 2.0"
+          }
+        ]
+      }
+    },
+    {
       "id": "Bombus_terrestris",
       "scientificName": "Bombus terrestris",
       "authority": "(Linnaeus, 1758)",
@@ -525,6 +616,94 @@
             "page": "https://commons.wikimedia.org/wiki/File:Carabe_dor%C3%A9_dos.jpg",
             "author": "Didier Descouens",
             "license": "CC-BY-SA-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cetonia_aurata",
+      "scientificName": "Cetonia aurata",
+      "authority": null,
+      "taxonomy": {
+        "system": null,
+        "order": "Coleoptera",
+        "family": "Scarabaeidae",
+        "genus": "Cetonia"
+      },
+      "names": {
+        "en": "Rose chafer",
+        "zh-Hans": "金花金龟",
+        "ca": "Cetonia aurata",
+        "cs": "zlatohlávek zlatý",
+        "da": "Grøn guldbasse",
+        "nl": "Gouden tor",
+        "eo": "Ora cetonio",
+        "fi": "kultakuoriainen",
+        "fr": "Cétoine dorée",
+        "de": "Goldglänzender Rosenkäfer",
+        "it": "Cetonia aurata",
+        "lt": "Paprastasis auksavabalis",
+        "pl": "kruszczyca złotawka",
+        "ru": "Золотистая бронзовка",
+        "sr": "Буба-злата",
+        "sk": "Zlatoň obyčajný",
+        "es": "Cetonia aurata",
+        "sv": "Gräsgrön guldbagge",
+        "uk": "Cetonia aurata",
+        "ar": "جعل ذهبي",
+        "be": "бронзаўка залацістая",
+        "bg": "обикновена златка",
+        "et": "kuldpõrnikas",
+        "he": "נחושתית הוורדים",
+        "hu": "aranyos rózsabogár",
+        "mk": "златест сјајник",
+        "fa": "سوسک سبز گل‌سرخ",
+        "ro": "Cetonia aurata",
+        "sl": "zlata minica",
+        "th": "ด้วงกุหลาบ"
+      },
+      "ids": {},
+      "range": {
+        "distribution": "欧洲、中亚"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Coleoptera/Scarabaeidae/Cetonia_aurata.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 81,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "6cdd853b0307240344c2bcddd9eca76dd2a9d2b44b60cc1588e4c3c90e20f123",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Cetonia_aurata_2009_G2.jpg",
+          "author": "George Chernilevsky",
+          "license": "Public domain"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Cetonia_aurata_2009_G2.jpg",
+            "author": "George Chernilevsky",
+            "license": "Public domain"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Cetonia_aurata_Pal%C3%B9_del_Fersina_02.jpg",
+            "author": "Syrio",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "anterior lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Cetonia_aurata_Pal%C3%B9_del_Fersina_01.jpg",
+            "author": "Syrio",
+            "license": "CC BY-SA 4.0"
           }
         ]
       }
@@ -1714,6 +1893,94 @@
             "page": "https://commons.wikimedia.org/wiki/File:20230519_Nezara_viridula.jpg",
             "author": "Gb89.2",
             "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Orthetrum_cancellatum",
+      "scientificName": "Orthetrum cancellatum",
+      "authority": null,
+      "taxonomy": {
+        "system": null,
+        "order": "Odonata",
+        "family": "Libellulidae",
+        "genus": "Orthetrum"
+      },
+      "names": {
+        "en": "Black-tailed skimmer",
+        "zh-Hans": "粗灰蜻",
+        "ca": "Orthetrum cancellatum",
+        "cs": "vážka černořitná",
+        "da": "Stor Blåpil",
+        "nl": "Gewone oeverlibel",
+        "fi": "merisinikorento",
+        "fr": "Orthetrum cancellatum",
+        "de": "Großer Blaupfeil",
+        "it": "Orthetrum cancellatum",
+        "lt": "Tinkliškoji skėtė",
+        "pl": "Lecicha pospolita",
+        "ru": "Стрекоза решётчатая",
+        "sr": "Veliki vilenjak",
+        "sk": "Vážka rybničná",
+        "es": "Orthetrum cancellatum",
+        "sv": "Större sjötrollslända",
+        "uk": "Orthetrum cancellatum",
+        "bg": "Orthetrum cancellatum",
+        "et": "sinikiil",
+        "el": "Orthetrum cancellatum",
+        "he": "ריחופית שחורת-קצה",
+        "hu": "Vízipásztor",
+        "ro": "Orthetrum cancellatum",
+        "sl": "prodni modrač"
+      },
+      "ids": {},
+      "range": {
+        "distribution": "欧洲、北非至中亚"
+      },
+      "traits": {},
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
+      "sticker": {
+        "file": "stickers/Odonata/Libellulidae/Orthetrum_cancellatum.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "01e8f60fd84430bf5efab58edd8fb9b4870038a98f4ab93c7794a32cd3489d13",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Black-tailed_skimmer_(Orthetrum_cancellatum)_female_Belgium.jpg",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Black-tailed_skimmer_(Orthetrum_cancellatum)_female_Belgium.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Black-tailed_skimmer_(Orthetrum_cancellatum)_male_Estonia.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Orthetrum_cancellatum_141836445.jpg",
+            "author": "Michel Langeveld",
+            "license": "CC BY-SA 4.0"
           }
         ]
       }

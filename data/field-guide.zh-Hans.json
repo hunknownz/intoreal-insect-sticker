@@ -1,207 +1,605 @@
 {
   "license": "CC BY-SA 4.0",
   "note": "中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核记录改写；basedOn 列出分类与主要形态依据。未核实的性别、精细结构、生态和保护状态不作推断。",
-  "count": 25,
+  "count": 28,
   "species": {
     "Aeshna_cyanea": {
       "impression": "深色长腹上具有成对蓝绿色斑点的伟蜓，胸部有黄绿色斑，四片膜质翅展开。",
-      "marks": ["腹部成对浅绿至蓝绿色斑，末端有蓝色横斑", "胸背有成对黄绿色斑", "四片半透明翅具网状翅脉", "三对共六条关节足"],
+      "marks": [
+        "腹部成对浅绿至蓝绿色斑，末端有蓝色横斑",
+        "胸背有成对黄绿色斑",
+        "四片半透明翅具网状翅脉",
+        "三对共六条关节足"
+      ],
       "sexAge": "本任务表现为完整成虫；性别、精确翅脉和微细附肢结构不能由现有参考充分确认。",
-      "similar": [{"sci": "Anax imperator", "zh": "帝王伟蜓", "diff": "蓝绿伟蜓深色腹部有成对蓝绿色斑；本图鉴帝王伟蜓的雄虫表现为绿色胸部配蓝色长腹。不能只凭蓝色体色或四翅展开区分。"}],
+      "similar": [
+        {
+          "sci": "Anax imperator",
+          "zh": "帝王伟蜓",
+          "diff": "蓝绿伟蜓深色腹部有成对蓝绿色斑；本图鉴帝王伟蜓的雄虫表现为绿色胸部配蓝色长腹。不能只凭蓝色体色或四翅展开区分。"
+        }
+      ],
       "range": "欧洲、北非及西亚",
-      "basedOn": ["https://www.gbif.org/species/1425240", "https://commons.wikimedia.org/wiki/File:1023_Libelle_8778.JPG"]
+      "basedOn": [
+        "https://www.gbif.org/species/1425240",
+        "https://commons.wikimedia.org/wiki/File:1023_Libelle_8778.JPG"
+      ]
     },
     "Actias_selene": {
       "impression": "淡黄绿色的大型天蚕蛾，四翅有眼斑，后翅拖出细长尾突。",
-      "marks": ["四片黄绿色翅面各有一枚眼斑", "前后翅有自然深色横线", "两条后翅尾突细长收尖"],
+      "marks": [
+        "四片黄绿色翅面各有一枚眼斑",
+        "前后翅有自然深色横线",
+        "两条后翅尾突细长收尖"
+      ],
       "sexAge": "本任务以完整个体为依据；性别不能由贴纸或参考确定。",
-      "similar": [{"sci": "Actias luna", "zh": "美洲月神蛾", "diff": "绿尾大蚕蛾主要见于南亚和东南亚，不能仅凭长尾和眼斑混淆分布不同的近缘种。"}],
+      "similar": [
+        {
+          "sci": "Actias luna",
+          "zh": "美洲月神蛾",
+          "diff": "绿尾大蚕蛾主要见于南亚和东南亚，不能仅凭长尾和眼斑混淆分布不同的近缘种。"
+        }
+      ],
       "range": "南亚及东南亚",
-      "basedOn": ["https://www.gbif.org/species/1865660", "https://commons.wikimedia.org/wiki/File:Actias_luna.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1865660",
+        "https://commons.wikimedia.org/wiki/File:Actias_luna.jpg"
+      ]
     },
     "Anax_imperator": {
       "impression": "大型伟蜓，雄虫绿色胸部配蓝色长腹，四片透明翅展开。",
-      "marks": ["蓝色腹部具黑色背中线", "胸部绿色，复眼发达", "四片透明膜质翅的暗色翅脉清晰", "前中后三对足均应可辨"],
+      "marks": [
+        "蓝色腹部具黑色背中线",
+        "胸部绿色，复眼发达",
+        "四片透明膜质翅的暗色翅脉清晰",
+        "前中后三对足均应可辨"
+      ],
       "sexAge": "本任务以雄虫为依据；雌虫体色和腹节差异需另查，不据贴纸推断。",
-      "similar": [{"sci": "Pantala flavescens", "zh": "黄蜻", "diff": "帝王伟蜓体型更大，雄虫蓝腹与绿色胸部明显；黄蜻体色偏黄褐且常迁徙。"}],
+      "similar": [
+        {
+          "sci": "Pantala flavescens",
+          "zh": "黄蜻",
+          "diff": "帝王伟蜓体型更大，雄虫蓝腹与绿色胸部明显；黄蜻体色偏黄褐且常迁徙。"
+        }
+      ],
       "range": "欧洲、北非及西亚",
-      "basedOn": ["https://www.gbif.org/species/5051775", "https://commons.wikimedia.org/wiki/File:Anax_imperator_qtl2.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/5051775",
+        "https://commons.wikimedia.org/wiki/File:Anax_imperator_qtl2.jpg"
+      ]
     },
     "Apis_mellifera": {
       "impression": "胸部有棕黄色密毛、腹部呈琥珀至深色带纹的蜜蜂。",
-      "marks": ["胸部密毛但体型较熊蜂纤细", "两对透明膜质翅", "工蜂后足可见花粉篮", "触角呈肘状"],
+      "marks": [
+        "胸部密毛但体型较熊蜂纤细",
+        "两对透明膜质翅",
+        "工蜂后足可见花粉篮",
+        "触角呈肘状"
+      ],
       "sexAge": "本任务表现工蜂，不以插画判断蜂王、雄蜂或其他级型。",
-      "similar": [{"sci": "Bombus terrestris", "zh": "欧洲熊蜂", "diff": "西方蜜蜂体型较纤细、毛较稀；熊蜂整体更粗壮浓密，并常有明显浅色腹端。"}],
+      "similar": [
+        {
+          "sci": "Bombus terrestris",
+          "zh": "欧洲熊蜂",
+          "diff": "西方蜜蜂体型较纤细、毛较稀；熊蜂整体更粗壮浓密，并常有明显浅色腹端。"
+        }
+      ],
       "range": "全球养殖",
-      "basedOn": ["https://www.gbif.org/species/1341976", "https://commons.wikimedia.org/wiki/File:Apis_mellifera_F_(13632828544).jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1341976",
+        "https://commons.wikimedia.org/wiki/File:Apis_mellifera_F_(13632828544).jpg"
+      ]
     },
     "Bombus_terrestris": {
       "impression": "粗壮多毛的熊蜂，黑黄色胸带和浅色腹端醒目。",
-      "marks": ["胸腹覆盖浓密绒毛", "胸部有黄色带纹", "腹部末端浅白或乳黄色", "两对透明翅"],
+      "marks": [
+        "胸腹覆盖浓密绒毛",
+        "胸部有黄色带纹",
+        "腹部末端浅白或乳黄色",
+        "两对透明翅"
+      ],
       "sexAge": "本任务不判定性别或级型。",
-      "similar": [{"sci": "Apis mellifera", "zh": "西方蜜蜂", "diff": "欧洲熊蜂更粗壮、绒毛更密，并有浅色腹端；西方蜜蜂相对纤细。"}],
+      "similar": [
+        {
+          "sci": "Apis mellifera",
+          "zh": "西方蜜蜂",
+          "diff": "欧洲熊蜂更粗壮、绒毛更密，并有浅色腹端；西方蜜蜂相对纤细。"
+        }
+      ],
       "range": "欧洲及多地引入地",
-      "basedOn": ["https://www.gbif.org/species/1340503", "https://commons.wikimedia.org/wiki/File:Abellon_-_Abejorro_-_Bumblebee_-_Bombus_Terrestris_-_01.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1340503",
+        "https://commons.wikimedia.org/wiki/File:Abellon_-_Abejorro_-_Bumblebee_-_Bombus_Terrestris_-_01.jpg"
+      ]
     },
     "Carabus_auratus": {
       "impression": "金属绿色的步甲，鞘翅有铜金色边缘和纵脊，上颚发达。",
-      "marks": ["鞘翅金属绿并有自然纵脊", "边缘呈铜金色", "头胸分明，捕食性上颚明显", "六条长足"],
+      "marks": [
+        "鞘翅金属绿并有自然纵脊",
+        "边缘呈铜金色",
+        "头胸分明，捕食性上颚明显",
+        "六条长足"
+      ],
       "sexAge": "本任务不判定性别，精细刻纹和附肢分节不作认证。",
-      "similar": [{"sci": "Coccinella septempunctata", "zh": "七星瓢虫", "diff": "金步甲身体修长、上颚和长足明显；瓢虫体型圆拱且足短，具固定斑纹。"}],
+      "similar": [
+        {
+          "sci": "Coccinella septempunctata",
+          "zh": "七星瓢虫",
+          "diff": "金步甲身体修长、上颚和长足明显；瓢虫体型圆拱且足短，具固定斑纹。"
+        }
+      ],
       "range": "欧洲",
-      "basedOn": ["https://www.gbif.org/species/1036779", "https://commons.wikimedia.org/wiki/File:Carabe_dor%C3%A9_dos.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1036779",
+        "https://commons.wikimedia.org/wiki/File:Carabe_dor%C3%A9_dos.jpg"
+      ]
     },
     "Coccinella_septempunctata": {
       "impression": "红色圆拱形瓢虫，两片鞘翅合计七枚黑斑。",
-      "marks": ["每侧鞘翅三枚独立黑斑", "小盾板后方一枚跨中线共同基斑", "黑色头胸带乳白至淡黄色斑"],
+      "marks": [
+        "每侧鞘翅三枚独立黑斑",
+        "小盾板后方一枚跨中线共同基斑",
+        "黑色头胸带乳白至淡黄色斑"
+      ],
       "sexAge": "本任务不判定性别，触角和跗节细分不作认证。",
-      "similar": [{"sci": "Coccinella undecimpunctata", "zh": "十一星瓢虫", "diff": "七星瓢虫共七斑；十一星瓢虫每侧多一枚，合计十一斑。"}],
+      "similar": [
+        {
+          "sci": "Coccinella undecimpunctata",
+          "zh": "十一星瓢虫",
+          "diff": "七星瓢虫共七斑；十一星瓢虫每侧多一枚，合计十一斑。"
+        }
+      ],
       "range": "欧亚及北美引入地",
-      "basedOn": ["https://www.gbif.org/species/4990191", "https://commons.wikimedia.org/wiki/File:7-spot_ladybird_(FG)_(13506236664).jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/4990191",
+        "https://commons.wikimedia.org/wiki/File:7-spot_ladybird_(FG)_(13506236664).jpg"
+      ]
     },
     "Coccinella_undecimpunctata": {
       "impression": "红橙色圆拱形瓢虫，两片鞘翅合计十一枚黑斑。",
-      "marks": ["每侧鞘翅五枚独立黑斑", "小盾板后方一枚跨中线共同基斑", "黑色头胸带浅色斑"],
+      "marks": [
+        "每侧鞘翅五枚独立黑斑",
+        "小盾板后方一枚跨中线共同基斑",
+        "黑色头胸带浅色斑"
+      ],
       "sexAge": "本任务不判定性别，触角和跗节细分不作认证。",
-      "similar": [{"sci": "Coccinella septempunctata", "zh": "七星瓢虫", "diff": "十一星瓢虫共十一斑；七星瓢虫共七斑。"}],
+      "similar": [
+        {
+          "sci": "Coccinella septempunctata",
+          "zh": "七星瓢虫",
+          "diff": "十一星瓢虫共十一斑；七星瓢虫共七斑。"
+        }
+      ],
       "range": "欧洲、北非及西亚，并引入北美",
-      "basedOn": ["https://www.gbif.org/species/4990195", "https://commons.wikimedia.org/wiki/File:Coccinella_undecimpunctata_(10.3897-BDJ.12.e137417)_Figure_7.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/4990195",
+        "https://commons.wikimedia.org/wiki/File:Coccinella_undecimpunctata_(10.3897-BDJ.12.e137417)_Figure_7.jpg"
+      ]
     },
     "Danaus_plexippus": {
       "impression": "橙色翅面配粗黑翅脉，黑色边缘中嵌白点的蝴蝶。",
-      "marks": ["橙色四翅具粗黑翅脉", "黑色翅缘含白色斑点", "黑色身体带白点"],
+      "marks": [
+        "橙色四翅具粗黑翅脉",
+        "黑色翅缘含白色斑点",
+        "黑色身体带白点"
+      ],
       "sexAge": "本任务不判定性别，翅脉细部和性别特征不作认证。",
-      "similar": [{"sci": "Vanessa cardui", "zh": "小红蛱蝶", "diff": "君主斑蝶的粗黑翅脉更醒目；小红蛱蝶图案更碎，前翅白斑和后翅眼斑更复杂。"}],
+      "similar": [
+        {
+          "sci": "Vanessa cardui",
+          "zh": "小红蛱蝶",
+          "diff": "君主斑蝶的粗黑翅脉更醒目；小红蛱蝶图案更碎，前翅白斑和后翅眼斑更复杂。"
+        }
+      ],
       "range": "美洲及引入地",
-      "basedOn": ["https://www.gbif.org/species/5133088", "https://commons.wikimedia.org/wiki/File:Alight_(15451540860).jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/5133088",
+        "https://commons.wikimedia.org/wiki/File:Alight_(15451540860).jpg"
+      ]
     },
     "Eristalis_tenax": {
       "impression": "外形似蜂的食蚜蝇，复眼大、触角短，只有一对明显主翅。",
-      "marks": ["双翅目单对透明翅", "复眼大，触角短", "胸腹呈蜂拟态的琥珀至深色带纹", "没有膜翅目的细腰"],
+      "marks": [
+        "双翅目单对透明翅",
+        "复眼大，触角短",
+        "胸腹呈蜂拟态的琥珀至深色带纹",
+        "没有膜翅目的细腰"
+      ],
       "sexAge": "本任务不判定性别，精确翅脉和附肢细分不作认证。",
-      "similar": [{"sci": "Apis mellifera", "zh": "西方蜜蜂", "diff": "管蚜蝇只有一对翅且触角短；蜜蜂有两对翅和肘状触角。"}],
+      "similar": [
+        {
+          "sci": "Apis mellifera",
+          "zh": "西方蜜蜂",
+          "diff": "管蚜蝇只有一对翅且触角短；蜜蜂有两对翅和肘状触角。"
+        }
+      ],
       "range": "欧洲及北美引入地",
-      "basedOn": ["https://www.gbif.org/species/1541217", "https://commons.wikimedia.org/wiki/File:Eristalis_tenax_(10.3897-BDJ.10.e78518)_Figure_25a.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1541217",
+        "https://commons.wikimedia.org/wiki/File:Eristalis_tenax_(10.3897-BDJ.10.e78518)_Figure_25a.jpg"
+      ]
     },
     "Graphosoma_italicum": {
       "impression": "盾形蝽，红黑色纵条纹连贯穿过头部、前胸和小盾片。",
-      "marks": ["身体宽而扁平，小盾片发达", "红黑色纵条纹沿背板延伸", "两根长触角和六足"],
+      "marks": [
+        "身体宽而扁平，小盾片发达",
+        "红黑色纵条纹沿背板延伸",
+        "两根长触角和六足"
+      ],
       "sexAge": "本任务不判定性别，触角和跗节细分不作认证。",
-      "similar": [{"sci": "Nezara viridula", "zh": "稻绿蝽", "diff": "意大利条蝽以红黑纵纹为主；稻绿蝽通常为绿色，并有浅色斑点和边缘。"}],
+      "similar": [
+        {
+          "sci": "Nezara viridula",
+          "zh": "稻绿蝽",
+          "diff": "意大利条蝽以红黑纵纹为主；稻绿蝽通常为绿色，并有浅色斑点和边缘。"
+        }
+      ],
       "range": "欧洲",
-      "basedOn": ["https://www.gbif.org/species/7437802", "https://commons.wikimedia.org/wiki/File:2013-06-07_21-00-56-Graphosoma-italicum.JPG"]
+      "basedOn": [
+        "https://www.gbif.org/species/7437802",
+        "https://commons.wikimedia.org/wiki/File:2013-06-07_21-00-56-Graphosoma-italicum.JPG"
+      ]
     },
     "Gromphadorhina_portentosa": {
       "impression": "粗壮无翅的发声蟑螂，前胸深黑光亮，腹节具有黄褐色横带。",
-      "marks": ["无翅的粗壮分节躯体", "前胸背板黑亮", "腹部黄褐色横带与深色斑", "两根长触角和六条具刺步足"],
+      "marks": [
+        "无翅的粗壮分节躯体",
+        "前胸背板黑亮",
+        "腹部黄褐色横带与深色斑",
+        "两根长触角和六条具刺步足"
+      ],
       "sexAge": "本任务以完整成虫为依据；性别、生殖结构、精细跗节和尾端附器不作认证。",
-      "similar": [{"sci": "Periplaneta americana", "zh": "美洲大蠊", "diff": "美洲大蠊具有覆盖腹部的覆翅；马达加斯加发声蟑螂无翅，且前胸和腹节带纹不同。"}],
+      "similar": [
+        {
+          "sci": "Periplaneta americana",
+          "zh": "美洲大蠊",
+          "diff": "美洲大蠊具有覆盖腹部的覆翅；马达加斯加发声蟑螂无翅，且前胸和腹节带纹不同。"
+        }
+      ],
       "range": "马达加斯加",
-      "basedOn": ["https://www.gbif.org/species/1994576", "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa(Karaczan_madagaskarski.JPG"]
+      "basedOn": [
+        "https://www.gbif.org/species/1994576",
+        "https://commons.wikimedia.org/wiki/File:Gromphadorhina_portentosa(Karaczan_madagaskarski.JPG"
+      ]
     },
     "Gryllotalpa_gryllotalpa": {
       "impression": "褐色修长的蝼蛄，宽扁铲形挖掘前足、折叠覆翅和成对尾须明显，采用前背侧视角。",
-      "marks": ["两条前足宽扁并具掘土齿", "身体延长，前胸背板宽厚", "六条足分别可追踪", "腹端有两条独立尾须"],
+      "marks": [
+        "两条前足宽扁并具掘土齿",
+        "身体延长，前胸背板宽厚",
+        "六条足分别可追踪",
+        "腹端有两条独立尾须"
+      ],
       "sexAge": "本任务以成虫形态为依据；性别、生殖细节、微小齿刺和隐藏结构不作认证。",
-      "similar": [{"sci": "Schistocerca gregaria", "zh": "沙漠蝗", "diff": "欧洲蝼蛄前足呈铲状，适于挖掘；沙漠蝗后足腿节发达，适于跳跃，不能混同。"}],
+      "similar": [
+        {
+          "sci": "Schistocerca gregaria",
+          "zh": "沙漠蝗",
+          "diff": "欧洲蝼蛄前足呈铲状，适于挖掘；沙漠蝗后足腿节发达，适于跳跃，不能混同。"
+        }
+      ],
       "range": "欧洲",
-      "basedOn": ["https://www.gbif.org/species/1716128", "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_vorne-oben.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1716128",
+        "https://commons.wikimedia.org/wiki/File:Gryllotalpa_gryllotalpa_vorne-oben.jpg"
+      ]
     },
     "Harmonia_axyridis": {
       "impression": "色斑多变的瓢虫，前胸背板常见深色 M 形中央纹。",
-      "marks": ["本任务采用有斑橙红色色型", "前胸背板有 M 形深色中央纹和浅色侧斑", "两片闭合鞘翅、六足和短触角"],
+      "marks": [
+        "本任务采用有斑橙红色色型",
+        "前胸背板有 M 形深色中央纹和浅色侧斑",
+        "两片闭合鞘翅、六足和短触角"
+      ],
       "sexAge": "本任务不判定性别，也不把所选色型当作所有个体的固定外观。",
-      "similar": [{"sci": "Coccinella septempunctata", "zh": "七星瓢虫", "diff": "异色瓢虫斑纹变化大且有 M 形胸纹；七星瓢虫通常为稳定的七斑图案。"}],
+      "similar": [
+        {
+          "sci": "Coccinella septempunctata",
+          "zh": "七星瓢虫",
+          "diff": "异色瓢虫斑纹变化大且有 M 形胸纹；七星瓢虫通常为稳定的七斑图案。"
+        }
+      ],
       "range": "亚洲原产并广泛引入",
-      "basedOn": ["https://www.gbif.org/species/4989904", "https://commons.wikimedia.org/wiki/File:Harmonia_axyridis_(10.3897-zoologia.38.e64154)_Figures_12%E2%80%9317.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/4989904",
+        "https://commons.wikimedia.org/wiki/File:Harmonia_axyridis_(10.3897-zoologia.38.e64154)_Figures_12%E2%80%9317.jpg"
+      ]
     },
     "Ischnura_elegans": {
       "impression": "细长的蓝尾豆娘，翅膀沿腹部合拢，末端带蓝色腹节。",
-      "marks": ["本任务采用 C 型未成熟雌虫的橙黑胸部", "四片透明翅沿腹部合拢", "腹部末端蓝色，身体纤细"],
+      "marks": [
+        "本任务采用 C 型未成熟雌虫的橙黑胸部",
+        "四片透明翅沿腹部合拢",
+        "腹部末端蓝色，身体纤细"
+      ],
       "sexAge": "仅表现 C 型未成熟雌虫，不套用成熟蓝黑色胸部或其他色型。",
-      "similar": [{"sci": "Anax imperator", "zh": "帝王伟蜓", "diff": "蓝尾豆娘体型小且翅合拢；帝王伟蜓体型大，停栖时四翅展开。"}],
+      "similar": [
+        {
+          "sci": "Anax imperator",
+          "zh": "帝王伟蜓",
+          "diff": "蓝尾豆娘体型小且翅合拢；帝王伟蜓体型大，停栖时四翅展开。"
+        }
+      ],
       "range": "欧洲、北非及西亚",
-      "basedOn": ["https://www.gbif.org/species/1423395", "https://commons.wikimedia.org/wiki/File:%27C_type%27_immature_female_Ischnura_elegans_(48600333716).jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1423395",
+        "https://commons.wikimedia.org/wiki/File:%27C_type%27_immature_female_Ischnura_elegans_(48600333716).jpg"
+      ]
     },
     "Limnephilus_lunatus": {
       "impression": "褐色毛翅沼石蛾，前翅有浅色新月斑，触角细长，双翅收拢呈屋脊状。",
-      "marks": ["前翅褐色斑驳并有浅色弯月状区域", "两根细长丝状触角", "膜质翅面有细毛并呈屋脊状收拢", "身体细长，头胸与翅基连续"],
+      "marks": [
+        "前翅褐色斑驳并有浅色弯月状区域",
+        "两根细长丝状触角",
+        "膜质翅面有细毛并呈屋脊状收拢",
+        "身体细长，头胸与翅基连续"
+      ],
       "sexAge": "本任务以完整成虫为依据；性别、后翅遮挡关系、六足完整连接和精细翅脉不作认证。",
-      "similar": [{"sci": "Actias selene", "zh": "绿尾大蚕蛾", "diff": "绿尾大蚕蛾为大型鳞翅目蛾，翅面有眼斑和后翅尾突；奇异沼石蛾为毛翅目，翅面有毛和新月斑，不应混作有鳞粉的蝶蛾。"}],
+      "similar": [
+        {
+          "sci": "Actias selene",
+          "zh": "绿尾大蚕蛾",
+          "diff": "绿尾大蚕蛾为大型鳞翅目蛾，翅面有眼斑和后翅尾突；奇异沼石蛾为毛翅目，翅面有毛和新月斑，不应混作有鳞粉的蝶蛾。"
+        }
+      ],
       "range": "欧洲",
-      "basedOn": ["https://www.gbif.org/species/1442474", "https://commons.wikimedia.org/wiki/File:Trichoptera_Limnephilus_lunatus.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1442474",
+        "https://commons.wikimedia.org/wiki/File:Trichoptera_Limnephilus_lunatus.jpg"
+      ]
     },
     "Mantis_religiosa": {
       "impression": "绿色螳螂，三角头、长前胸和折叠捕捉足明显，采用头颈与躯干透视一致的前侧向视角。",
-      "marks": ["三角形可转动头部", "前胸细长", "两根带刺捕捉足折叠", "覆翅覆盖腹部"],
+      "marks": [
+        "三角形可转动头部",
+        "前胸细长",
+        "两根带刺捕捉足折叠",
+        "覆翅覆盖腹部"
+      ],
       "sexAge": "本任务不判定性别，捕捉足细刺和隐藏结构不作认证。",
-      "similar": [{"sci": "Tenodera sinensis", "zh": "中华大刀螳", "diff": "近缘螳螂需结合前胸、前足和分布综合核对，不能只凭绿色体色区分。"}],
+      "similar": [
+        {
+          "sci": "Tenodera sinensis",
+          "zh": "中华大刀螳",
+          "diff": "近缘螳螂需结合前胸、前足和分布综合核对，不能只凭绿色体色区分。"
+        }
+      ],
       "range": "欧洲、非洲、亚洲及北美引入地",
-      "basedOn": ["https://www.gbif.org/species/6258028", "https://commons.wikimedia.org/wiki/File:18-05-2017_European_mantis,_Paderne.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/6258028",
+        "https://commons.wikimedia.org/wiki/File:18-05-2017_European_mantis,_Paderne.jpg"
+      ]
     },
     "Mantispa_styriaca": {
       "impression": "长前胸的螳蛉，捕捉前足折叠，膜质翅具有细密网状脉，采用侧面姿态。",
-      "marks": ["捕捉前足具有膨大股节和折叠胫节", "前胸明显延长", "膜质翅有细密网状脉", "两根长触角与可见步足"],
+      "marks": [
+        "捕捉前足具有膨大股节和折叠胫节",
+        "前胸明显延长",
+        "膜质翅有细密网状脉",
+        "两根长触角与可见步足"
+      ],
       "sexAge": "本任务以完整成虫为依据；性别、远侧捕捉足连接、遮挡翅根和六足完整数量不作认证。",
-      "similar": [{"sci": "Mantis religiosa", "zh": "欧洲螳螂", "diff": "斯提利亚螳蛉属于脉翅目，膜质翅网状脉细密；欧洲螳螂属于螳螂目，前胸和捕捉足的结构不同，不能只凭外形混同。"}],
+      "similar": [
+        {
+          "sci": "Mantis religiosa",
+          "zh": "欧洲螳螂",
+          "diff": "斯提利亚螳蛉属于脉翅目，膜质翅网状脉细密；欧洲螳螂属于螳螂目，前胸和捕捉足的结构不同，不能只凭外形混同。"
+        }
+      ],
       "range": "欧洲",
-      "basedOn": ["https://www.gbif.org/species/2107724", "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(9566952168).jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/2107724",
+        "https://commons.wikimedia.org/wiki/File:Mantispa_styriaca_(9566952168).jpg"
+      ]
     },
     "Nezara_viridula": {
       "impression": "绿色盾形蝽，小盾片发达，前缘常见浅色斑点。",
-      "marks": ["整体绿色，背板宽而扁平", "小盾片前缘有三枚小浅色斑", "侧缘浅色，六足和长触角"],
+      "marks": [
+        "整体绿色，背板宽而扁平",
+        "小盾片前缘有三枚小浅色斑",
+        "侧缘浅色，六足和长触角"
+      ],
       "sexAge": "本任务不判定性别，触角、跗节和腹面细节不作认证。",
-      "similar": [{"sci": "Graphosoma italicum", "zh": "意大利条蝽", "diff": "稻绿蝽以绿色为主；意大利条蝽有醒目的红黑纵条纹。"}],
+      "similar": [
+        {
+          "sci": "Graphosoma italicum",
+          "zh": "意大利条蝽",
+          "diff": "稻绿蝽以绿色为主；意大利条蝽有醒目的红黑纵条纹。"
+        }
+      ],
       "range": "全球广布",
-      "basedOn": ["https://www.gbif.org/species/2078852", "https://commons.wikimedia.org/wiki/File:30-07-2017_Southern_green_shield_bug,_(Nezara_viridula),_Albufeira_(2).JPG"]
+      "basedOn": [
+        "https://www.gbif.org/species/2078852",
+        "https://commons.wikimedia.org/wiki/File:30-07-2017_Southern_green_shield_bug,_(Nezara_viridula),_Albufeira_(2).JPG"
+      ]
     },
     "Papilio_machaon": {
       "impression": "黄奶油色与黑色相间的凤蝶，后翅有蓝色斑列、臀角橙斑和成对尾突。",
-      "marks": ["前翅与后翅的黄黑分区可对应背面参考", "后翅蓝色斑列和近臀角橙色斑", "每侧后翅各一条尾突", "两根触角端部膨大呈棒状"],
+      "marks": [
+        "前翅与后翅的黄黑分区可对应背面参考",
+        "后翅蓝色斑列和近臀角橙色斑",
+        "每侧后翅各一条尾突",
+        "两根触角端部膨大呈棒状"
+      ],
       "sexAge": "本任务表现为完整成虫；参考与候选均不足以确定性别。",
-      "similar": [{"sci": "Papilio xuthus", "zh": "柑橘凤蝶", "diff": "金凤蝶以黄奶油色配黑色为主，后翅有蓝色斑列；柑橘凤蝶主要呈黑底奶白花纹。"}],
+      "similar": [
+        {
+          "sci": "Papilio xuthus",
+          "zh": "柑橘凤蝶",
+          "diff": "金凤蝶以黄奶油色配黑色为主，后翅有蓝色斑列；柑橘凤蝶主要呈黑底奶白花纹。"
+        }
+      ],
       "range": "欧洲、亚洲、北非及北美部分地区",
-      "basedOn": ["https://www.gbif.org/species/8225376", "https://commons.wikimedia.org/wiki/File:Open_wing_basking_position_of_Papilio_machaon_Linnaeus,_1758_-_Common_Yellow_Swallowtail_WLB_IMG_0318.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/8225376",
+        "https://commons.wikimedia.org/wiki/File:Open_wing_basking_position_of_Papilio_machaon_Linnaeus,_1758_-_Common_Yellow_Swallowtail_WLB_IMG_0318.jpg"
+      ]
     },
     "Papilio_xuthus": {
       "impression": "黑底奶白花纹的凤蝶，后翅具尾突。",
-      "marks": ["黑色翅面有奶白带纹和缘斑", "四片完整翅，后翅各一条自然尾突", "身体细长，触角棒状"],
+      "marks": [
+        "黑色翅面有奶白带纹和缘斑",
+        "四片完整翅，后翅各一条自然尾突",
+        "身体细长，触角棒状"
+      ],
       "sexAge": "本任务不判定性别，标本损伤不复制为自然特征。",
-      "similar": [{"sci": "Danaus plexippus", "zh": "君主斑蝶", "diff": "柑橘凤蝶以黑白图案和尾突为主；君主斑蝶以橙色翅面和粗黑翅脉为主。"}],
+      "similar": [
+        {
+          "sci": "Danaus plexippus",
+          "zh": "君主斑蝶",
+          "diff": "柑橘凤蝶以黑白图案和尾突为主；君主斑蝶以橙色翅面和粗黑翅脉为主。"
+        }
+      ],
       "range": "东亚",
-      "basedOn": ["https://www.gbif.org/species/1937819", "https://commons.wikimedia.org/wiki/File:MZLU-00129145_dorsal_(51008259851).jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/1937819",
+        "https://commons.wikimedia.org/wiki/File:MZLU-00129145_dorsal_(51008259851).jpg"
+      ]
     },
     "Periplaneta_americana": {
       "impression": "红褐色扁平的美洲大蠊，长丝状触角、胸背深浅斑纹和覆盖腹部的覆翅明显，采用背侧斜视。",
-      "marks": ["前胸背板浅缘与内部深色斑形成对比", "两根长丝状触角", "六条具刺步行足", "两根尾须和覆盖腹部的覆翅"],
+      "marks": [
+        "前胸背板浅缘与内部深色斑形成对比",
+        "两根长丝状触角",
+        "六条具刺步行足",
+        "两根尾须和覆盖腹部的覆翅"
+      ],
       "sexAge": "本任务以完整成虫为依据；不判定性别，精确跗节、尾须分节和隐藏结构不作认证。",
-      "similar": [{"sci": "Blattella germanica", "zh": "德国小蠊", "diff": "美洲大蠊体型较大，胸背板有浅缘与深色斑对比；德国小蠊较小，常见两条深色纵带。"}],
+      "similar": [
+        {
+          "sci": "Blattella germanica",
+          "zh": "德国小蠊",
+          "diff": "美洲大蠊体型较大，胸背板有浅缘与深色斑对比；德国小蠊较小，常见两条深色纵带。"
+        }
+      ],
       "range": "全球",
-      "basedOn": ["https://www.gbif.org/species/2000152", "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25859665686).jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/2000152",
+        "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25859665686).jpg"
+      ]
     },
     "Pieris_rapae": {
       "impression": "翅面以白色为主，前翅有深色顶角斑和少量暗色斑点。",
-      "marks": ["两片前翅与两片后翅完整", "前翅端部暗色，可见小型暗色斑", "身体比例自然，触角末端呈棒状"],
+      "marks": [
+        "两片前翅与两片后翅完整",
+        "前翅端部暗色，可见小型暗色斑",
+        "身体比例自然，触角末端呈棒状"
+      ],
       "sexAge": "本任务表现为完整成虫；不能仅凭现有参考和候选的斑点数量确定性别。",
-      "similar": [{"sci": "Papilio machaon", "zh": "金凤蝶", "diff": "菜粉蝶以白色翅面和深色端斑为主，后翅无尾突；金凤蝶为黄黑配色，后翅有蓝色斑列和成对尾突。"}],
+      "similar": [
+        {
+          "sci": "Papilio machaon",
+          "zh": "金凤蝶",
+          "diff": "菜粉蝶以白色翅面和深色端斑为主，后翅无尾突；金凤蝶为黄黑配色，后翅有蓝色斑列和成对尾突。"
+        }
+      ],
       "range": "欧洲、北非和亚洲，并引入北美、澳大利亚等地",
-      "basedOn": ["https://www.gbif.org/species/1920496", "https://commons.wikimedia.org/wiki/File:-2018-09-19_Cabbage_White_Butterfly_(Pieris_rapae),_Trimingham_(1).JPG"]
+      "basedOn": [
+        "https://www.gbif.org/species/1920496",
+        "https://commons.wikimedia.org/wiki/File:-2018-09-19_Cabbage_White_Butterfly_(Pieris_rapae),_Trimingham_(1).JPG"
+      ]
     },
     "Tenodera_sinensis": {
       "impression": "前胸细长的螳螂，绿至褐绿色覆翅，捕捉足发达。",
-      "marks": ["长前胸和三角形头部", "两根带刺捕捉足自然折叠", "四条步行足，覆翅完整"],
+      "marks": [
+        "长前胸和三角形头部",
+        "两根带刺捕捉足自然折叠",
+        "四条步行足，覆翅完整"
+      ],
       "sexAge": "本任务不判定性别，前足细刺和隐藏结构不作认证。",
-      "similar": [{"sci": "Mantis religiosa", "zh": "欧洲螳螂", "diff": "近缘螳螂需结合前胸、前足和分布综合核对，不能只凭绿色体色区分。"}],
+      "similar": [
+        {
+          "sci": "Mantis religiosa",
+          "zh": "欧洲螳螂",
+          "diff": "近缘螳螂需结合前胸、前足和分布综合核对，不能只凭绿色体色区分。"
+        }
+      ],
       "range": "东亚及北美引入地",
-      "basedOn": ["https://www.gbif.org/species/5887934", "https://commons.wikimedia.org/wiki/File:Tenodera_sinensis_01.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/5887934",
+        "https://commons.wikimedia.org/wiki/File:Tenodera_sinensis_01.jpg"
+      ]
     },
     "Vanessa_cardui": {
       "impression": "橙黑斑纹复杂的蛱蝶，前翅白斑和后翅亚缘眼斑明显。",
-      "marks": ["橙黑翅面有白色前翅斑点", "后翅亚缘斑点排列复杂", "四片完整翅和自然翅脉"],
+      "marks": [
+        "橙黑翅面有白色前翅斑点",
+        "后翅亚缘斑点排列复杂",
+        "四片完整翅和自然翅脉"
+      ],
       "sexAge": "本任务不判定性别，精细翅脉和隐藏结构不作认证。",
-      "similar": [{"sci": "Danaus plexippus", "zh": "君主斑蝶", "diff": "小红蛱蝶图案更碎，前翅白斑和后翅眼斑复杂；君主斑蝶的粗黑翅脉更突出。"}],
+      "similar": [
+        {
+          "sci": "Danaus plexippus",
+          "zh": "君主斑蝶",
+          "diff": "小红蛱蝶图案更碎，前翅白斑和后翅眼斑复杂；君主斑蝶的粗黑翅脉更突出。"
+        }
+      ],
       "range": "全球广布",
-      "basedOn": ["https://www.gbif.org/species/4299368", "https://commons.wikimedia.org/wiki/File:20220709_Vanessa_cardui_04.jpg"]
+      "basedOn": [
+        "https://www.gbif.org/species/4299368",
+        "https://commons.wikimedia.org/wiki/File:20220709_Vanessa_cardui_04.jpg"
+      ]
+    },
+    "Cetonia_aurata": {
+      "impression": "金属绿至铜绿色、粗壮卵凸的花金龟，硬化鞘翅合拢覆盖腹部，翅面带不规则白色横纹，基部露出小楯片。",
+      "marks": [
+        "金属绿或铜色光泽的卵形身体",
+        "鞘翅合拢于中线，表面具白色横斑纹",
+        "翅基外露小楯片呈小三角/V形",
+        "触角短，末端为鳃片状小 club"
+      ],
+      "sexAge": "本任务表现为完整成虫；性别、附肢精细分节及翅鞘下膜翅不能由现有参考充分确认。",
+      "similar": [
+        {
+          "sci": "Carabus auratus",
+          "zh": "金步甲",
+          "diff": "金步甲为黑色带金绿光泽的步甲，身体较扁、触角丝状较长、足细长善走；金花金龟更圆凸、触角短呈鳃片、常访花。"
+        }
+      ],
+      "range": "欧洲至中亚（中国内蒙古、新疆有分布）",
+      "basedOn": [
+        "https://www.gbif.org/species/1077829",
+        "https://commons.wikimedia.org/wiki/File:Cetonia_aurata_2009_G2.jpg"
+      ]
+    },
+    "Orthetrum_cancellatum": {
+      "impression": "翅平展的灰蜻，腹部较扁宽且分节清晰，每翅端部具深色翅痣，复眼大。",
+      "marks": [
+        "四翅透明、平展，翅端有黑色翅痣",
+        "腹部扁宽，环节明显（主参考黄褐色型）",
+        "后翅基部宽，翅脉网状密集",
+        "六条足，复眼大占头部大部分"
+      ],
+      "sexAge": "本任务表现为完整成虫；性别（雄虫腹部被蓝白粉霜）、精细翅脉拓扑及被遮挡腹末不能由现有参考充分确认。",
+      "similar": [
+        {
+          "sci": "Aeshna cyanea",
+          "zh": "蓝绿伟蜓",
+          "diff": "蓝绿伟蜓体型更大，腹部细长且具成对蓝绿色斑、复眼在头顶长缝相接；粗灰蜻腹部明显扁宽、体型较小。"
+        }
+      ],
+      "range": "欧洲、北非至中亚",
+      "basedOn": [
+        "https://www.gbif.org/species/1428686",
+        "https://commons.wikimedia.org/wiki/File:Black-tailed_skimmer_(Orthetrum_cancellatum)_female_Belgium.jpg"
+      ]
+    },
+    "Araneus_diadematus": {
+      "impression": "褐色多毛的园蛛，头胸部与浑圆腹部两段分明，腹部背面具白色十字斑，八条环纹步足。",
+      "marks": [
+        "腹部背面有白色十字形斑列（白点排成十字）",
+        "八条多毛步足，具深浅相间环纹",
+        "身体分头胸部与腹部两段，无翅无触角",
+        "腹部圆胖、末端略尖，整体褐色带毛"
+      ],
+      "sexAge": "本任务表现为完整成蛛；性别（雌蛛远大于雄蛛）、眼列排列与丝腺结构不能由现有参考充分确认。园蛛为蛛形纲蜘蛛目，不是昆虫。",
+      "similar": [],
+      "range": "欧洲、北美洲",
+      "basedOn": [
+        "https://www.gbif.org/species/2160133",
+        "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_MHNT_Femelle_Fronton.jpg"
+      ]
     }
   }
 }

@@ -1,0 +1,422 @@
+{
+ "schemaVersion": 1,
+ "status": "evidence-matrix",
+ "count": 4,
+ "retrievedAt": "2026-11-02T23:41:47.328388+00:00",
+ "notes": [
+  "本批为 expansion-03 四类别验证批：甲虫、蝴蝶、蜻蜓、蜘蛛各一种。",
+  "蜘蛛为蛛形纲蜘蛛目，不是昆虫；按 Araneae 单独审核，检查项要求八条腿、头胸部+腹部两个体段、无触角无翅。",
+  "原始参考照片只存本地；本矩阵不包含原始照片或本地文件路径。",
+  "参考均为 Wikimedia 官方缩略图派生文件，非相机原尺寸文件，不得公开原图。"
+ ],
+ "candidates": [
+  {
+   "id": "Cetonia_aurata",
+   "scientificName": "Cetonia aurata",
+   "commonNameEn": "Rose chafer",
+   "commonNameZhHans": "金花金龟",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://zh.wikipedia.org/wiki/%E9%87%91%E8%8A%B1%E9%87%91%E9%BE%9F"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Coleoptera",
+    "family": "Scarabaeidae",
+    "genus": "Cetonia",
+    "authority": "(Linnaeus, 1758)",
+    "gbif": 1077829
+   },
+   "samplingRegions": [
+    "欧洲",
+    "亚洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Cetonia_aurata_2009_G2.jpg",
+     "author": "George Chernilevsky",
+     "license": "Public domain",
+     "licenseURL": "",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "5b0ce26e392c184c837afbd894292a29690f5a71e8d240b28f5a7aded8046218",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Cetonia_aurata_Pal%C3%B9_del_Fersina_02.jpg",
+     "author": "Syrio",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "b58f6d463135c85823a4dcad864cf469d7b2494c2881dc9e46ac95fc890749d8",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "anterior lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Cetonia_aurata_Pal%C3%B9_del_Fersina_01.jpg",
+     "author": "Syrio",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "7711512dac69cc2e33ff3aea7c10084aa15e500f18647c052c2983f5794c5f00",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "精细附肢分节和被遮挡结构",
+    "翅鞘下膜翅细节"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-03",
+   "workspace": "production/Cetonia_aurata",
+   "distribution": "欧洲、中亚",
+   "distributionSource": "https://www.gbif.org/species/1077829",
+   "ids": {
+    "gbif": 1077829,
+    "wikidata": "Q731970"
+   },
+   "reviewScore": 85,
+   "primaryReviewScore": 81,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/34",
+   "sticker": "stickers/Coleoptera/Scarabaeidae/Cetonia_aurata.webp"
+  },
+  {
+   "id": "Aglais_io",
+   "scientificName": "Aglais io",
+   "commonNameEn": "European peacock",
+   "commonNameZhHans": "孔雀蛱蝶",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://zh.wikipedia.org/wiki/%E5%AD%94%E9%9B%80%E8%9B%B1%E8%9D%B6"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Aglais",
+    "authority": "(Linnaeus, 1758)",
+    "gbif": 4535827
+   },
+   "samplingRegions": [
+    "欧洲",
+    "亚洲",
+    "北美洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "blocked",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Aglais_io_top_MichaD.jpg",
+     "author": "Michael Apel",
+     "license": "CC BY-SA 2.5",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "94568aafa10373164ed8a5f746e8a1325d830ace73abfe5e03a3d93660c8bb62",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Peacock_butterfly_(Aglais_io)_2.jpg",
+     "author": "Charles J. Sharp",
+     "license": "CC BY-SA 3.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "ade9d663b9779249ef3d4aa94ab74b883202002a7861ce5ce1d82d50059d43a6",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "dorsal oblique",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Butterfly_Aglais_io.jpg",
+     "author": "Sergei Mosin",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "3108bfd264a6b1a86d2e3f86be64b16dc79de06e8020997680dbfa34e274d1c4",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "type": "photo",
+     "view": "dorsal legs detail",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Paon-du-jour_MHNT_CUT_2013_3_14_Cahors_Dos.jpg",
+     "author": "Didier Descouens",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "a181436fb87bdb18e1825c181f44139bcc1bedd5d516ec8acb92393be67308af",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file",
+     "role": "local-detail-only"
+    },
+    {
+     "type": "photo",
+     "view": "ventral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Paon-du-jour_MHNT_CUT_2013_3_14_Cahors_Ventre.jpg",
+     "author": "Didier Descouens",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "565ae1c060c3dd094b01fa4c3b7ee9c2cb25045bb3010df28c95f1ba788ec1b1",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file",
+     "role": "local-detail-only"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "精细鳞片色阶与微观质感"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-03",
+   "workspace": "production/Aglais_io",
+   "distribution": "欧洲至亚洲温带、北美",
+   "distributionSource": "https://www.gbif.org/species/4535827",
+   "ids": {
+    "gbif": 4535827,
+    "wikidata": "Q158699"
+   },
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/35"
+  },
+  {
+   "id": "Orthetrum_cancellatum",
+   "scientificName": "Orthetrum cancellatum",
+   "commonNameEn": "Black-tailed skimmer",
+   "commonNameZhHans": "粗灰蜻",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://www.inaturalist.org/zh-CN/taxa/62067-Orthetrum-cancellatum"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Odonata",
+    "family": "Libellulidae",
+    "genus": "Orthetrum",
+    "authority": "(Linnaeus, 1758)",
+    "gbif": 1428686
+   },
+   "samplingRegions": [
+    "欧洲",
+    "非洲",
+    "亚洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Black-tailed_skimmer_(Orthetrum_cancellatum)_female_Belgium.jpg",
+     "author": "Charles J. Sharp",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "bf8da86791a4c523248322850d56821ca914419fa8d63ef34f69f37cb26f3433",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Black-tailed_skimmer_(Orthetrum_cancellatum)_male_Estonia.jpg",
+     "author": "Charles J. Sharp",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "03f12f415d911be15d8b287d33a013a1d718a59e008022112caa207cedd718b6",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Orthetrum_cancellatum_141836445.jpg",
+     "author": "Michel Langeveld",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "2289b8238310ffdef3804606ecf0d7749951bda60c584fd435261cc646b40eb7",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "翅脉精细拓扑",
+    "被遮挡的腹部末节细节"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-03",
+   "workspace": "production/Orthetrum_cancellatum",
+   "distribution": "欧洲、北非至中亚",
+   "distributionSource": "https://www.gbif.org/species/1428686",
+   "ids": {
+    "gbif": 1428686,
+    "wikidata": "Q913064"
+   },
+   "reviewScore": 85,
+   "primaryReviewScore": 85,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/36",
+   "sticker": "stickers/Odonata/Libellulidae/Orthetrum_cancellatum.webp"
+  },
+  {
+   "id": "Araneus_diadematus",
+   "scientificName": "Araneus diadematus",
+   "commonNameEn": "European garden spider",
+   "commonNameZhHans": "十字园蛛",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://zh.wikipedia.org/wiki/%E5%8D%81%E5%AD%97%E5%9B%AD%E8%9B%9B"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Araneae",
+    "family": "Araneidae",
+    "genus": "Araneus",
+    "authority": "Clerck, 1757",
+    "gbif": 2160133
+   },
+   "samplingRegions": [
+    "欧洲",
+    "北美洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_MHNT_Femelle_Fronton.jpg",
+     "author": "Didier Descouens",
+     "license": "CC BY-SA 3.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "d95f5276150c3b453b7e6d8e91a7411cd6a014fa47070362dd1566762e34eb5f",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "ventral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_qtl1.jpg",
+     "author": "Quartl",
+     "license": "CC BY-SA 3.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "43033d37307aee6f9f364271fb962bd43191f9377ce90b43fbf213002c578a69",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Araneus_diadematus_(8063057162).jpg",
+     "author": "sebastien lebrigand  from crépy en valois, FRANCE",
+     "license": "CC BY-SA 2.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "f3926e5f0dbedfaeb6dd75021bed71722d7662ccce457d8fbd22470fbbe17819",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "头胸部被遮挡细节与眼列排列",
+    "丝腺与织网结构"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-03",
+   "workspace": "production/Araneus_diadematus",
+   "distribution": "欧洲、北美洲",
+   "distributionSource": "https://www.gbif.org/species/2160133",
+   "ids": {
+    "gbif": 2160133,
+    "wikidata": "Q337509"
+   },
+   "reviewScore": 97,
+   "primaryReviewScore": 85,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/37",
+   "sticker": "stickers/Araneae/Araneidae/Araneus_diadematus.webp"
+  }
+ ]
+}
