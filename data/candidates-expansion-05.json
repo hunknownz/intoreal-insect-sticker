@@ -1,0 +1,395 @@
+{
+ "schemaVersion": 1,
+ "status": "evidence-matrix",
+ "count": 4,
+ "retrievedAt": "2026-11-05T14:58:37.853042+00:00",
+ "notes": [
+  "expansion-05 四类别批：粪金龟、蛱蝶、色蟌（蜻蜓新科 Calopterygidae）、跳蛛（蜘蛛新科 Salticidae）。",
+  "原图只存本地；参考均为 Wikimedia 官方缩略图派生文件。"
+ ],
+ "candidates": [
+  {
+   "id": "Scarabaeus_sacer",
+   "scientificName": "Scarabaeus sacer",
+   "commonNameEn": "Sacred scarab",
+   "commonNameZhHans": "神圣粪金龟",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E8%81%96%E7%B3%9E%E9%87%91%E9%BE%9C"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Coleoptera",
+    "family": "Scarabaeidae",
+    "genus": "Scarabaeus",
+    "authority": "Linnaeus, 1758",
+    "gbif": 1087226
+   },
+   "samplingRegions": [
+    "欧洲",
+    "非洲",
+    "亚洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Scarabaeus.sacer.jpg",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sarefo\" title=\"User:Sarefo\">Sarefo</a>",
+     "license": "CC BY-SA 3.0",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "860a09555053ba9344f0b4af8ee432071863829f6a98c4b6bd3d210774bda462",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Scarabaeus_sacer_01.jpg",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Arnoldius\" title=\"User:Arnoldius\">Arnoldius</a>",
+     "license": "CC BY-SA 3.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "27c48be69e2074123a8406c59029104716c13b585f28df07399108aa0d659395",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "anterior lateral detail",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Scarabaeidae_-_Scarabaeus_sacer.JPG",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Hectonichus\" title=\"User:Hectonichus\">Hectonich",
+     "license": "CC BY-SA 3.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "4a032f2a6c5ce19779829af1285be1fb6163b59a5132492e966305f3f5b03d80",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "附肢精细分节",
+    "鞘翅下膜翅细节"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-05",
+   "workspace": "production/Scarabaeus_sacer",
+   "distribution": "地中海盆地至中亚",
+   "distributionSource": "https://www.gbif.org/species/1087226",
+   "ids": {
+    "gbif": 1087226,
+    "wikidata": "Q1750802"
+   },
+   "primaryReviewScore": 85,
+   "reviewScore": 86,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/51",
+   "sticker": "stickers/Coleoptera/Scarabaeidae/Scarabaeus_sacer.webp"
+  },
+  {
+   "id": "Vanessa_atalanta",
+   "scientificName": "Vanessa atalanta",
+   "commonNameEn": "Red admiral",
+   "commonNameZhHans": "优红蛱蝶",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://zh.wikipedia.org/wiki/%E4%BC%98%E7%BA%A2%E8%9B%B1%E8%9D%B6"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Lepidoptera",
+    "family": "Nymphalidae",
+    "genus": "Vanessa",
+    "authority": "(Linnaeus, 1758)",
+    "gbif": 1898286
+   },
+   "samplingRegions": [
+    "欧洲",
+    "亚洲",
+    "北美洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Vanessa_atalanta_e.o_Ab.Klemensiewiczi_-_Chaba_Slovaquie_-_male_dorsal.jpg",
+     "author": "<div class=\"fn value\"> <a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" titl",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "14a52b625ac4dccabd0735220c59fff44b370a3cdc0fd27da209a0fdee97c0ae",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Vanessa_atalanta_MHNT_CUT_2013_3_14_Grisolle_Dos.jpg",
+     "author": "<div class=\"fn value\"> <a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" titl",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "a686c13010a966f01d6de285c81c2dad902e26de2f004b0bb616dd5977776a11",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "ventral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Vanessa_atalanta_MHNT_CUT_2013_3_14_Grisolle_ventre.jpg",
+     "author": "<div class=\"fn value\"> <a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" titl",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "42b6d482860d56df25a4d3392adbb8ab6ca4d0508d990575297e29689aec5157",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "足根关节连接（按修订政策记录为不可核实）",
+    "精细鳞片色阶与微观质感"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-05",
+   "workspace": "production/Vanessa_atalanta",
+   "distribution": "北美、欧洲至中亚温带",
+   "distributionSource": "https://www.gbif.org/species/1898286",
+   "ids": {
+    "gbif": 1898286,
+    "wikidata": "Q156454"
+   },
+   "primaryReviewScore": 85,
+   "reviewScore": 85,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/48",
+   "sticker": "stickers/Lepidoptera/Nymphalidae/Vanessa_atalanta.webp"
+  },
+  {
+   "id": "Calopteryx_splendens",
+   "scientificName": "Calopteryx splendens",
+   "commonNameEn": "Banded demoiselle",
+   "commonNameZhHans": "华丽色蟌",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "Wikidata zh-hans label"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Odonata",
+    "family": "Calopterygidae",
+    "genus": "Calopteryx",
+    "authority": "(Harris, 1780)",
+    "gbif": 1427067
+   },
+   "samplingRegions": [
+    "欧洲",
+    "亚洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "dorsal oblique",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Banded_demoiselle_damselfly_(Calopteryx_splendens)_male_adult_blue.jpg",
+     "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "78d0c169f3a201a33bd277db3dfac5f44c37618a5856f15a2a1c1a0af984c261",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Banded_demoiselle_damselfly_(Calopteryx_splendens)_male_4.jpg",
+     "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "11707bd3f77dd1b469f7eb7784a3710864541c8c91caab0c03c85cc37817f285",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "lateral female",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Calopteryx_splendens_qtl2.jpg",
+     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Quartl\" title=\"User:Quartl\">Quartl</a>",
+     "license": "CC BY-SA 3.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "298d6378e1712e8b3ebfd966898f2a4353d83994eda71267d8a336636e78832e",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别（雄虫型为主姿态；雌虫翅透明无黑斑带）",
+    "收拢翅下的足根关节（按修订政策记录为不可核实）",
+    "精细翅脉拓扑"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-05",
+   "workspace": "production/Calopteryx_splendens",
+   "distribution": "欧洲至中亚",
+   "distributionSource": "https://www.gbif.org/species/1427067",
+   "ids": {
+    "gbif": 1427067,
+    "wikidata": "Q909597"
+   },
+   "primaryReviewScore": 90,
+   "reviewScore": 90,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/49",
+   "sticker": "stickers/Odonata/Calopterygidae/Calopteryx_splendens.webp"
+  },
+  {
+   "id": "Salticus_scenicus",
+   "scientificName": "Salticus scenicus",
+   "commonNameEn": "Zebra jumping spider",
+   "commonNameZhHans": "斑马跳蛛",
+   "nameSources": {
+    "en": "GBIF vernacularNames",
+    "zh-Hans": "https://www.inaturalist.org/zh-CN/taxa/68901-Salticus-scenicus"
+   },
+   "taxonomy": {
+    "system": "GBIF Backbone Taxonomy",
+    "order": "Araneae",
+    "family": "Salticidae",
+    "genus": "Salticus",
+    "authority": "(Clerck, 1757)",
+    "gbif": 2172595
+   },
+   "samplingRegions": [
+    "欧洲",
+    "亚洲",
+    "北美洲"
+   ],
+   "lifeStage": "adult",
+   "sex": "unverifiable",
+   "status": "published",
+   "reviewProtocolVersion": 2,
+   "references": [
+    {
+     "role": "primary-pose",
+     "type": "photo",
+     "view": "anterior oblique",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Kaldari_Salticus_scenicus_female_01.jpg",
+     "author": "Kaldari",
+     "license": "CC0",
+     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "e75db35aa7706f29d49fad50c327e0ba8a82106eec17be2fc6222a33b462315d",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "dorsal",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Salticus_scenicus,_lateral_view.jpg",
+     "author": "OJJ",
+     "license": "CC BY-SA 4.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "f6f1505a6993c2ce8c0a5dd80ff5e97ef17bdd0606745bd7ba491ecb1ff99d54",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    },
+    {
+     "role": "local-detail-only",
+     "type": "photo",
+     "view": "anterior",
+     "lifeStage": "adult",
+     "sex": "unverifiable",
+     "page": "https://commons.wikimedia.org/wiki/File:Zebra_Spider_-_Salticus_scenicus_(39398208080).jpg",
+     "author": "Björn S...",
+     "license": "CC BY-SA 2.0",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+     "imageReview": "approved",
+     "archive": "local-only",
+     "sha256": "6a95615670746cccc46d4f46570212a6aa9e0b04d2c72847cfff491af0fc400e",
+     "downloadKind": "Wikimedia thumbnail derivative; not the original camera-resolution file"
+    }
+   ],
+   "unverifiable": [
+    "性别",
+    "头胸部被遮挡细节与眼列精确排列",
+    "丝腺结构"
+   ],
+   "verification": {
+    "gbifExactMatch": true,
+    "licenseVerified": true,
+    "imageReview": "approved"
+   },
+   "batch": "expansion-05",
+   "workspace": "production/Salticus_scenicus",
+   "distribution": "欧亚大陆及北美温带",
+   "distributionSource": "https://www.gbif.org/species/2172595",
+   "ids": {
+    "gbif": 2172595,
+    "wikidata": "Q169513"
+   },
+   "primaryReviewScore": 85,
+   "reviewScore": 85,
+   "githubIssue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/50",
+   "sticker": "stickers/Araneae/Salticidae/Salticus_scenicus.webp"
+  }
+ ]
+}

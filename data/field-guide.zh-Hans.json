@@ -1,7 +1,7 @@
 {
   "license": "CC BY-SA 4.0",
   "note": "中文图鉴文字依据项目批准的参考照片、GBIF 分类信息和独立审核记录改写；basedOn 列出分类与主要形态依据。未核实的性别、精细结构、生态和保护状态不作推断。",
-  "count": 33,
+  "count": 37,
   "species": {
     "Aeshna_cyanea": {
       "impression": "深色长腹上具有成对蓝绿色斑点的伟蜓，胸部有黄绿色斑，四片膜质翅展开。",
@@ -710,6 +710,94 @@
       "basedOn": [
         "https://www.gbif.org/species/4535827",
         "https://commons.wikimedia.org/wiki/File:Aglais_io_top_MichaD.jpg"
+      ]
+    },
+    "Scarabaeus_sacer": {
+      "impression": "通体乌黑无金属光泽的卵形粪金龟，前足胫节宽扁具齿如铲，头部唇基具小齿，常推粪球。",
+      "marks": [
+        "体色乌黑、无金属光泽",
+        "前足胫节宽扁、外缘具齿（挖掘足）",
+        "头无角，唇基边缘具小齿",
+        "体侧可具轻微外展薄缘"
+      ],
+      "sexAge": "本任务表现为完整成虫；性别、附肢精细分节及体侧外展缘的清晰程度按修订政策记录为不可核实。",
+      "similar": [
+        {
+          "sci": "Trypoxylus dichotomus",
+          "zh": "双叉犀金龟",
+          "diff": "双叉犀金龟雄虫具发达头角与胸角、体色红褐；神圣粪金龟无角、体色乌黑、前足为挖掘齿胫。"
+        }
+      ],
+      "range": "地中海盆地至中亚",
+      "basedOn": [
+        "https://www.gbif.org/species/1087226",
+        "https://commons.wikimedia.org/wiki/File:Scarabaeus.sacer.jpg"
+      ]
+    },
+    "Vanessa_atalanta": {
+      "impression": "黑色蛱蝶，前后翅各有一条醒目的橙红色横带，前翅端部具白斑，飞行时如红色闪电。",
+      "marks": [
+        "黑色翅面具橙红色横带（前翅中段、后翅外缘）",
+        "前翅端部白斑",
+        "翅缘波状，前翅尖钩状",
+        "前足退化（蛱蝶科）"
+      ],
+      "sexAge": "本任务表现为完整成虫；性别与足根连接按修订政策记录为不可核实。IUCN 无危（LC），翅展约 60–75mm。",
+      "similar": [
+        {
+          "sci": "Aglais io",
+          "zh": "孔雀蛱蝶",
+          "diff": "孔雀蛱蝶锈红底色具四枚大眼斑；优红蛱蝶黑底橙带、无眼斑。"
+        }
+      ],
+      "range": "北美、欧洲至中亚温带",
+      "basedOn": [
+        "https://www.gbif.org/species/1898286",
+        "https://commons.wikimedia.org/wiki/File:(MHNT)_Vanessa_atalanta_e.o_Ab.Klemensiewiczi_-_Chaba_Slovaquie_-_male_dorsal.jpg"
+      ]
+    },
+    "Calopteryx_splendens": {
+      "impression": "金属绿色的豆娘，四翅合拢竖于腹背，雄虫翅端具宽阔黑褐色横带，飞行时如黑色飘带。",
+      "marks": [
+        "雄虫四翅端半部具黑褐色横带，基部透明",
+        "金属绿胸部、蓝绿光泽腹部",
+        "停栖时四翅合拢（豆娘姿态，区别于蜻蜓平展）",
+        "长足纤细，停栖时收拢"
+      ],
+      "sexAge": "本任务以雄虫型为主姿态；雌虫翅全部透明无黑斑带（见参考对比图）。足根连接按修订政策记录为不可核实。IUCN 无危（LC）。",
+      "similar": [
+        {
+          "sci": "Ischnura elegans",
+          "zh": "蓝尾豆娘",
+          "diff": "蓝尾豆娘体型更小、翅全透明无黑带、腹部末端蓝色；华丽色蟌雄虫具宽阔黑翅带、通体金属绿。"
+        }
+      ],
+      "range": "欧洲至中亚",
+      "basedOn": [
+        "https://www.gbif.org/species/1427067",
+        "https://commons.wikimedia.org/wiki/File:Banded_demoiselle_damselfly_(Calopteryx_splendens)_male_adult_blue.jpg"
+      ]
+    },
+    "Salticus_scenicus": {
+      "impression": "黑白条纹的小型跳蛛，头胸部前端一对特大前眼正视前方，不结网，善跳跃，常见于墙面窗台。",
+      "marks": [
+        "一对特大的朝前主眼（跳蛛典型脸）",
+        "黑体具白色/奶油色横条纹",
+        "八条较短而壮的步足，多毛",
+        "头胸与腹部两段分明，无触角无翅"
+      ],
+      "sexAge": "本任务表现为完整成蛛；性别与眼列精确排列按修订政策记录为不可核实。园蛛为蛛形纲蜘蛛目，不是昆虫。",
+      "similar": [
+        {
+          "sci": "Araneus diadematus",
+          "zh": "十字园蛛",
+          "diff": "十字园蛛结网、腹部大圆具十字斑、足细长；斑马跳蛛不结网、体型紧凑、具特大前眼与斑马纹。"
+        }
+      ],
+      "range": "欧亚大陆及北美温带",
+      "basedOn": [
+        "https://www.gbif.org/species/2172595",
+        "https://commons.wikimedia.org/wiki/File:Kaldari_Salticus_scenicus_female_01.jpg"
       ]
     }
   }

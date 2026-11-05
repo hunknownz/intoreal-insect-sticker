@@ -131,10 +131,10 @@
         "file": "stickers/Odonata/Aeshnidae/Aeshna_cyanea.webp",
         "kind": "ai-illustration",
         "reviewScore": 81,
-        "primaryReviewScore": 81,
+        "primaryReviewScore": 85,
         "meetsQualityBar": true,
         "license": "PolyForm-Shield-1.0.0",
-        "sourceSha256": "f6e504eb3be3b679adedac3ef9f42c24c1f4bb59c6a86167e1263e7b0e180a8a",
+        "sourceSha256": "3a989b82784d478d4959f1f58664d6a64d5025c686b77c846fa09915a7e4416f",
         "reference": {
           "type": "photo",
           "view": "dorsal",
@@ -164,7 +164,12 @@
             "author": "MagiMari",
             "license": "CC-BY-SA-4.0"
           }
-        ]
+        ],
+        "revisionOf": {
+          "issue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/26",
+          "attempt": 1,
+          "sourceSha256": "f6e504eb3be3b679adedac3ef9f42c24c1f4bb59c6a86167e1263e7b0e180a8a"
+        }
       }
     },
     {
@@ -328,11 +333,11 @@
       "sticker": {
         "file": "stickers/Odonata/Aeshnidae/Anax_imperator.webp",
         "kind": "ai-illustration",
-        "reviewScore": 90,
-        "primaryReviewScore": 90,
+        "reviewScore": 81,
+        "primaryReviewScore": 85,
         "meetsQualityBar": true,
         "license": "PolyForm-Shield-1.0.0",
-        "sourceSha256": "1309b09c33c895794383dc51cd901c1e6bb97305aa6d23e690a03e785c78984c",
+        "sourceSha256": "e2eabb1b5f432970c10f97fcde0c417013223a14cd5218ee52b373f1417aab64",
         "reference": {
           "type": "photo",
           "view": "dorsal",
@@ -362,7 +367,12 @@
             "author": "Charles J. Sharp",
             "license": "CC-BY-SA-4.0"
           }
-        ]
+        ],
+        "revisionOf": {
+          "issue": "https://github.com/hunknownz/intoreal-insect-sticker/issues/18",
+          "attempt": 1,
+          "sourceSha256": "1309b09c33c895794383dc51cd901c1e6bb97305aa6d23e690a03e785c78984c"
+        }
       }
     },
     {
@@ -735,6 +745,99 @@
             "page": "https://commons.wikimedia.org/wiki/File:Abellon_-_Abejorro_-_Bumblebee_-_Bombus_Terrestris_-_01.jpg",
             "author": "Xosema",
             "license": "CC-BY-SA-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Calopteryx_splendens",
+      "scientificName": "Calopteryx splendens",
+      "authority": "(Harris, 1780)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Odonata",
+        "family": "Calopterygidae",
+        "genus": "Calopteryx"
+      },
+      "names": {
+        "en": "Banded demoiselle",
+        "zh-Hans": "华丽色蟌",
+        "ca": "Calopteryx splendens",
+        "cs": "motýlice lesklá",
+        "nl": "weidebeekjuffer",
+        "fi": "immenkorento",
+        "fr": "Calopteryx splendens",
+        "de": "Gebänderte Prachtlibelle",
+        "it": "Calopteryx splendens",
+        "lt": "Blizgančioji gražutė",
+        "pl": "Świtezianka błyszcząca",
+        "ru": "Блестящая красотка",
+        "sr": "Prugasta konjska smrt",
+        "es": "Calopteryx splendens",
+        "sv": "Blåbandad jungfruslända",
+        "uk": "Calopteryx splendens",
+        "ar": "رعاشة لامعة",
+        "be": "Прыгажуня бліскучая",
+        "bg": "поясно ромолниче",
+        "et": "vööt-vesineitsik",
+        "el": "Calopteryx splendens",
+        "hu": "sávos szitakötő",
+        "id": "Calopteryx splendens",
+        "mk": "пругава девица",
+        "fa": "سنجاقک جواهر رودخانه",
+        "ro": "Calopteryx splendens",
+        "sl": "pasasti bleščavec"
+      },
+      "ids": {
+        "gbif": 1427067,
+        "wikidata": "Q909597"
+      },
+      "range": {
+        "distribution": "欧洲至中亚"
+      },
+      "traits": {},
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
+      "sticker": {
+        "file": "stickers/Odonata/Calopterygidae/Calopteryx_splendens.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 90,
+        "primaryReviewScore": 90,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "0da0c50dbea3d8773feac8afe901c0cbef53f34f44a2000eef13ebfb0a6c80fe",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal oblique",
+          "page": "https://commons.wikimedia.org/wiki/File:Banded_demoiselle_damselfly_(Calopteryx_splendens)_male_adult_blue.jpg",
+          "author": "<",
+          "license": "CC BY-SA 4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal oblique",
+            "page": "https://commons.wikimedia.org/wiki/File:Banded_demoiselle_damselfly_(Calopteryx_splendens)_male_adult_blue.jpg",
+            "author": "<",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Banded_demoiselle_damselfly_(Calopteryx_splendens)_male_4.jpg",
+            "author": "<",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral female",
+            "page": "https://commons.wikimedia.org/wiki/File:Calopteryx_splendens_qtl2.jpg",
+            "author": "Quartl",
+            "license": "CC BY-SA 3.0"
           }
         ]
       }
@@ -2748,6 +2851,179 @@
       }
     },
     {
+      "id": "Salticus_scenicus",
+      "scientificName": "Salticus scenicus",
+      "authority": "(Clerck, 1757)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Araneae",
+        "family": "Salticidae",
+        "genus": "Salticus"
+      },
+      "names": {
+        "en": "Zebra jumping spider",
+        "zh-Hans": "斑马跳蛛",
+        "ca": "Salticus scenicus",
+        "cs": "skákavka pruhovaná",
+        "da": "Almindelig zebraedderkop",
+        "nl": "Huiszebraspin",
+        "fi": "seeprahyppijä",
+        "fr": "Saltique chevronné",
+        "de": "Mauer-Zebraspringspinne",
+        "it": "Salticus scenicus",
+        "ja": "ゼブラハエトリ",
+        "pl": "skakun arlekinowy",
+        "ru": "Пёстрый скакунчик",
+        "es": "Salticus scenicus",
+        "sv": "Murzebraspindel",
+        "tr": "Salticus scenicus",
+        "uk": "Salticus scenicus",
+        "ar": "قافز منظري",
+        "be": "Звычайны павук-скакун",
+        "bg": "зебров скачащ паяк",
+        "el": "Salticus scenicus",
+        "hu": "színészpók",
+        "mk": "зебрест пајак",
+        "fa": "عنکبوت گورخری",
+        "ro": "Salticus scenicus"
+      },
+      "ids": {
+        "gbif": 2172595,
+        "wikidata": "Q169513"
+      },
+      "range": {
+        "distribution": "欧亚大陆及北美温带"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Araneae/Salticidae/Salticus_scenicus.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "1cf9c65ffb20d6088051fdb3daf7b82a58502c1d29dceb6c1cc4eebaf477c19f",
+        "reference": {
+          "type": "photo",
+          "view": "anterior oblique",
+          "page": "https://commons.wikimedia.org/wiki/File:Kaldari_Salticus_scenicus_female_01.jpg",
+          "author": "Kaldari",
+          "license": "CC0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "anterior oblique",
+            "page": "https://commons.wikimedia.org/wiki/File:Kaldari_Salticus_scenicus_female_01.jpg",
+            "author": "Kaldari",
+            "license": "CC0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Salticus_scenicus,_lateral_view.jpg",
+            "author": "OJJ",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "anterior",
+            "page": "https://commons.wikimedia.org/wiki/File:Zebra_Spider_-_Salticus_scenicus_(39398208080).jpg",
+            "author": "Björn S...",
+            "license": "CC BY-SA 2.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Scarabaeus_sacer",
+      "scientificName": "Scarabaeus sacer",
+      "authority": "Linnaeus, 1758",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Coleoptera",
+        "family": "Scarabaeidae",
+        "genus": "Scarabaeus"
+      },
+      "names": {
+        "en": "Sacred scarab",
+        "zh-Hans": "神圣粪金龟",
+        "ca": "Scarabaeus sacer",
+        "hr": "Kotrljan",
+        "cs": "vruboun posvátný",
+        "da": "Scarabaeus sacer",
+        "nl": "heilige pillenkever",
+        "eo": "Scarabaeus sacer",
+        "fi": "pillerinpyörittäjä",
+        "fr": "Bousier sacré",
+        "de": "Heiliger Pillendreher",
+        "it": "Scarabaeus sacer",
+        "ja": "ヒジリタマオシコガネ",
+        "pl": "Poświętnik czczony (Scarabaeus sacer)",
+        "ru": "Священный скарабей",
+        "sk": "Skarabeus posvätný",
+        "es": "Scarabaeus sacer",
+        "sv": "pillerbagge",
+        "uk": "скарабеї",
+        "ar": "جعل مقدس",
+        "be": "Скарабей свяшчэнны",
+        "bg": "свещен скарабей",
+        "he": "זבלית פרעה",
+        "id": "Scarabaeus sacer",
+        "ro": "Scarabaeus sacer",
+        "sl": "sveti skarabej"
+      },
+      "ids": {
+        "gbif": 1087226,
+        "wikidata": "Q1750802"
+      },
+      "range": {
+        "distribution": "地中海盆地至中亚"
+      },
+      "traits": {},
+      "conservation": {},
+      "sticker": {
+        "file": "stickers/Coleoptera/Scarabaeidae/Scarabaeus_sacer.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 86,
+        "primaryReviewScore": 95,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "34c43675c123b507bd6b4bcb47d43ad4f4a2326cf859b338f3f2dce9cbe98bb1",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:Scarabaeus.sacer.jpg",
+          "author": "Sarefo",
+          "license": "CC BY-SA 3.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Scarabaeus.sacer.jpg",
+            "author": "Sarefo",
+            "license": "CC BY-SA 3.0"
+          },
+          {
+            "type": "photo",
+            "view": "lateral",
+            "page": "https://commons.wikimedia.org/wiki/File:Scarabaeus_sacer_01.jpg",
+            "author": "Arnoldius",
+            "license": "CC BY-SA 3.0"
+          },
+          {
+            "type": "photo",
+            "view": "anterior lateral detail",
+            "page": "https://commons.wikimedia.org/wiki/File:Scarabaeidae_-_Scarabaeus_sacer.JPG",
+            "author": "Hectonich",
+            "license": "CC BY-SA 3.0"
+          }
+        ]
+      }
+    },
+    {
       "id": "Tenodera_sinensis",
       "scientificName": "Tenodera sinensis",
       "authority": "Saussure, 1871",
@@ -2906,6 +3182,113 @@
             "view": "lateral",
             "page": "https://commons.wikimedia.org/wiki/File:Trypoxylus_dichotomus_298634125.jpg",
             "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/",
+            "license": "CC BY-SA 4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vanessa_atalanta",
+      "scientificName": "Vanessa atalanta",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": {
+        "system": "GBIF Backbone Taxonomy",
+        "order": "Lepidoptera",
+        "family": "Nymphalidae",
+        "genus": "Vanessa"
+      },
+      "names": {
+        "en": "Red admiral",
+        "zh-Hans": "优红蛱蝶",
+        "ca": "Papallona reina",
+        "cs": "babočka admirál",
+        "da": "Admiral",
+        "nl": "atalanta",
+        "eo": "Admiral-papilio",
+        "fi": "amiraali",
+        "fr": "Vulcain",
+        "de": "Admiral",
+        "it": "Vanessa atalanta",
+        "ja": "ヨーロッパアカタテハ",
+        "lt": "Admirolas",
+        "pl": "rusałka admirał",
+        "ru": "адмирал",
+        "sr": "Адмирал",
+        "sk": "babôčka admirálska",
+        "es": "Vanessa atalanta",
+        "sv": "amiral",
+        "tr": "Vanessa atalanta",
+        "uk": "червоний адмірал",
+        "ar": "بشورة الصيف",
+        "be": "адмірал, матыль",
+        "bg": "адмирал",
+        "et": "Admiral",
+        "he": "נימפית הסרפד",
+        "hu": "atalantalepke",
+        "is": "Aðmíráll (fiðrildi)",
+        "id": "Vanessa atalanta",
+        "ko": "붉은제독나비",
+        "lv": "lielais nātru raibenis",
+        "mk": "адмирал",
+        "fa": "دریاسالار سرخ",
+        "ro": "Vanessa atalanta",
+        "sl": "admiral",
+        "th": "ผีเสื้อแดง"
+      },
+      "ids": {
+        "gbif": 1898286,
+        "wikidata": "Q156454"
+      },
+      "range": {
+        "distribution": "北美、欧洲至中亚温带"
+      },
+      "traits": {
+        "wingspanMm": 67.5,
+        "sources": {
+          "wingspanMm": "Wikidata P2050 (range 60-75 mm, midpoint)"
+        }
+      },
+      "conservation": {
+        "iucn": "LC",
+        "sources": {
+          "iucn": "Wikidata P141"
+        }
+      },
+      "sticker": {
+        "file": "stickers/Lepidoptera/Nymphalidae/Vanessa_atalanta.webp",
+        "kind": "ai-illustration",
+        "reviewScore": 85,
+        "primaryReviewScore": 85,
+        "meetsQualityBar": true,
+        "license": "PolyForm-Shield-1.0.0",
+        "sourceSha256": "ecd5fc341ffdc7df768ae7e3cd475df75fa365674f73979c70f1cd4bb661e666",
+        "reference": {
+          "type": "photo",
+          "view": "dorsal",
+          "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Vanessa_atalanta_e.o_Ab.Klemensiewiczi_-_Chaba_Slovaquie_-_male_dorsal.jpg",
+          "author": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" titl",
+          "license": "CC BY-SA 4.0"
+        },
+        "references": [
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Vanessa_atalanta_e.o_Ab.Klemensiewiczi_-_Chaba_Slovaquie_-_male_dorsal.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" titl",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "dorsal",
+            "page": "https://commons.wikimedia.org/wiki/File:Vanessa_atalanta_MHNT_CUT_2013_3_14_Grisolle_Dos.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" titl",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "type": "photo",
+            "view": "ventral",
+            "page": "https://commons.wikimedia.org/wiki/File:Vanessa_atalanta_MHNT_CUT_2013_3_14_Grisolle_ventre.jpg",
+            "author": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" titl",
             "license": "CC BY-SA 4.0"
           }
         ]
