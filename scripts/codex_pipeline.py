@@ -220,7 +220,7 @@ def validate_generation(task_dir, task):
         raise ValueError("生成记录必须明确 review.status=not-performed")
     for kind in ("generated", "sticker"):
         expected = generation["outputs"][kind]
-        filename = expected.get("file") or expected.get("filename")
+        filename = expected.get("file") or expected.get("filename") or expected.get("path")
         if not filename:
             raise ValueError(f"生成记录缺少文件名: {kind}")
         dimensions = expected.get("dimensions")
